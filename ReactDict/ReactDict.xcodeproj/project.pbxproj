@@ -21,6 +21,12 @@
 		BFAD5D6E235081B90067FA4B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D6D235081B90067FA4B /* RxBlocking */; };
 		BFAD5D7B235096920067FA4B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAD5D79235096920067FA4B /* Realm.framework */; };
 		BFAD5D7C235096920067FA4B /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAD5D7A235096920067FA4B /* RealmSwift.framework */; };
+		BFD10C062350E24400CAA9C3 /* DictionaryNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C052350E24400CAA9C3 /* DictionaryNetworkService.swift */; };
+		BFD10C082350E27100CAA9C3 /* DictionaryNetworkServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C072350E27100CAA9C3 /* DictionaryNetworkServiceType.swift */; };
+		BFD10C0B2350E39D00CAA9C3 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C0A2350E39D00CAA9C3 /* Word.swift */; };
+		BFD10C0E2350E68600CAA9C3 /* cz-ru.json in Resources */ = {isa = PBXBuildFile; fileRef = BFD10C0D2350E68600CAA9C3 /* cz-ru.json */; };
+		BFD10C102350E88400CAA9C3 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C0F2350E88400CAA9C3 /* Exercises.swift */; };
+		BFD10C122350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C112350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,12 @@
 		BFAD5D7123508F050067FA4B /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		BFAD5D79235096920067FA4B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		BFAD5D7A235096920067FA4B /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		BFD10C052350E24400CAA9C3 /* DictionaryNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryNetworkService.swift; sourceTree = "<group>"; };
+		BFD10C072350E27100CAA9C3 /* DictionaryNetworkServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryNetworkServiceType.swift; sourceTree = "<group>"; };
+		BFD10C0A2350E39D00CAA9C3 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		BFD10C0D2350E68600CAA9C3 /* cz-ru.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cz-ru.json"; sourceTree = "<group>"; };
+		BFD10C0F2350E88400CAA9C3 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
+		BFD10C112350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryNetworkServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,8 @@
 		BF670FC1234A2D030083CE8B /* ReactDictTests */ = {
 			isa = PBXGroup;
 			children = (
+				BFD10C112350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift */,
+				BFD10C0C2350E43200CAA9C3 /* Resources */,
 				BF670FC2234A2D030083CE8B /* ReactDictTests.swift */,
 				BF670FC4234A2D030083CE8B /* Info.plist */,
 			);
@@ -119,6 +133,8 @@
 		BF670FCD234A4C970083CE8B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BFD10C092350E2D200CAA9C3 /* Model */,
+				BFD10C042350E20B00CAA9C3 /* Services */,
 				BF670FCE234A4C970083CE8B /* ReactDict */,
 			);
 			path = Sources;
@@ -144,6 +160,32 @@
 				BFAD5D7123508F050067FA4B /* RealmSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFD10C042350E20B00CAA9C3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BFD10C052350E24400CAA9C3 /* DictionaryNetworkService.swift */,
+				BFD10C072350E27100CAA9C3 /* DictionaryNetworkServiceType.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BFD10C092350E2D200CAA9C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFD10C0A2350E39D00CAA9C3 /* Word.swift */,
+				BFD10C0F2350E88400CAA9C3 /* Exercises.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFD10C0C2350E43200CAA9C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFD10C0D2350E68600CAA9C3 /* cz-ru.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD10C0E2350E68600CAA9C3 /* cz-ru.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#/usr/local/bin/carthage copy-frameworks\n";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -281,9 +324,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF670FB0234A2D020083CE8B /* SecondViewController.swift in Sources */,
+				BFD10C0B2350E39D00CAA9C3 /* Word.swift in Sources */,
 				BF670FAE234A2D020083CE8B /* FirstViewController.swift in Sources */,
 				BF670FAA234A2D020083CE8B /* AppDelegate.swift in Sources */,
 				BF670FAC234A2D020083CE8B /* SceneDelegate.swift in Sources */,
+				BFD10C102350E88400CAA9C3 /* Exercises.swift in Sources */,
+				BFD10C082350E27100CAA9C3 /* DictionaryNetworkServiceType.swift in Sources */,
+				BFD10C062350E24400CAA9C3 /* DictionaryNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD10C122350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift in Sources */,
 				BF670FC3234A2D030083CE8B /* ReactDictTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
