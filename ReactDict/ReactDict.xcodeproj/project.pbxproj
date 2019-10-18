@@ -15,6 +15,10 @@
 		BF670FB5234A2D030083CE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF670FB4234A2D030083CE8B /* Assets.xcassets */; };
 		BF670FB8234A2D030083CE8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF670FB6234A2D030083CE8B /* LaunchScreen.storyboard */; };
 		BF670FC3234A2D030083CE8B /* ReactDictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF670FC2234A2D030083CE8B /* ReactDictTests.swift */; };
+		BFA506CF2359ABB1004BC4DB /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BFA506CE2359ABB1004BC4DB /* RxAlamofire */; };
+		BFA506D22359C509004BC4DB /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D12359C509004BC4DB /* Scene.swift */; };
+		BFA506D62359C644004BC4DB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D52359C644004BC4DB /* ListViewModel.swift */; };
+		BFA506D82359DA3A004BC4DB /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA506D72359DA3A004BC4DB /* RxDataSources.framework */; };
 		BFAD5D68235081B90067FA4B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D67235081B90067FA4B /* RxSwift */; };
 		BFAD5D6A235081B90067FA4B /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D69235081B90067FA4B /* RxTest */; };
 		BFAD5D6C235081B90067FA4B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D6B235081B90067FA4B /* RxCocoa */; };
@@ -52,6 +56,9 @@
 		BF670FBE234A2D030083CE8B /* ReactDictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactDictTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF670FC2234A2D030083CE8B /* ReactDictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactDictTests.swift; sourceTree = "<group>"; };
 		BF670FC4234A2D030083CE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA506D12359C509004BC4DB /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		BFA506D52359C644004BC4DB /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		BFA506D72359DA3A004BC4DB /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		BFAD5D7023508F050067FA4B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		BFAD5D7123508F050067FA4B /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		BFAD5D79235096920067FA4B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
@@ -69,11 +76,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA506D82359DA3A004BC4DB /* RxDataSources.framework in Frameworks */,
 				BFAD5D7B235096920067FA4B /* Realm.framework in Frameworks */,
 				BFAD5D7C235096920067FA4B /* RealmSwift.framework in Frameworks */,
 				BFAD5D6C235081B90067FA4B /* RxCocoa in Frameworks */,
 				BFAD5D6E235081B90067FA4B /* RxBlocking in Frameworks */,
 				BFAD5D6A235081B90067FA4B /* RxTest in Frameworks */,
+				BFA506CF2359ABB1004BC4DB /* RxAlamofire in Frameworks */,
 				BFAD5D68235081B90067FA4B /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +142,8 @@
 		BF670FCD234A4C970083CE8B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BFA506D32359C615004BC4DB /* ViewsAndControllers */,
+				BFA506D02359C4E6004BC4DB /* Scenes */,
 				BFD10C092350E2D200CAA9C3 /* Model */,
 				BFD10C042350E20B00CAA9C3 /* Services */,
 				BF670FCE234A4C970083CE8B /* ReactDict */,
@@ -151,9 +162,34 @@
 			path = ReactDict;
 			sourceTree = "<group>";
 		};
+		BFA506D02359C4E6004BC4DB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BFA506D12359C509004BC4DB /* Scene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BFA506D32359C615004BC4DB /* ViewsAndControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFA506D42359C61F004BC4DB /* Controllers */,
+			);
+			path = ViewsAndControllers;
+			sourceTree = "<group>";
+		};
+		BFA506D42359C61F004BC4DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFA506D52359C644004BC4DB /* ListViewModel.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		BFAD5D6F23508F050067FA4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFA506D72359DA3A004BC4DB /* RxDataSources.framework */,
 				BFAD5D79235096920067FA4B /* Realm.framework */,
 				BFAD5D7A235096920067FA4B /* RealmSwift.framework */,
 				BFAD5D7023508F050067FA4B /* Realm.framework */,
@@ -210,6 +246,7 @@
 				BFAD5D69235081B90067FA4B /* RxTest */,
 				BFAD5D6B235081B90067FA4B /* RxCocoa */,
 				BFAD5D6D235081B90067FA4B /* RxBlocking */,
+				BFA506CE2359ABB1004BC4DB /* RxAlamofire */,
 			);
 			productName = ReactDict;
 			productReference = BF670FA6234A2D020083CE8B /* ReactDict.app */;
@@ -263,6 +300,7 @@
 			mainGroup = BF670F9D234A2D020083CE8B;
 			packageReferences = (
 				BFAD5D66235081B90067FA4B /* XCRemoteSwiftPackageReference "RxSwift" */,
+				BFA506CD2359ABB1004BC4DB /* XCRemoteSwiftPackageReference "RxAlamofire" */,
 			);
 			productRefGroup = BF670FA7234A2D020083CE8B /* Products */;
 			projectDirPath = "";
@@ -323,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA506D62359C644004BC4DB /* ListViewModel.swift in Sources */,
 				BF670FB0234A2D020083CE8B /* SecondViewController.swift in Sources */,
 				BFD10C0B2350E39D00CAA9C3 /* Word.swift in Sources */,
 				BF670FAE234A2D020083CE8B /* FirstViewController.swift in Sources */,
@@ -331,6 +370,7 @@
 				BFD10C102350E88400CAA9C3 /* Exercises.swift in Sources */,
 				BFD10C082350E27100CAA9C3 /* DictionaryNetworkServiceType.swift in Sources */,
 				BFD10C062350E24400CAA9C3 /* DictionaryNetworkService.swift in Sources */,
+				BFA506D22359C509004BC4DB /* Scene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +642,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BFA506CD2359ABB1004BC4DB /* XCRemoteSwiftPackageReference "RxAlamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
 		BFAD5D66235081B90067FA4B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
@@ -613,6 +661,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BFA506CE2359ABB1004BC4DB /* RxAlamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA506CD2359ABB1004BC4DB /* XCRemoteSwiftPackageReference "RxAlamofire" */;
+			productName = RxAlamofire;
+		};
 		BFAD5D67235081B90067FA4B /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BFAD5D66235081B90067FA4B /* XCRemoteSwiftPackageReference "RxSwift" */;

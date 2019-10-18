@@ -21,10 +21,6 @@ class DictionaryNetworkServiceTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
@@ -45,7 +41,7 @@ class DictionaryNetworkServiceTests: XCTestCase {
             let jsonEncoder = JSONEncoder()
             jsonEncoder.outputFormatting = .prettyPrinted
             let jsonData = try! jsonEncoder.encode(json)
-        
+            
             let decoder = JSONDecoder()
             let model = try decoder.decode(Word.self,
                                            from: jsonData)

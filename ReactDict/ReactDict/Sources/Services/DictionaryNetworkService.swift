@@ -7,5 +7,15 @@
 //
 
 import Foundation
+import RxSwift
+import RxAlamofire
 
 
+struct DictionaryNetworkService : DictionaryNetworkServiceType {
+    
+    private let baseURL = "https://api.myjson.com/bins/f3g28"
+    
+    var url : URL {
+        return URL(string: baseURL)!
+    }
+}
