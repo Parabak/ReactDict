@@ -1,0 +1,56 @@
+{
+	"words":
+	[
+		{
+			"word":"chci",
+			"translate":["хочу"],
+			"exercises":[1,2]
+		},
+		{
+			"word":"nest",
+			"translate":["нести"],
+			"exercises":[1,2]
+		},
+		{
+			"word":"Řict",
+			"translate":["говорить"],
+			"exercises":[1,2]
+		},
+		{
+			"word":"Žádá",
+			"translate":["просить", "требовать"],
+			"exercises":[1,2]
+		},
+		{
+			"word":"Půjčit",
+			"translate":"одолжить",
+			"exercises":[1,2]
+		},
+		{
+			"word":"Rozumět",
+			"translate":"понимать",
+			"exercises":[1,2]
+		},
+		{
+			"word":"Měřit",
+			"translate":"мерять",
+			"exercises":[1,2]
+		},
+		{
+			"word":"Chybět",
+			"translate":"не хватать",
+			"exercises":[1,2]
+		},
+		{
+			"word":"Mluvit",
+			"translate":"говорить",
+			"exercises":[1,2]
+		},
+		{
+			"word":"Řikat",
+			"translate":"сказать",
+			"exercises":[1,2]
+		}
+	],
+	"version":1.0
+}	
