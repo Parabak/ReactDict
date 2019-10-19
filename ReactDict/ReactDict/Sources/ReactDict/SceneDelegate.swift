@@ -21,7 +21,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-//        window?.rootViewController = ViewController(nibName: nil, bundle: nil)
+
+        if let wnd = window {
+            let networkService = DictionaryNetworkService()
+            let sceneCoordinator = SceneCoordinator(window: wnd)
+            let languageModel = LanguageViewModel(service: networkService, coordinator:  sceneCoordinator)
+            let scene = Scene.language(languageModel)
+            sceneCoordinator.transition(to: scene, type: .root)
+        }
+        
         window?.makeKeyAndVisible()
     }
 

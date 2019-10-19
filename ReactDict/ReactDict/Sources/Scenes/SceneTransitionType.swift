@@ -1,5 +1,5 @@
 //
-//  ListViewModel.swift
+//  SceneTransitionType.swift
 //  ReactDict
 //
 //  Created by Aliaksandr Baranouski on 18/10/2019.
@@ -7,12 +7,10 @@
 //
 
 import Foundation
-import RxSwift
-import RxDataSources
 
 
-//struct  {
-//    <#fields#>
-//}
-
-
+enum SceneTransitionType {
+    case root
+    case push
+    case modal
+}

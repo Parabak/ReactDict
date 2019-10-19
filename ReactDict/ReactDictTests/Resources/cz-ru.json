@@ -1,5 +1,7 @@
 {
-	"words":
+    "primary":"Czech",
+    "secondary":"Russian",
+    "words":
 	[
 		{
 			"word":"chci",

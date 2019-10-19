@@ -1,5 +1,5 @@
 //
-//  Scene.swift
+//  WordsViewModel.swift
 //  ReactDict
 //
 //  Created by Aliaksandr Baranouski on 18/10/2019.
@@ -7,11 +7,12 @@
 //
 
 import Foundation
+import RxSwift
+import RxDataSources
 
 
-enum Scene {
+struct WordsViewModel  {
     
-    case language(LanguageViewModel)
-    case list(WordsViewModel)
-    case excercises
 }
+
+

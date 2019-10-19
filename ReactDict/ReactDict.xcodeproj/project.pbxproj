@@ -17,7 +17,7 @@
 		BF670FC3234A2D030083CE8B /* ReactDictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF670FC2234A2D030083CE8B /* ReactDictTests.swift */; };
 		BFA506CF2359ABB1004BC4DB /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BFA506CE2359ABB1004BC4DB /* RxAlamofire */; };
 		BFA506D22359C509004BC4DB /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D12359C509004BC4DB /* Scene.swift */; };
-		BFA506D62359C644004BC4DB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D52359C644004BC4DB /* ListViewModel.swift */; };
+		BFA506D62359C644004BC4DB /* WordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D52359C644004BC4DB /* WordsViewModel.swift */; };
 		BFA506D82359DA3A004BC4DB /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA506D72359DA3A004BC4DB /* RxDataSources.framework */; };
 		BFAD5D68235081B90067FA4B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D67235081B90067FA4B /* RxSwift */; };
 		BFAD5D6A235081B90067FA4B /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D69235081B90067FA4B /* RxTest */; };
@@ -25,12 +25,21 @@
 		BFAD5D6E235081B90067FA4B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D6D235081B90067FA4B /* RxBlocking */; };
 		BFAD5D7B235096920067FA4B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAD5D79235096920067FA4B /* Realm.framework */; };
 		BFAD5D7C235096920067FA4B /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAD5D7A235096920067FA4B /* RealmSwift.framework */; };
+		BFB3D544235A146E009BBB35 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB3D543235A146E009BBB35 /* SceneCoordinatorType.swift */; };
+		BFB3D546235A14C4009BBB35 /* SceneTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB3D545235A14C4009BBB35 /* SceneTransitionType.swift */; };
 		BFD10C062350E24400CAA9C3 /* DictionaryNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C052350E24400CAA9C3 /* DictionaryNetworkService.swift */; };
 		BFD10C082350E27100CAA9C3 /* DictionaryNetworkServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C072350E27100CAA9C3 /* DictionaryNetworkServiceType.swift */; };
 		BFD10C0B2350E39D00CAA9C3 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C0A2350E39D00CAA9C3 /* Word.swift */; };
 		BFD10C0E2350E68600CAA9C3 /* cz-ru.json in Resources */ = {isa = PBXBuildFile; fileRef = BFD10C0D2350E68600CAA9C3 /* cz-ru.json */; };
 		BFD10C102350E88400CAA9C3 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C0F2350E88400CAA9C3 /* Exercises.swift */; };
 		BFD10C122350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C112350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift */; };
+		BFEF2172235B04FD004F59F5 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF2171235B04FC004F59F5 /* SceneCoordinator.swift */; };
+		BFEF2174235B0679004F59F5 /* Scene+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF2173235B0679004F59F5 /* Scene+ViewController.swift */; };
+		BFEF2176235B07EE004F59F5 /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF2175235B07EE004F59F5 /* WordsViewController.swift */; };
+		BFEF2178235B07FE004F59F5 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF2177235B07FE004F59F5 /* LanguageViewController.swift */; };
+		BFEF217A235B081E004F59F5 /* ExcercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF2179235B081E004F59F5 /* ExcercisesViewController.swift */; };
+		BFEF217C235B0A79004F59F5 /* LanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF217B235B0A79004F59F5 /* LanguageViewModel.swift */; };
+		BFEF217E235B0BB1004F59F5 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF217D235B0BB1004F59F5 /* BindableType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,18 +66,27 @@
 		BF670FC2234A2D030083CE8B /* ReactDictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactDictTests.swift; sourceTree = "<group>"; };
 		BF670FC4234A2D030083CE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFA506D12359C509004BC4DB /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
-		BFA506D52359C644004BC4DB /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		BFA506D52359C644004BC4DB /* WordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewModel.swift; sourceTree = "<group>"; };
 		BFA506D72359DA3A004BC4DB /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		BFAD5D7023508F050067FA4B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		BFAD5D7123508F050067FA4B /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		BFAD5D79235096920067FA4B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		BFAD5D7A235096920067FA4B /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		BFB3D543235A146E009BBB35 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
+		BFB3D545235A14C4009BBB35 /* SceneTransitionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTransitionType.swift; sourceTree = "<group>"; };
 		BFD10C052350E24400CAA9C3 /* DictionaryNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryNetworkService.swift; sourceTree = "<group>"; };
 		BFD10C072350E27100CAA9C3 /* DictionaryNetworkServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryNetworkServiceType.swift; sourceTree = "<group>"; };
 		BFD10C0A2350E39D00CAA9C3 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		BFD10C0D2350E68600CAA9C3 /* cz-ru.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cz-ru.json"; sourceTree = "<group>"; };
 		BFD10C0F2350E88400CAA9C3 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		BFD10C112350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryNetworkServiceTests.swift; sourceTree = "<group>"; };
+		BFEF2171235B04FC004F59F5 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		BFEF2173235B0679004F59F5 /* Scene+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scene+ViewController.swift"; sourceTree = "<group>"; };
+		BFEF2175235B07EE004F59F5 /* WordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
+		BFEF2177235B07FE004F59F5 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		BFEF2179235B081E004F59F5 /* ExcercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcercisesViewController.swift; sourceTree = "<group>"; };
+		BFEF217B235B0A79004F59F5 /* LanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewModel.swift; sourceTree = "<group>"; };
+		BFEF217D235B0BB1004F59F5 /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +184,10 @@
 			isa = PBXGroup;
 			children = (
 				BFA506D12359C509004BC4DB /* Scene.swift */,
+				BFEF2173235B0679004F59F5 /* Scene+ViewController.swift */,
+				BFB3D543235A146E009BBB35 /* SceneCoordinatorType.swift */,
+				BFB3D545235A14C4009BBB35 /* SceneTransitionType.swift */,
+				BFEF2171235B04FC004F59F5 /* SceneCoordinator.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -181,7 +203,12 @@
 		BFA506D42359C61F004BC4DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BFA506D52359C644004BC4DB /* ListViewModel.swift */,
+				BFEF217D235B0BB1004F59F5 /* BindableType.swift */,
+				BFA506D52359C644004BC4DB /* WordsViewModel.swift */,
+				BFEF2175235B07EE004F59F5 /* WordsViewController.swift */,
+				BFEF2177235B07FE004F59F5 /* LanguageViewController.swift */,
+				BFEF217B235B0A79004F59F5 /* LanguageViewModel.swift */,
+				BFEF2179235B081E004F59F5 /* ExcercisesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -344,6 +371,7 @@
 			inputPaths = (
 				"$(PROJECT_DIR)/Carthage/Build/iOS/RealmSwift.framework",
 				"$(PROJECT_DIR)/Carthage/Build/iOS/Realm.framework",
+				"$(PROJECT_DIR)/Carthage/Build/iOS/RxDataSources.framework",
 			);
 			name = "Carthage copy-frameworks";
 			outputFileListPaths = (
@@ -361,16 +389,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA506D62359C644004BC4DB /* ListViewModel.swift in Sources */,
+				BFA506D62359C644004BC4DB /* WordsViewModel.swift in Sources */,
+				BFEF2174235B0679004F59F5 /* Scene+ViewController.swift in Sources */,
 				BF670FB0234A2D020083CE8B /* SecondViewController.swift in Sources */,
 				BFD10C0B2350E39D00CAA9C3 /* Word.swift in Sources */,
+				BFEF217C235B0A79004F59F5 /* LanguageViewModel.swift in Sources */,
 				BF670FAE234A2D020083CE8B /* FirstViewController.swift in Sources */,
 				BF670FAA234A2D020083CE8B /* AppDelegate.swift in Sources */,
+				BFEF217A235B081E004F59F5 /* ExcercisesViewController.swift in Sources */,
+				BFEF217E235B0BB1004F59F5 /* BindableType.swift in Sources */,
 				BF670FAC234A2D020083CE8B /* SceneDelegate.swift in Sources */,
 				BFD10C102350E88400CAA9C3 /* Exercises.swift in Sources */,
 				BFD10C082350E27100CAA9C3 /* DictionaryNetworkServiceType.swift in Sources */,
 				BFD10C062350E24400CAA9C3 /* DictionaryNetworkService.swift in Sources */,
+				BFEF2178235B07FE004F59F5 /* LanguageViewController.swift in Sources */,
+				BFB3D544235A146E009BBB35 /* SceneCoordinatorType.swift in Sources */,
 				BFA506D22359C509004BC4DB /* Scene.swift in Sources */,
+				BFEF2176235B07EE004F59F5 /* WordsViewController.swift in Sources */,
+				BFB3D546235A14C4009BBB35 /* SceneTransitionType.swift in Sources */,
+				BFEF2172235B04FD004F59F5 /* SceneCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
