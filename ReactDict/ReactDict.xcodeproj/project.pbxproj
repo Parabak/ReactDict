@@ -21,7 +21,6 @@
 		BFA506D22359C509004BC4DB /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D12359C509004BC4DB /* Scene.swift */; };
 		BFA506D62359C644004BC4DB /* WordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D52359C644004BC4DB /* WordsViewModel.swift */; };
 		BFAD5D68235081B90067FA4B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D67235081B90067FA4B /* RxSwift */; };
-		BFAD5D6A235081B90067FA4B /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D69235081B90067FA4B /* RxTest */; settings = {ATTRIBUTES = (Required, ); }; };
 		BFAD5D6C235081B90067FA4B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D6B235081B90067FA4B /* RxCocoa */; };
 		BFAD5D6E235081B90067FA4B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D6D235081B90067FA4B /* RxBlocking */; };
 		BFB3D544235A146E009BBB35 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB3D543235A146E009BBB35 /* SceneCoordinatorType.swift */; };
@@ -98,7 +97,6 @@
 				BFAD5D6C235081B90067FA4B /* RxCocoa in Frameworks */,
 				BFAD5D6E235081B90067FA4B /* RxBlocking in Frameworks */,
 				BF3F8C9E235B7F2000143448 /* RxRealm in Frameworks */,
-				BFAD5D6A235081B90067FA4B /* RxTest in Frameworks */,
 				BFA506CF2359ABB1004BC4DB /* RxAlamofire in Frameworks */,
 				BF3F8C9B235B7E6400143448 /* RealmSwift in Frameworks */,
 				BF3F8C96235B7CDD00143448 /* Differentiator in Frameworks */,
@@ -271,7 +269,6 @@
 			name = ReactDict;
 			packageProductDependencies = (
 				BFAD5D67235081B90067FA4B /* RxSwift */,
-				BFAD5D69235081B90067FA4B /* RxTest */,
 				BFAD5D6B235081B90067FA4B /* RxCocoa */,
 				BFAD5D6D235081B90067FA4B /* RxBlocking */,
 				BFA506CE2359ABB1004BC4DB /* RxAlamofire */,
@@ -764,11 +761,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BFAD5D66235081B90067FA4B /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
-		};
-		BFAD5D69235081B90067FA4B /* RxTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BFAD5D66235081B90067FA4B /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
 		};
 		BFAD5D6B235081B90067FA4B /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
