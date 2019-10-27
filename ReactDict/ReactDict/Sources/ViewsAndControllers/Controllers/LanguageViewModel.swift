@@ -8,10 +8,29 @@
 
 import Foundation
 import RxSwift
-import RxDataSources
+
 
 struct LanguageViewModel {
     
+    let bag = DisposeBag()
+    
     let service: DictionaryNetworkServiceType
     let coordinator: SceneCoordinatorType
+    
+    var dictionary: Observable<Dictionary> {
+        
+        let dict = service.loadDictionary()
+        
+        dict.subscribe(onNext: {dictModel in
+            
+            let wordsModel = WordsViewModel(words: Observable.of(dictModel.words))
+            let scene = Scene.list(wordsModel)
+            self.coordinator.transition(to: scene, type: .tabBar)
+            
+            // On completion self.coordinator.transition push others...
+        })
+        .disposed(by: bag)
+        
+        return dict
+    }
 }

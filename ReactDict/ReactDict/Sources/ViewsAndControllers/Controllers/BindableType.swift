@@ -22,7 +22,7 @@ protocol BindableType {
 
 extension BindableType where Self: UIViewController {
     
-    mutating func bindViewModel(to model: Self.ViewModelType) {
+    mutating func bind(viewModel model: Self.ViewModelType) {
         
         self.viewModel = model
         loadViewIfNeeded()

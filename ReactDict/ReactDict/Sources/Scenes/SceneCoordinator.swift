@@ -27,14 +27,21 @@ class SceneCoordinator: SceneCoordinatorType {
     func transition(to scene: Scene, type: SceneTransitionType) -> Observable<Void> {
         
         let subject = PublishSubject<Void>()
-        let vc = scene.viewController()
+        let sceneController = scene.viewController()
         
         switch type {
         case .root:
             
-            currentViewController = SceneCoordinator.actualViewController(for: vc)
-            window.rootViewController = vc
+            currentViewController = SceneCoordinator.actualViewController(for: sceneController)
+            window.rootViewController = sceneController
             subject.onCompleted()
+        case .tabBar:
+            
+            if let tabController = currentViewController as? UITabBarController {            
+                tabController.addChild(sceneController)
+            } else {
+                assertionFailure("can't find UITabController")
+            }
         default:
             break
         }

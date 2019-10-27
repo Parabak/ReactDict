@@ -8,9 +8,19 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 
-class WordsViewController: UIViewController {
+class WordsViewController: UIViewController, BindableType {
+    
+    let disposeBag = DisposeBag()
+    var viewModel: WordsViewModel!
     
     
+    func bindViewModel() {
+        
+        viewModel.words.subscribe(onNext: { words in            
+            print(words)
+        }).disposed(by: disposeBag)
+    }
 }

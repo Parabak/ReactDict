@@ -12,7 +12,9 @@ import RxDataSources
 
 
 struct WordsViewModel  {
+
     
+    var words : Observable<[Word]>
 }
 
 

@@ -17,12 +17,22 @@ extension Scene {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
         switch self {
-        case .language(let viewModel):
+        case .language(let languageModel):
             
-            var vc = storyboard.instantiateViewController(withIdentifier: "Language") as! LanguageViewController
-            vc.bindViewModel(to: viewModel)
-            return vc
-//        case .list
+            guard let vc = storyboard.instantiateViewController(withIdentifier: "Language") as? LanguageViewController else {
+                return UIViewController()
+            }
+            var viewController = vc
+            viewController.bind(viewModel: languageModel)
+            return viewController
+        case .list(let wordsModel):
+            
+            guard let vc = storyboard.instantiateViewController(withIdentifier: "Words") as? WordsViewController else {
+                return UIViewController()
+            }
+            var viewController = vc
+            viewController.bind(viewModel: wordsModel)
+            return viewController
 //        case .excercises
         default:
             return UIViewController()

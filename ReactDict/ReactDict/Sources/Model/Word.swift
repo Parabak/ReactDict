@@ -14,19 +14,6 @@ struct Word : Codable {
     let word : String
     let translate : [String]
     let exercises : [Exercises]
-    
-//    enum CodingKeys: String, CodingKey {
-//        case langKey =
-//    }
-    /**
-     //Custom Keys
-     enum CodingKeys: String, CodingKey {
-         case userId
-         case id = "serviceId"  //Custom keys
-         case title = "titleKey" //Custom keys
-         case completed
-     }
-     */
 }
 
 

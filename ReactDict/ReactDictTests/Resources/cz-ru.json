@@ -1,6 +1,6 @@
 {
-    "primary":"Czech",
-    "secondary":"Russian",
+    "from":"Czech",
+    "to":"Russian",
     "words":
 	[
 		{
@@ -25,34 +25,34 @@
 		},
 		{
 			"word":"Půjčit",
-			"translate":"одолжить",
+			"translate":["одолжить"],
 			"exercises":[1,2]
 		},
 		{
 			"word":"Rozumět",
-			"translate":"понимать",
+			"translate":["понимать"],
 			"exercises":[1,2]
 		},
 		{
 			"word":"Měřit",
-			"translate":"мерять",
+			"translate":["мерять"],
 			"exercises":[1,2]
 		},
 		{
 			"word":"Chybět",
-			"translate":"не хватать",
+			"translate":["не хватать"],
 			"exercises":[1,2]
 		},
 		{
 			"word":"Mluvit",
-			"translate":"говорить",
+			"translate":["говорить"],
 			"exercises":[1,2]
 		},
 		{
 			"word":"Řikat",
-			"translate":"сказать",
+			"translate":["сказать"],
 			"exercises":[1,2]
 		}
 	],
-	"version":1.0
+    "version": "1.0.0"
 }	

@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3F8C96235B7CDD00143448 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C95235B7CDD00143448 /* Differentiator */; };
+		BF3F8C98235B7CDD00143448 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C97235B7CDD00143448 /* RxDataSources */; };
+		BF3F8C9B235B7E6400143448 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C9A235B7E6400143448 /* RealmSwift */; };
+		BF3F8C9E235B7F2000143448 /* RxRealm in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C9D235B7F2000143448 /* RxRealm */; };
 		BF670FAA234A2D020083CE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF670FA9234A2D020083CE8B /* AppDelegate.swift */; };
 		BF670FAC234A2D020083CE8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF670FAB234A2D020083CE8B /* SceneDelegate.swift */; };
-		BF670FAE234A2D020083CE8B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF670FAD234A2D020083CE8B /* FirstViewController.swift */; };
-		BF670FB0234A2D020083CE8B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF670FAF234A2D020083CE8B /* SecondViewController.swift */; };
 		BF670FB3234A2D020083CE8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF670FB1234A2D020083CE8B /* Main.storyboard */; };
 		BF670FB5234A2D030083CE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF670FB4234A2D030083CE8B /* Assets.xcassets */; };
 		BF670FB8234A2D030083CE8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF670FB6234A2D030083CE8B /* LaunchScreen.storyboard */; };
@@ -18,13 +20,10 @@
 		BFA506CF2359ABB1004BC4DB /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BFA506CE2359ABB1004BC4DB /* RxAlamofire */; };
 		BFA506D22359C509004BC4DB /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D12359C509004BC4DB /* Scene.swift */; };
 		BFA506D62359C644004BC4DB /* WordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D52359C644004BC4DB /* WordsViewModel.swift */; };
-		BFA506D82359DA3A004BC4DB /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA506D72359DA3A004BC4DB /* RxDataSources.framework */; };
 		BFAD5D68235081B90067FA4B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D67235081B90067FA4B /* RxSwift */; };
-		BFAD5D6A235081B90067FA4B /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D69235081B90067FA4B /* RxTest */; };
+		BFAD5D6A235081B90067FA4B /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D69235081B90067FA4B /* RxTest */; settings = {ATTRIBUTES = (Required, ); }; };
 		BFAD5D6C235081B90067FA4B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D6B235081B90067FA4B /* RxCocoa */; };
 		BFAD5D6E235081B90067FA4B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D6D235081B90067FA4B /* RxBlocking */; };
-		BFAD5D7B235096920067FA4B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAD5D79235096920067FA4B /* Realm.framework */; };
-		BFAD5D7C235096920067FA4B /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAD5D7A235096920067FA4B /* RealmSwift.framework */; };
 		BFB3D544235A146E009BBB35 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB3D543235A146E009BBB35 /* SceneCoordinatorType.swift */; };
 		BFB3D546235A14C4009BBB35 /* SceneTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB3D545235A14C4009BBB35 /* SceneTransitionType.swift */; };
 		BFD10C062350E24400CAA9C3 /* DictionaryNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C052350E24400CAA9C3 /* DictionaryNetworkService.swift */; };
@@ -40,6 +39,7 @@
 		BFEF217A235B081E004F59F5 /* ExcercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF2179235B081E004F59F5 /* ExcercisesViewController.swift */; };
 		BFEF217C235B0A79004F59F5 /* LanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF217B235B0A79004F59F5 /* LanguageViewModel.swift */; };
 		BFEF217E235B0BB1004F59F5 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF217D235B0BB1004F59F5 /* BindableType.swift */; };
+		BFEF2180235B1CB4004F59F5 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF217F235B1CB4004F59F5 /* Dictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,6 @@
 		BF670FA6234A2D020083CE8B /* ReactDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF670FA9234A2D020083CE8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF670FAB234A2D020083CE8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF670FAD234A2D020083CE8B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BF670FAF234A2D020083CE8B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BF670FB2234A2D020083CE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF670FB4234A2D030083CE8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF670FB7234A2D030083CE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,6 +85,8 @@
 		BFEF2179235B081E004F59F5 /* ExcercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcercisesViewController.swift; sourceTree = "<group>"; };
 		BFEF217B235B0A79004F59F5 /* LanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewModel.swift; sourceTree = "<group>"; };
 		BFEF217D235B0BB1004F59F5 /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
+		BFEF217F235B1CB4004F59F5 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		BFEF2181235B3633004F59F5 /* NSObject_Rx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSObject_Rx.framework; path = Carthage/Build/iOS/NSObject_Rx.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,13 +94,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA506D82359DA3A004BC4DB /* RxDataSources.framework in Frameworks */,
-				BFAD5D7B235096920067FA4B /* Realm.framework in Frameworks */,
-				BFAD5D7C235096920067FA4B /* RealmSwift.framework in Frameworks */,
+				BF3F8C98235B7CDD00143448 /* RxDataSources in Frameworks */,
 				BFAD5D6C235081B90067FA4B /* RxCocoa in Frameworks */,
 				BFAD5D6E235081B90067FA4B /* RxBlocking in Frameworks */,
+				BF3F8C9E235B7F2000143448 /* RxRealm in Frameworks */,
 				BFAD5D6A235081B90067FA4B /* RxTest in Frameworks */,
 				BFA506CF2359ABB1004BC4DB /* RxAlamofire in Frameworks */,
+				BF3F8C9B235B7E6400143448 /* RealmSwift in Frameworks */,
+				BF3F8C96235B7CDD00143448 /* Differentiator in Frameworks */,
 				BFAD5D68235081B90067FA4B /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,8 +175,6 @@
 			children = (
 				BF670FA9234A2D020083CE8B /* AppDelegate.swift */,
 				BF670FAB234A2D020083CE8B /* SceneDelegate.swift */,
-				BF670FAD234A2D020083CE8B /* FirstViewController.swift */,
-				BF670FAF234A2D020083CE8B /* SecondViewController.swift */,
 			);
 			path = ReactDict;
 			sourceTree = "<group>";
@@ -216,6 +215,7 @@
 		BFAD5D6F23508F050067FA4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFEF2181235B3633004F59F5 /* NSObject_Rx.framework */,
 				BFA506D72359DA3A004BC4DB /* RxDataSources.framework */,
 				BFAD5D79235096920067FA4B /* Realm.framework */,
 				BFAD5D7A235096920067FA4B /* RealmSwift.framework */,
@@ -239,6 +239,7 @@
 			children = (
 				BFD10C0A2350E39D00CAA9C3 /* Word.swift */,
 				BFD10C0F2350E88400CAA9C3 /* Exercises.swift */,
+				BFEF217F235B1CB4004F59F5 /* Dictionary.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -274,6 +275,10 @@
 				BFAD5D6B235081B90067FA4B /* RxCocoa */,
 				BFAD5D6D235081B90067FA4B /* RxBlocking */,
 				BFA506CE2359ABB1004BC4DB /* RxAlamofire */,
+				BF3F8C95235B7CDD00143448 /* Differentiator */,
+				BF3F8C97235B7CDD00143448 /* RxDataSources */,
+				BF3F8C9A235B7E6400143448 /* RealmSwift */,
+				BF3F8C9D235B7F2000143448 /* RxRealm */,
 			);
 			productName = ReactDict;
 			productReference = BF670FA6234A2D020083CE8B /* ReactDict.app */;
@@ -328,6 +333,9 @@
 			packageReferences = (
 				BFAD5D66235081B90067FA4B /* XCRemoteSwiftPackageReference "RxSwift" */,
 				BFA506CD2359ABB1004BC4DB /* XCRemoteSwiftPackageReference "RxAlamofire" */,
+				BF3F8C94235B7CDD00143448 /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				BF3F8C99235B7E6400143448 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				BF3F8C9C235B7F2000143448 /* XCRemoteSwiftPackageReference "RxRealm" */,
 			);
 			productRefGroup = BF670FA7234A2D020083CE8B /* Products */;
 			projectDirPath = "";
@@ -380,7 +388,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+			shellScript = "#/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -390,11 +398,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA506D62359C644004BC4DB /* WordsViewModel.swift in Sources */,
+				BFEF2180235B1CB4004F59F5 /* Dictionary.swift in Sources */,
 				BFEF2174235B0679004F59F5 /* Scene+ViewController.swift in Sources */,
-				BF670FB0234A2D020083CE8B /* SecondViewController.swift in Sources */,
 				BFD10C0B2350E39D00CAA9C3 /* Word.swift in Sources */,
 				BFEF217C235B0A79004F59F5 /* LanguageViewModel.swift in Sources */,
-				BF670FAE234A2D020083CE8B /* FirstViewController.swift in Sources */,
 				BF670FAA234A2D020083CE8B /* AppDelegate.swift in Sources */,
 				BFEF217A235B081E004F59F5 /* ExcercisesViewController.swift in Sources */,
 				BFEF217E235B0BB1004F59F5 /* BindableType.swift in Sources */,
@@ -570,7 +577,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TF2DE2DGLA;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = ReactDict/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -589,7 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TF2DE2DGLA;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ReactDict/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -616,6 +627,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=$(PROJECT_TEMP_ROOT)/GeneratedModuleMaps/iphonesimulator/RxCocoaRuntime.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.naschekrasche.ReactDictTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -638,6 +650,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=$(PROJECT_TEMP_ROOT)/GeneratedModuleMaps/iphonesimulator/RxCocoaRuntime.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.naschekrasche.ReactDictTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -679,6 +692,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BF3F8C94235B7CDD00143448 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		BF3F8C99235B7E6400143448 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.19.1;
+			};
+		};
+		BF3F8C9C235B7F2000143448 /* XCRemoteSwiftPackageReference "RxRealm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxRealm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
 		BFA506CD2359ABB1004BC4DB /* XCRemoteSwiftPackageReference "RxAlamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire.git";
@@ -698,6 +735,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BF3F8C95235B7CDD00143448 /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF3F8C94235B7CDD00143448 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		BF3F8C97235B7CDD00143448 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF3F8C94235B7CDD00143448 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+		BF3F8C9A235B7E6400143448 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF3F8C99235B7E6400143448 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		BF3F8C9D235B7F2000143448 /* RxRealm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF3F8C9C235B7F2000143448 /* XCRemoteSwiftPackageReference "RxRealm" */;
+			productName = RxRealm;
+		};
 		BFA506CE2359ABB1004BC4DB /* RxAlamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BFA506CD2359ABB1004BC4DB /* XCRemoteSwiftPackageReference "RxAlamofire" */;

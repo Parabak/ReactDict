@@ -31,27 +31,47 @@ class DictionaryNetworkServiceTests: XCTestCase {
 
 
     func testWordType_conformsCodable_succeeded() {
-        
+
         do {
             //here dataResponse received from a network request
             let json : [String : Encodable] = ["word" :"cz",
                                                "translate" : ["val1", "val2"],
                                                "exercises" : [1,2]]
-            
+
             let jsonEncoder = JSONEncoder()
             jsonEncoder.outputFormatting = .prettyPrinted
             let jsonData = try! jsonEncoder.encode(json)
-            
+
             let decoder = JSONDecoder()
             let model = try decoder.decode(Word.self,
                                            from: jsonData)
-            
+
             let benchmark = Word(word: "cz",
                                  translate: ["val2", "val1"],
                                  exercises: [ Exercises.reversedTranslate, Exercises.directTranslate])
             XCTAssert(model == benchmark)
         } catch let parsingError {
-            print("Error", parsingError)
+            print("Parsing Error:", parsingError)
+        }
+    }
+    
+    
+    func testDictionaryType_conformsCodable_succeeded() {
+        
+        do {
+            let path = Bundle(for: type(of: self)).path(forResource: "cz-ru",
+                                                        ofType: "json") ?? ""
+            let url = URL(fileURLWithPath: path)
+            let data = try Data.init(contentsOf: url)
+            
+            let decoder = JSONDecoder()
+            let model = try decoder.decode(Dictionary.self,
+                                           from: data)
+            
+            XCTAssert(model.count == 10)
+        } catch let parsingError {
+            print("Parsing Error:", parsingError)
+            XCTAssert(false)
         }
     }
 }
