@@ -26,8 +26,6 @@ struct LanguageViewModel {
             let wordsModel = WordsViewModel(words: Observable.of(dictModel.words))
             let scene = Scene.list(wordsModel)
             self.coordinator.transition(to: scene, type: .tabBar)
-            
-            // On completion self.coordinator.transition push others...
         })
         .disposed(by: bag)
         

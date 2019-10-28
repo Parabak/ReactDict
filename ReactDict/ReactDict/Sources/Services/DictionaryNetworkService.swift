@@ -13,7 +13,7 @@ import RxAlamofire
 
 struct DictionaryNetworkService : DictionaryNetworkServiceType {
     
-    private let baseURL = "https://api.myjson.com/bins/1bvlpk"
+    private let baseURL = "https://api.myjson.com/bins/ekpak"
     
     var url : URL {
         return URL(string: baseURL)!

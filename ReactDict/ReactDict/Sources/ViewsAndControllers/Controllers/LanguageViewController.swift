@@ -21,6 +21,9 @@ class LanguageViewController: UITabBarController, BindableType {
         
         viewModel.dictionary.subscribe(onError: { error in
             //TODO: show warning message. Try create Observer that will trigger on errors
+            
+        }, onCompleted: {
+            
         }).disposed(by: self.disposeBag)
     }
     

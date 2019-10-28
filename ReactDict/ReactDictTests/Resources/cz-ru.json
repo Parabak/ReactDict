@@ -6,52 +6,62 @@
 		{
 			"word":"chci",
 			"translate":["хочу"],
-			"exercises":[1,2]
+			"exercises":[1,2],
+            "partOfSpeech":"verb"
 		},
 		{
 			"word":"nest",
 			"translate":["нести"],
-			"exercises":[1,2]
+			"exercises":[1,2],
+            "partOfSpeech":"verb"
 		},
 		{
 			"word":"Řict",
 			"translate":["говорить"],
-			"exercises":[1,2]
+			"exercises":[1,2],
+            "partOfSpeech":"verb"
 		},
 		{
 			"word":"Žádá",
 			"translate":["просить", "требовать"],
-			"exercises":[1,2]
+			"exercises":[1,2],
+            "partOfSpeech":"noun"
 		},
 		{
 			"word":"Půjčit",
 			"translate":["одолжить"],
-			"exercises":[1,2]
+			"exercises":[1,2],
+            "partOfSpeech":"adjective"
 		},
 		{
 			"word":"Rozumět",
 			"translate":["понимать"],
-			"exercises":[1,2]
+			"exercises":[1,2],
+            "partOfSpeech":"pronoun"
 		},
 		{
 			"word":"Měřit",
 			"translate":["мерять"],
-			"exercises":[1,2]
+			"exercises":[1,2],
+            "partOfSpeech":"conjunction"
 		},
 		{
 			"word":"Chybět",
 			"translate":["не хватать"],
-			"exercises":[1,2]
+			"exercises":[1,2],
+            "partOfSpeech":"expression"
 		},
 		{
 			"word":"Mluvit",
 			"translate":["говорить"],
-			"exercises":[1,2]
+			"exercises":[1,2],
+            "partOfSpeech":"adverb"
 		},
 		{
 			"word":"Řikat",
 			"translate":["сказать"],
-			"exercises":[1,2]
+            "exercises":[1,2],
+            "partOfSpeech":"noun"
 		}
 	],
     "version": "1.0.0"

@@ -8,11 +8,12 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 
 extension Scene {
     
-    func viewController() -> UIViewController {
+    func viewController(transition: PublishSubject<Void>) -> UIViewController {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
@@ -23,7 +24,12 @@ extension Scene {
                 return UIViewController()
             }
             var viewController = vc
-            viewController.bind(viewModel: languageModel)
+            
+            transition.subscribe(onCompleted: {
+                viewController.bind(viewModel: languageModel)
+            })
+                .disposed(by: languageModel.bag)
+            
             return viewController
         case .list(let wordsModel):
             
@@ -31,7 +37,15 @@ extension Scene {
                 return UIViewController()
             }
             var viewController = vc
-            viewController.bind(viewModel: wordsModel)
+            
+            viewController.tabBarItem = UITabBarItem(title: "Words",
+                                                     image: UIImage(systemName: "list.bullet"),
+                                                     selectedImage: nil)
+            
+            transition.subscribe(onCompleted: {
+                viewController.bind(viewModel: wordsModel)
+            }).disposed(by: wordsModel.rx_disposeBag)
+            
             return viewController
 //        case .excercises
         default:
