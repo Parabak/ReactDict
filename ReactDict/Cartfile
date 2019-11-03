@@ -1,0 +1,5 @@
+github "RxSwiftCommunity/RxRealm" # Realm DB
+github "RxSwiftCommunity/RxDataSources" #~> 4.0 # DataSources
+github "realm/realm-cocoa"
+github "RxSwiftCommunity/Action" ~> 4.0 
+github "RxSwiftCommunity/NSObject-Rx"
