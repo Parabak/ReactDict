@@ -10,12 +10,29 @@ import Foundation
 import RxDataSources
 import RealmSwift
 
+
 struct Word : Codable {
     
     let word : String
     let partOfSpeech: PartOfSpeech
     let translate : [String]
     let exercises : [Exercises]
+    let notes: String?
+    let version: Int
+}
+
+
+extension Word {
+    
+    init(item: WordItem) {
+        
+        self.init(word: item.word,
+                  partOfSpeech: PartOfSpeech(rawValue: item.partOfSpeech) ?? PartOfSpeech.noun,
+                  translate: item.translate,
+                  exercises: item.exercises.compactMap { Exercises(rawValue: $0)},
+                  notes: item.notes,
+                  version: item.version)
+    }
 }
 
 
@@ -36,9 +53,3 @@ extension Word: IdentifiableType {
         return word.hashValue
     }
 }
-
-
-
-//class WordModel: Object {
-//    @objc dynamic var test: Int = 0
-//}
