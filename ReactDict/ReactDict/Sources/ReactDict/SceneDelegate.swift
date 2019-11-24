@@ -26,9 +26,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene        
         
         if let wnd = window {
-            let networkService = DictionaryNetworkService()
+            let dictionaryProvider = DictionaryProvider(networkService: DictionaryNetworkService(),
+                                                      storageService: StorageService())
             let sceneCoordinator = SceneCoordinator(window: wnd)
-            let languageModel = LanguageViewModel(service: networkService, coordinator:  sceneCoordinator)
+            let languageModel = LanguageViewModel(service: dictionaryProvider,
+                                                  coordinator: sceneCoordinator)
             let scene = Scene.language(languageModel)
             sceneCoordinator.transition(to: scene, type: .root)
         }

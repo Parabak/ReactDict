@@ -31,6 +31,8 @@
 		BFD10C0E2350E68600CAA9C3 /* cz-ru.json in Resources */ = {isa = PBXBuildFile; fileRef = BFD10C0D2350E68600CAA9C3 /* cz-ru.json */; };
 		BFD10C102350E88400CAA9C3 /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C0F2350E88400CAA9C3 /* Exercises.swift */; };
 		BFD10C122350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD10C112350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift */; };
+		BFD48CB623898B9B001701A3 /* DictionaryProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD48CB523898B9B001701A3 /* DictionaryProviderType.swift */; };
+		BFD48CB823898BFC001701A3 /* DictionaryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD48CB723898BFC001701A3 /* DictionaryProvider.swift */; };
 		BFE10D982370B0C5002444B8 /* StorageServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE10D972370B0C5002444B8 /* StorageServiceType.swift */; };
 		BFE10D9A2370B31C002444B8 /* WordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE10D992370B31C002444B8 /* WordItem.swift */; };
 		BFE10D9C2370BE09002444B8 /* DictionaryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE10D9B2370BE09002444B8 /* DictionaryItem.swift */; };
@@ -83,6 +85,8 @@
 		BFD10C0D2350E68600CAA9C3 /* cz-ru.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cz-ru.json"; sourceTree = "<group>"; };
 		BFD10C0F2350E88400CAA9C3 /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		BFD10C112350EACE00CAA9C3 /* DictionaryNetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryNetworkServiceTests.swift; sourceTree = "<group>"; };
+		BFD48CB523898B9B001701A3 /* DictionaryProviderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryProviderType.swift; sourceTree = "<group>"; };
+		BFD48CB723898BFC001701A3 /* DictionaryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryProvider.swift; sourceTree = "<group>"; };
 		BFE10D972370B0C5002444B8 /* StorageServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageServiceType.swift; sourceTree = "<group>"; };
 		BFE10D992370B31C002444B8 /* WordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordItem.swift; sourceTree = "<group>"; };
 		BFE10D9B2370BE09002444B8 /* DictionaryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryItem.swift; sourceTree = "<group>"; };
@@ -243,6 +247,8 @@
 				BFD10C072350E27100CAA9C3 /* DictionaryNetworkServiceType.swift */,
 				BFE10D972370B0C5002444B8 /* StorageServiceType.swift */,
 				BFE10D9D2370BFAB002444B8 /* StorageService.swift */,
+				BFD48CB523898B9B001701A3 /* DictionaryProviderType.swift */,
+				BFD48CB723898BFC001701A3 /* DictionaryProvider.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -442,6 +448,7 @@
 				BFD10C102350E88400CAA9C3 /* Exercises.swift in Sources */,
 				BFD10C082350E27100CAA9C3 /* DictionaryNetworkServiceType.swift in Sources */,
 				BFE10D9E2370BFAB002444B8 /* StorageService.swift in Sources */,
+				BFD48CB823898BFC001701A3 /* DictionaryProvider.swift in Sources */,
 				BFD10C062350E24400CAA9C3 /* DictionaryNetworkService.swift in Sources */,
 				BFE10D982370B0C5002444B8 /* StorageServiceType.swift in Sources */,
 				BFEF2178235B07FE004F59F5 /* LanguageViewController.swift in Sources */,
@@ -452,6 +459,7 @@
 				BFFF59002367069500D6ADBE /* PartOfSpeech.swift in Sources */,
 				BFB3D546235A14C4009BBB35 /* SceneTransitionType.swift in Sources */,
 				BFEF2172235B04FD004F59F5 /* SceneCoordinator.swift in Sources */,
+				BFD48CB623898B9B001701A3 /* DictionaryProviderType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

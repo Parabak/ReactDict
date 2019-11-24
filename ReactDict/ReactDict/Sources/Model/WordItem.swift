@@ -15,8 +15,8 @@ class WordItem: Object {
     @objc dynamic var word: String = ""
     @objc dynamic var hashId: Int = 0
     @objc dynamic var partOfSpeech: String = ""
-    @objc dynamic var translate: [String] = [String]()
-    @objc dynamic var exercises: [Int] = [Int]()
+    dynamic var translate = List<String>()
+    dynamic var exercises = List<Int>()
     @objc dynamic var notes: String? = nil
     @objc dynamic var version: Int = 0
 
@@ -30,8 +30,10 @@ class WordItem: Object {
         self.word = word.word
         self.hashId = word.word.hashValue
         self.partOfSpeech = word.partOfSpeech.rawValue
-        self.translate = word.translate
-        self.exercises = word.exercises.map {$0.rawValue}
+        self.translate = List<String>()
+        self.translate.append(objectsIn: word.translate)
+        self.exercises = List<Int>()
+        self.exercises.append(objectsIn: word.exercises.map {$0.rawValue})        
         self.notes = word.notes
         self.version = word.version
     }

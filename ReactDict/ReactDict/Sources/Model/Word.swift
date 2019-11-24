@@ -25,10 +25,10 @@ struct Word : Codable {
 extension Word {
     
     init(item: WordItem) {
-        
+                
         self.init(word: item.word,
                   partOfSpeech: PartOfSpeech(rawValue: item.partOfSpeech) ?? PartOfSpeech.noun,
-                  translate: item.translate,
+                  translate: Array(item.translate),
                   exercises: item.exercises.compactMap { Exercises(rawValue: $0)},
                   notes: item.notes,
                   version: item.version)
@@ -52,4 +52,11 @@ extension Word: IdentifiableType {
     var identity: Int {
         return word.hashValue
     }
+}
+
+
+extension Word: Hashable {
+    
+    func hash(into hasher: inout Hasher) }
+
 }

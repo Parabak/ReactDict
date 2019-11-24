@@ -14,7 +14,7 @@ struct LanguageViewModel {
     
     let bag = DisposeBag()
     
-    let service: DictionaryNetworkServiceType
+    let service: DictionaryProviderType
     let coordinator: SceneCoordinatorType
     
     var dictionary: Observable<Dictionary> {
@@ -26,6 +26,8 @@ struct LanguageViewModel {
             let wordsModel = WordsViewModel(words: Observable.of(dictModel.words))
             let scene = Scene.list(wordsModel)
             self.coordinator.transition(to: scene, type: .tabBar)
+        }, onError: { error in
+            //TODO: self.coordinator.transition(to: "error", type: .popup])
         })
         .disposed(by: bag)
         

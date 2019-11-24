@@ -12,6 +12,12 @@ import RxSwift
 
 protocol StorageServiceType {
     
+    @discardableResult
+    func loadDictionary() -> Observable<DictionaryItem?>
     
-    func loadDictionary() -> Observable<DictionaryItem>
+    @discardableResult
+    func update(dictionary: DictionaryItem, to: Dictionary) -> Observable<DictionaryItem>
+    
+    @discardableResult
+    func save(dictionary: Dictionary) -> Observable<DictionaryItem>
 }
