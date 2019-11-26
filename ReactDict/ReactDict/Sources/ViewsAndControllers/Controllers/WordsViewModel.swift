@@ -33,7 +33,7 @@ struct WordsViewModel  {
             }
             
             return sections
-        }
+        }.debug()
     }
 }
 

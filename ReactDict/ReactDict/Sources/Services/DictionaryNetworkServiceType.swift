@@ -41,11 +41,15 @@ extension DictionaryNetworkServiceType {
             return Observable.of(dictionary)
         }
         
-        request.subscribe(onNext: { (dict) in
-            publisher.onNext(dict)
-        }, onCompleted: {
-            publisher.onNext(nil)
-        }).disposed(by: disposeBag)
+        return request.map { (dict) -> Dictionary? in
+            return Optional(dict)
+        }
+    
+//        request.subscribe(onNext: { (dict) in
+//            
+//        }, onCompleted: {
+//            publisher.onNext(nil)
+//        }).disposed(by: disposeBag)
         
         return publisher.asObservable()
     }

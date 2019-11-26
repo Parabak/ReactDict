@@ -26,7 +26,8 @@ class WordsViewController: UIViewController, BindableType {
     
     func bindViewModel() {
 
-        viewModel.sectionedItems.bind(to: tableView.rx.items(dataSource: dataSource))
+        viewModel.sectionedItems
+            .bind(to: tableView.rx.items(dataSource: dataSource))
             .disposed(by: rx_disposeBag)
     }
     

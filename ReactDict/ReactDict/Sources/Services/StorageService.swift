@@ -13,6 +13,7 @@ import RealmSwift
 
 enum StorageServiceError: Error {
     
+    case saveDictionaryFailed
     case updateDictionaryFailed(DictionaryItem)
 }
 
@@ -52,25 +53,38 @@ struct StorageService: StorageServiceType {
         
         let result = withRealm("updatingDictionary") { (realm) -> Observable<DictionaryItem> in
             
+            realm.delete(dictionary.words)
+            
             try realm.write {
                 
                 dictionary.from = remote.from
                 dictionary.to = remote.to
                 dictionary.version = remote.version
+                dictionary.words = List()
+                //TODO: measure performance on 1000 and 3000 items. Maybe it's better to enumerate words and comapre there version
+                dictionary.words.append(objectsIn: remote.words.map { WordItem(with: $0)})
             }
             
             return .just(dictionary)
         }
-//        return result ?? .err
         
-        assertionFailure("not implemented yet")
-        return .never()
+        return result ?? .error(StorageServiceError.updateDictionaryFailed(dictionary))
     }
     
     
     func save(dictionary: Dictionary) -> Observable<DictionaryItem> {
-        assertionFailure("not implemented yet")
-        return .never()
+        
+        let result = withRealm("savingDictionary") { (realm) -> Observable<DictionaryItem> in
+            
+            let dictinaryItem = DictionaryItem(dictionary: dictionary)
+            try realm.write {
+                realm.add(dictinaryItem)
+            }
+            
+            return .just(dictinaryItem)
+        }
+        
+        return result ?? .error(StorageServiceError.saveDictionaryFailed)
     }
 }
 

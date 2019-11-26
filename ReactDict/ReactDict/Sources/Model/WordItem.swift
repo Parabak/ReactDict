@@ -39,7 +39,3 @@ class WordItem: Object {
     }
 }
 
-
-
-
-

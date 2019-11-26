@@ -57,6 +57,7 @@ extension Word: IdentifiableType {
 
 extension Word: Hashable {
     
-    func hash(into hasher: inout Hasher) }
-
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(word)
+    }
 }

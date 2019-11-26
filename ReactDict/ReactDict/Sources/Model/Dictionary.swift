@@ -20,11 +20,4 @@ struct Dictionary : Codable {
     var count : Int {
         return words.count
     }
-
-    
-    func test() {
-        
-        let t = Set(words)
-        
-    }
 }
