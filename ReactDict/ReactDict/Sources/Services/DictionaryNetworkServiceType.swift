@@ -24,15 +24,16 @@ extension DictionaryNetworkServiceType {
     
     func loadDictionary() -> Observable<Dictionary?> {
                 
+        typealias JSON = [AnyHashable:Any]
+        
         let request = URLSession.shared.rx
             .json(.get, url)
             .retry(3)
-            .catchErrorJustReturn(Data())
-            .map { $0 is Data ? $0 as! Data : Data() }
-            .flatMap { data -> Observable<Dictionary> in
-                
+            .catchErrorJustReturn(JSON())
+            .map { $0 as? JSON ?? JSON() }
+            .flatMap { data -> Observable<Dictionary> in                
                 do {
-                    let jsonData = try JSONSerialization.jsonObject(with: data, options: []) as! Data
+                    let jsonData = try JSONSerialization.data(withJSONObject: data, options: [])
                     let decoder = JSONDecoder()
                     let dictionary = try decoder.decode(Dictionary.self,
                                                         from: jsonData)
@@ -41,7 +42,11 @@ extension DictionaryNetworkServiceType {
                     throw error
                 }
             }.materialize().share(replay: 1)
-        
+
+        request.errors().subscribe { (error) in
+            print(error.event.debugDescription)
+        }.disposed(by: disposeBag)
+
         return Observable
             .merge(request.elements().flatMap { Observable.just($0) },
                    request.errors().flatMap { _ in Observable.just(nil) })
