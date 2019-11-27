@@ -8,6 +8,7 @@
 
 import Foundation
 import RxSwift
+import RxSwiftExt
 
 
 protocol DictionaryNetworkServiceType {
@@ -22,35 +23,28 @@ protocol DictionaryNetworkServiceType {
 extension DictionaryNetworkServiceType {
     
     func loadDictionary() -> Observable<Dictionary?> {
-                    
-        let publisher = PublishSubject<Dictionary?>()
-        
+                
         let request = URLSession.shared.rx
-        .json(.get, url)
-        .retry(3)
-        .catchError { (error) -> Observable<Any> in
-            print("Error happened: \(error.localizedDescription)")
-            return .empty()
-        }
-        .flatMap { data -> Observable<Dictionary> in
-            
-            let jsonData = try JSONSerialization.data(withJSONObject: data, options: [])
-            let decoder = JSONDecoder()
-            let dictionary = try decoder.decode(Dictionary.self,
-                                                from: jsonData)
-            return Observable.of(dictionary)
-        }
+            .json(.get, url)
+            .retry(3)
+            .catchErrorJustReturn(Data())
+            .map { $0 is Data ? $0 as! Data : Data() }
+            .flatMap { data -> Observable<Dictionary> in
+                
+                do {
+                    let jsonData = try JSONSerialization.jsonObject(with: data, options: []) as! Data
+                    let decoder = JSONDecoder()
+                    let dictionary = try decoder.decode(Dictionary.self,
+                                                        from: jsonData)
+                    return Observable.of(dictionary)
+                }catch {
+                    throw error
+                }
+            }.materialize().share(replay: 1)
         
-        return request.map { (dict) -> Dictionary? in
-            return Optional(dict)
-        }
-    
-//        request.subscribe(onNext: { (dict) in
-//            
-//        }, onCompleted: {
-//            publisher.onNext(nil)
-//        }).disposed(by: disposeBag)
-        
-        return publisher.asObservable()
+        return Observable
+            .merge(request.elements().flatMap { Observable.just($0) },
+                   request.errors().flatMap { _ in Observable.just(nil) })
+            .observeOn(MainScheduler.instance)
     }
 }

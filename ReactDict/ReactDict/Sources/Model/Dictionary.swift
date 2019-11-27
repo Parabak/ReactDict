@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RxSwift
 
 
 struct Dictionary : Codable {
@@ -16,8 +17,27 @@ struct Dictionary : Codable {
     let to: String
     let version: String
     
-    
     var count : Int {
         return words.count
     }
+}
+
+extension Dictionary {
+    
+    init(dictionaryItem: DictionaryItem) {
+        
+        self.from = dictionaryItem.from
+        self.to = dictionaryItem.to
+        self.version = dictionaryItem.version
+        self.words = dictionaryItem.words.map { Word(item: $0) }
+    }
+}
+
+
+extension Dictionary: EventConvertible {
+    var event: Event<Dictionary> {
+        return .next(self)
+    }
+    
+    typealias Element = Dictionary
 }

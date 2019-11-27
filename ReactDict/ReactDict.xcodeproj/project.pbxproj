@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092B5B68238EC6C900DCBBFC /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 092B5B67238EC6C900DCBBFC /* RxSwiftExt */; };
 		BF3F8C96235B7CDD00143448 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C95235B7CDD00143448 /* Differentiator */; };
 		BF3F8C98235B7CDD00143448 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C97235B7CDD00143448 /* RxDataSources */; };
 		BF3F8C9B235B7E6400143448 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C9A235B7E6400143448 /* RealmSwift */; };
@@ -112,6 +113,7 @@
 				BF3F8C98235B7CDD00143448 /* RxDataSources in Frameworks */,
 				BFAD5D6C235081B90067FA4B /* RxCocoa in Frameworks */,
 				BFAD5D6E235081B90067FA4B /* RxBlocking in Frameworks */,
+				092B5B68238EC6C900DCBBFC /* RxSwiftExt in Frameworks */,
 				BF3F8C9E235B7F2000143448 /* RxRealm in Frameworks */,
 				BFA506CF2359ABB1004BC4DB /* RxAlamofire in Frameworks */,
 				BF3F8C9B235B7E6400143448 /* RealmSwift in Frameworks */,
@@ -316,6 +318,7 @@
 				BF3F8C97235B7CDD00143448 /* RxDataSources */,
 				BF3F8C9A235B7E6400143448 /* RealmSwift */,
 				BF3F8C9D235B7F2000143448 /* RxRealm */,
+				092B5B67238EC6C900DCBBFC /* RxSwiftExt */,
 			);
 			productName = ReactDict;
 			productReference = BF670FA6234A2D020083CE8B /* ReactDict.app */;
@@ -373,6 +376,7 @@
 				BF3F8C94235B7CDD00143448 /* XCRemoteSwiftPackageReference "RxDataSources" */,
 				BF3F8C99235B7E6400143448 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 				BF3F8C9C235B7F2000143448 /* XCRemoteSwiftPackageReference "RxRealm" */,
+				092B5B66238EC6C900DCBBFC /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
 			);
 			productRefGroup = BF670FA7234A2D020083CE8B /* Products */;
 			projectDirPath = "";
@@ -739,6 +743,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		092B5B66238EC6C900DCBBFC /* XCRemoteSwiftPackageReference "RxSwiftExt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxSwiftExt";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
 		BF3F8C94235B7CDD00143448 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
@@ -782,6 +794,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		092B5B67238EC6C900DCBBFC /* RxSwiftExt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 092B5B66238EC6C900DCBBFC /* XCRemoteSwiftPackageReference "RxSwiftExt" */;
+			productName = RxSwiftExt;
+		};
 		BF3F8C95235B7CDD00143448 /* Differentiator */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BF3F8C94235B7CDD00143448 /* XCRemoteSwiftPackageReference "RxDataSources" */;

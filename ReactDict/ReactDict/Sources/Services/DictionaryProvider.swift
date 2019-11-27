@@ -20,32 +20,32 @@ struct DictionaryProvider: DictionaryProviderType {
     
     func loadDictionary() -> Observable<Dictionary> {
         
-        //TODO: will be remoteDictionary called on connection error??
-        
-        let testWord = Word(word: "some", partOfSpeech: .adjective, translate: ["translate"], exercises: [.directTranslate], notes: nil, version: 0)
-        return Observable.just(Dictionary(words: [testWord], from: "test", to: "test2", version: "1.0.0"))
-        
-//        return Observable.combineLatest(storageService.loadDictionary(),
-//                                        networkService.loadDictionary())
-//            .flatMap({ (localDictionary, remoteDictionary) -> Observable<Dictionary> in
-//
-//                if let local = localDictionary, let remote = remoteDictionary {
-//
-//                    if local.version != remote.version {
-//                        self.storageService.update(dictionary: local, to: remote)
-//                    }
-//                    return Observable.of(remote)
-//                } else if let remote = remoteDictionary {
-//
-//                    return Observable
-//                        .combineLatest(self.storageService.save(dictionary: remote),
-//                                       Observable.of(remote))
-//                        .map { _, remote -> Dictionary in
-//                            return remote
-//                    }
-//                } else {
-//                    return Observable.empty()
-//                }
-//            })
+        return Observable
+            .combineLatest(storageService.loadDictionary(),
+                           networkService.loadDictionary())
+            .flatMap({ (localDictionary, remoteDictionary) -> Observable<Dictionary> in
+
+                if let local = localDictionary, let remote = remoteDictionary {
+                    
+                    if local.version != remote.version {
+                        self.storageService.update(dictionary: local, to: remote)
+                    }
+                    return Observable.of(remote)
+                } else if let remote = remoteDictionary {
+
+                    return Observable
+                        .combineLatest(self.storageService.save(dictionary: remote),
+                                       Observable.of(remote))
+                        .map { _, remote -> Dictionary in
+                            return remote
+                    }
+                } else if let local = localDictionary {
+                    
+                    return Observable.of(Dictionary(dictionaryItem: local))
+                } else {
+                    
+                    return Observable.empty()
+                }
+            })
     }
 }
