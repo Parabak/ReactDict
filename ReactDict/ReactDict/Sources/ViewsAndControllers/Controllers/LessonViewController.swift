@@ -22,14 +22,14 @@ class LessonViewController : UIViewController, BindableType {
     func bindViewModel() {
         
         viewModel.excercises
-            .subscribe(onNext: { [weak self] exercise in
+            .subscribe(onNext: { [weak self] option in
                 
                 guard let self = self else { return }
                 
-                let btn = UIButton.makeBtn(forExercise: exercise.title)
+                let btn = UIButton.makeBtn(forExercise: option.title)
                 self.startExerciseBtnsStack.addArrangedSubview(btn)
                 btn.rx.tap
-                    .map { exercise }
+                    .map { option.type }
                     .bind(to: self.viewModel.rxStartExercise)
                     .disposed(by: self.rx_disposeBag)
             })

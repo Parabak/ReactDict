@@ -10,10 +10,10 @@ import Foundation
 import RxSwift
 
 
-struct ExerciseViewModel {
-    
-    let title: String
-    
-    //TODO: action
+struct TranslateExerciseViewModel {
+       // word has will be save in ProgressManager
+    let words: [Word]
+    let isDirectTranslate: Bool
+    let wrongAnswers: [String]
 }
 

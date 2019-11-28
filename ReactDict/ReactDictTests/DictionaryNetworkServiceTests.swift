@@ -48,7 +48,7 @@ class DictionaryNetworkServiceTests: XCTestCase {
 
             let benchmark = Word(word: "cz",
                                  translate: ["val2", "val1"],
-                                 exercises: [ Exercises.reversedTranslate, Exercises.directTranslate])
+                                 exercises: [ Exercise.reversedTranslate, Exercise.directTranslate])
             XCTAssert(model == benchmark)
         } catch let parsingError {
             print("Parsing Error:", parsingError)

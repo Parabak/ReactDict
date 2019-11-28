@@ -26,23 +26,21 @@ class LessonViewModel {
         self.coordinator = coordinator
     }
     
-    //TODO: better to make it Observable<Options, whereas options are some>
-    var excercises: Observable<ExerciseViewModel> {
 
-        dictionary.flatMap { dictionary -> Observable<ExerciseViewModel> in
+    typealias Option = (type: Exercise, title: String)
+    var excercises: Observable<Option> {
+
+        dictionary.flatMap { dictionary -> Observable<Option> in
             
-            let direct = dictionary.from + "->" + dictionary.to
-            let reverse = dictionary.to + "->" + dictionary.from
-            
-            return Observable.of(ExerciseViewModel(title:direct),
-                                 ExerciseViewModel(title: reverse))
+            let options = Exercise.allCases.map { exercise -> Option in
+                return (exercise, exercise.nameSuitableFor(dictionary: dictionary))
+            }
+            return Observable.from(options)
         }
     }
     
     
-    
-    
-    var rxStartExercise: AnyObserver<ExerciseViewModel> {
+    var rxStartExercise: AnyObserver<Exercise> {
 
         return Binder(self) { (viewModel, exercise) in
             
@@ -65,13 +63,4 @@ class LessonViewModel {
             
         }.asObserver()
     }
-}
-
-
-struct TranslateExerciseViewModel {
-    
-    // word has will be save in ProgressManager
-    let words: [Word]
-    let isDirectTranslate: Bool
-    let wrongAnswers: [String]
 }

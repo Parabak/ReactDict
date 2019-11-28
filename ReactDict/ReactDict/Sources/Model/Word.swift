@@ -16,7 +16,7 @@ struct Word : Codable {
     let word : String
     let partOfSpeech: PartOfSpeech
     let translate : [String]
-    let exercises : [Exercises]
+    let exercises : [Exercise]
     let notes: String?
     let version: Int
 }
@@ -29,7 +29,7 @@ extension Word {
         self.init(word: item.word,
                   partOfSpeech: PartOfSpeech(rawValue: item.partOfSpeech) ?? PartOfSpeech.noun,
                   translate: Array(item.translate),
-                  exercises: item.exercises.compactMap { Exercises(rawValue: $0)},
+                  exercises: item.exercises.compactMap { Exercise(rawValue: $0)},
                   notes: item.notes,
                   version: item.version)
     }
