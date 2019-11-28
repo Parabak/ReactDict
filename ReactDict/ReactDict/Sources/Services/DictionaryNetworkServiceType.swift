@@ -31,7 +31,7 @@ extension DictionaryNetworkServiceType {
             .retry(3)
             .catchErrorJustReturn(JSON())
             .map { $0 as? JSON ?? JSON() }
-            .flatMap { data -> Observable<Dictionary> in                
+            .flatMap { data -> Observable<Dictionary> in
                 do {
                     let jsonData = try JSONSerialization.data(withJSONObject: data, options: [])
                     let decoder = JSONDecoder()

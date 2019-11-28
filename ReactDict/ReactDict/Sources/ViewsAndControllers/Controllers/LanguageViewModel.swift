@@ -26,6 +26,12 @@ struct LanguageViewModel {
             let wordsModel = WordsViewModel(words: Observable.of(dictModel.words))
             let scene = Scene.list(wordsModel)
             self.coordinator.transition(to: scene, type: .tabBar)
+            
+            let lessonViewModel = LessonViewModel(dictionary: Observable.just(dictModel),
+                                                  coordinator: self.coordinator)
+            let sceneLesson = Scene.lesson(lessonViewModel)
+            self.coordinator.transition(to: sceneLesson, type: .tabBar)
+            
         }, onError: { error in
             //TODO: self.coordinator.transition(to: "error", type: .popup])
         })

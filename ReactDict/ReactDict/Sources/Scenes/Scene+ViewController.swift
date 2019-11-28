@@ -47,7 +47,21 @@ extension Scene {
             }).disposed(by: wordsModel.rx_disposeBag)
             
             return viewController
-//        case .excercises
+        case .lesson(let model):
+                        
+            guard let vc = storyboard.instantiateViewController(withIdentifier: "LessonStart") as? LessonViewController else {
+                return UIViewController()
+            }
+            var viewController = vc
+            viewController.tabBarItem = UITabBarItem(title: "Test",
+                                         image: UIImage(systemName: "checkmark.seal"),
+                                         selectedImage: nil)
+            transition.subscribe(onCompleted: {
+                viewController.bind(viewModel: model)
+            }).disposed(by: model.rx_disposeBag)
+            
+            return viewController
+            
         default:
             return UIViewController()
         }

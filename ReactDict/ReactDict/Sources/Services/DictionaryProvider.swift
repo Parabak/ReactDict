@@ -16,8 +16,7 @@ struct DictionaryProvider: DictionaryProviderType {
     let storageService: StorageServiceType
 
     let disposeBag = DisposeBag()
-    
-    
+        
     func loadDictionary() -> Observable<Dictionary> {
         
         return Observable

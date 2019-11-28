@@ -39,8 +39,9 @@ class SceneCoordinator: SceneCoordinatorType {
         case .tabBar:
             
             if let tabController = currentViewController as? UITabBarController {            
-                
-                tabController.setViewControllers([sceneController], animated: false)
+                var controllers = tabController.viewControllers ?? [UIViewController]()
+                controllers.append(sceneController)
+                tabController.setViewControllers(controllers, animated: false)
                 subject.onCompleted()
             } else {
                 
