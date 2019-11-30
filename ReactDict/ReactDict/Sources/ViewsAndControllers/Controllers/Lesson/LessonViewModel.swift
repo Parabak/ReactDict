@@ -44,7 +44,7 @@ class LessonViewModel {
 
         return Binder(self) { (viewModel, exercise) in
             
-            let t = viewModel.dictionary.map { (dict) -> [Word] in
+            viewModel.dictionary.map { (dict) -> TranslateExerciseViewModel in
                 
                 let pos = PartOfSpeech.allCases.randomElement() ?? PartOfSpeech.noun
                 let wordsPerExercise = 7
@@ -58,8 +58,14 @@ class LessonViewModel {
                     .prefix(wrongPairs)
                     .compactMap { $0.translate.first}
                 
-                return words
-            }
+                return TranslateExerciseViewModel(trainingSet: Array(trainingSet),
+                                                  answersDiversity: wrongAnswers,
+                                                  isDirectTranslate: exercise == .directTranslate)
+            }.subscribe(onNext: { (translateExercise) in
+                
+                viewModel.coordinator.transition(to: .translateExercise(translateExercise),
+                                                 type: .push)
+            }).disposed(by: viewModel.rx_disposeBag)
             
         }.asObserver()
     }

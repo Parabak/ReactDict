@@ -16,6 +16,9 @@ class SceneCoordinator: SceneCoordinatorType {
     fileprivate let window: UIWindow
     fileprivate var currentViewController: UIViewController?
     
+    private let rx_disposeBag = DisposeBag()
+    
+    
     required init(window: UIWindow) {
         
         self.window = window
@@ -36,16 +39,40 @@ class SceneCoordinator: SceneCoordinatorType {
             window.rootViewController = sceneController
             window.addSubview(sceneController.view)
             subject.onCompleted()
-        case .tabBar:
             
-            if let tabController = currentViewController as? UITabBarController {            
+            if let tabController = currentViewController as? UITabBarController {
+                
+                tabController.rx.delegate
+                    .sentMessage(#selector(UITabBarControllerDelegate.tabBarController(_:didSelect:)))
+                    .subscribe(onNext: { [weak self] _ in
+                        self?.currentViewController = tabController.selectedViewController
+                    }).disposed(by: rx_disposeBag)
+            }
+            
+        case .tabBar:
+        
+            if let tabController = findTabController() {
+                
                 var controllers = tabController.viewControllers ?? [UIViewController]()
                 controllers.append(sceneController)
                 tabController.setViewControllers(controllers, animated: false)
                 subject.onCompleted()
+                
+                currentViewController = tabController.selectedViewController
             } else {
                 
                 assertionFailure("can't find UITabController")
+            }
+            
+        case .push:
+            
+            if let navController = findNavControllerInStack() {
+                
+                _ = navController.rx.delegate
+                    .sentMessage(#selector(UINavigationControllerDelegate.navigationController(_:didShow:animated:)))
+                    .map { _ in }
+                    .bind(to: subject)
+                navController.pushViewController(sceneController, animated: true)
             }
         default:
             break
@@ -63,5 +90,17 @@ class SceneCoordinator: SceneCoordinatorType {
       } else {
         return viewController
       }
+    }
+    
+    
+    private func findNavControllerInStack() -> UINavigationController? {
+
+        return currentViewController as? UINavigationController ?? currentViewController?.navigationController
+    }
+    
+    
+    private func findTabController() -> UITabBarController? {
+        
+        return currentViewController as? UITabBarController ?? currentViewController?.tabBarController
     }
 }

@@ -45,6 +45,6 @@ struct DictionaryProvider: DictionaryProviderType {
                     
                     return Observable.empty()
                 }
-            })
+            }).share(replay:1)
     }
 }

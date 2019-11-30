@@ -47,7 +47,7 @@ extension Scene {
             }).disposed(by: wordsModel.rx_disposeBag)
             
             return viewController
-        case .lesson(let model):
+        case .lesson(let exerciseModel):
                         
             guard let vc = storyboard.instantiateViewController(withIdentifier: "LessonStart") as? LessonViewController else {
                 return UIViewController()
@@ -57,13 +57,22 @@ extension Scene {
                                          image: UIImage(systemName: "checkmark.seal"),
                                          selectedImage: nil)
             transition.subscribe(onCompleted: {
-                viewController.bind(viewModel: model)
-            }).disposed(by: model.rx_disposeBag)
+                viewController.bind(viewModel: exerciseModel)
+            }).disposed(by: exerciseModel.rx_disposeBag)
+            
+            return UINavigationController(rootViewController: viewController)
+            
+        case .translateExercise(let translateModel):
+            
+            guard let vc = storyboard.instantiateViewController(withIdentifier: "Translate") as? TranslateViewController else {
+                   return UIViewController()
+               }
+               var viewController = vc
+               transition.subscribe(onCompleted: {
+                   viewController.bind(viewModel: translateModel)
+               }).disposed(by: (translateModel).rx_disposeBag)
             
             return viewController
-            
-        default:
-            return UIViewController()
         }
     }
 }

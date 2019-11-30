@@ -201,6 +201,42 @@
 			path = ReactDict;
 			sourceTree = "<group>";
 		};
+		BFA396642392B4E800D7FF47 /* TranslateExercise */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF2179235B081E004F59F5 /* TranslateViewController.swift */,
+				09E3E9AB238FD46F00E87254 /* TranslateExerciseViewModel.swift */,
+			);
+			path = TranslateExercise;
+			sourceTree = "<group>";
+		};
+		BFA396652392B4F500D7FF47 /* LanguageStart */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF2177235B07FE004F59F5 /* LanguageViewController.swift */,
+				BFEF217B235B0A79004F59F5 /* LanguageViewModel.swift */,
+			);
+			path = LanguageStart;
+			sourceTree = "<group>";
+		};
+		BFA396662392B50000D7FF47 /* WordsList */ = {
+			isa = PBXGroup;
+			children = (
+				BFA506D52359C644004BC4DB /* WordsViewModel.swift */,
+				BFEF2175235B07EE004F59F5 /* WordsViewController.swift */,
+			);
+			path = WordsList;
+			sourceTree = "<group>";
+		};
+		BFA396672392B50D00D7FF47 /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				09E3E9A9238FD1B500E87254 /* LessonViewModel.swift */,
+				09E3E9AD238FD6DE00E87254 /* LessonViewController.swift */,
+			);
+			path = Lesson;
+			sourceTree = "<group>";
+		};
 		BFA506D02359C4E6004BC4DB /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,14 +262,10 @@
 			isa = PBXGroup;
 			children = (
 				BFEF217D235B0BB1004F59F5 /* BindableType.swift */,
-				BFA506D52359C644004BC4DB /* WordsViewModel.swift */,
-				BFEF2175235B07EE004F59F5 /* WordsViewController.swift */,
-				BFEF2177235B07FE004F59F5 /* LanguageViewController.swift */,
-				BFEF217B235B0A79004F59F5 /* LanguageViewModel.swift */,
-				BFEF2179235B081E004F59F5 /* TranslateViewController.swift */,
-				09E3E9AB238FD46F00E87254 /* TranslateExerciseViewModel.swift */,
-				09E3E9A9238FD1B500E87254 /* LessonViewModel.swift */,
-				09E3E9AD238FD6DE00E87254 /* LessonViewController.swift */,
+				BFA396662392B50000D7FF47 /* WordsList */,
+				BFA396652392B4F500D7FF47 /* LanguageStart */,
+				BFA396642392B4E800D7FF47 /* TranslateExercise */,
+				BFA396672392B50D00D7FF47 /* Lesson */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
