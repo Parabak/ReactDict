@@ -41,7 +41,8 @@ extension DictionaryNetworkServiceType {
                 }catch {
                     throw error
                 }
-            }.materialize().share(replay: 1)
+            }.materialize()
+            .share(replay: 1)
 
         request.errors().subscribe { (error) in
             print(error.event.debugDescription)
