@@ -8,16 +8,35 @@
 
 import Foundation
 import UIKit
+import RxSwift
 
 
 class TranslateViewController: UIViewController, BindableType {
+    
+    private let rx_disposeBag = DisposeBag()
+    
     var viewModel: TranslateExerciseViewModel!
     
-    @IBOutlet weak var lblWord: UILabel!
-    
+    @IBOutlet weak var learningWord: UILabel!
+    @IBOutlet weak var answersList: TagListView!
     
     func bindViewModel() {
     
-//        lblWWord.text = viewModel.
+//        viewModel.test
+//            .subscribe(onNext: { [weak self] word in
+//                self?.learningWord.text = word
+//            })
+//            .disposed(by: rx_disposeBag)
+//
+        viewModel.learning
+            .subscribe(onNext: { [weak self] word in
+                self?.learningWord.text = word
+            })
+            .disposed(by: rx_disposeBag)
+        
+        viewModel.answers
+            .subscribe(onNext: { [weak self] answers in
+                self?.answersList.addTags(answers)
+            }).disposed(by: rx_disposeBag)
     }
 }

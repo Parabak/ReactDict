@@ -28,49 +28,49 @@
 			"word":"Žádá",
 			"translate":["просить", "требовать"],
 			"exercises":[1,2],
-            "partOfSpeech":"noun",
+            "partOfSpeech":"verb",
             "version":1
 		},
 		{
 			"word":"Půjčit",
 			"translate":["одолжить"],
 			"exercises":[1,2],
-            "partOfSpeech":"adjective",
+            "partOfSpeech":"verb",
             "version":1
 		},
 		{
 			"word":"Rozumět",
 			"translate":["понимать"],
 			"exercises":[1,2],
-            "partOfSpeech":"pronoun",
+            "partOfSpeech":"verb",
             "version":1
 		},
 		{
 			"word":"Měřit",
 			"translate":["мерять"],
 			"exercises":[1,2],
-            "partOfSpeech":"conjunction",
+            "partOfSpeech":"verb",
             "version":1
 		},
 		{
 			"word":"Chybět",
 			"translate":["не хватать"],
 			"exercises":[1,2],
-            "partOfSpeech":"expression",
+            "partOfSpeech":"verb",
             "version":1
 		},
 		{
 			"word":"Mluvit",
 			"translate":["говорить"],
 			"exercises":[1,2],
-            "partOfSpeech":"adverb",
+            "partOfSpeech":"verb",
             "version":1
 		},
 		{
 			"word":"Řikat",
 			"translate":["сказать"],
             "exercises":[1,2],
-            "partOfSpeech":"noun",
+            "partOfSpeech":"verb",
             "version":1
 		}
 	],

@@ -18,10 +18,10 @@ struct TranslateExerciseViewModel {
     
     let rx_disposeBag = DisposeBag()
     
-    let progress = PublishSubject<Word>()
-    var learning: Observable<String>
-    var answers: Observable<[String]>
-    
+    private let progress = PublishSubject<Word>()
+    var learning = ReplaySubject<String>.create(bufferSize:1)
+    var answers =  ReplaySubject<[String]>.create(bufferSize:1)
+        
     init(trainingSet: [Word],
          answersDiversity: [String],
          isDirectTranslate: Bool) {
@@ -30,19 +30,25 @@ struct TranslateExerciseViewModel {
         self.wrongAnswers = answersDiversity
         self.isDirectTranslate = isDirectTranslate
         
+        progress
+            .map({ (word) -> String in
+            isDirectTranslate ? word.word : word.translate.randomElement() ?? ""
+            })
+            .subscribe(learning)
+            .disposed(by: rx_disposeBag)
+        
+        progress
+            .map({ (word) -> [String] in
+                var all = Array(answersDiversity.shuffled().prefix(3))
+                all.append(isDirectTranslate ? word.translate.randomElement() ?? "" : word.word)
+                return all
+            })
+            .subscribe(answers)
+            .disposed(by: rx_disposeBag)
+            
         if let word = words.first {
             progress.onNext(word)
         }
-        
-        learning = progress.map({ (word) -> String in
-            isDirectTranslate ? word.word : word.translate.randomElement() ?? ""
-        })
-        
-        answers = progress.map({ (word) -> [String] in
-            var all = Array(answersDiversity.shuffled().prefix(3))
-            all.append(isDirectTranslate ? word.translate.randomElement() ?? "" : word.word)
-            return all
-        })
     }
     
     //TODO: action handler

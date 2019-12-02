@@ -30,6 +30,7 @@ class SceneCoordinator: SceneCoordinatorType {
     func transition(to scene: Scene, type: SceneTransitionType) -> Observable<Void> {
         
         let subject = PublishSubject<Void>()
+        //TODO: Point to improve, passing through Subject has code smell
         let sceneController = scene.viewController(transition: subject)
         
         switch type {
@@ -67,11 +68,16 @@ class SceneCoordinator: SceneCoordinatorType {
         case .push:
             
             if let navController = findNavControllerInStack() {
-                
-                _ = navController.rx.delegate
+                               
+                let disposable = navController.rx.delegate
                     .sentMessage(#selector(UINavigationControllerDelegate.navigationController(_:didShow:animated:)))
                     .map { _ in }
-                    .bind(to: subject)
+                    .subscribe(onNext: { (_) in
+                        subject.onCompleted()
+                    })
+                subject.subscribe(onCompleted: {
+                    disposable.dispose()
+                }).disposed(by: rx_disposeBag)
                 navController.pushViewController(sceneController, animated: true)
             }
         default:

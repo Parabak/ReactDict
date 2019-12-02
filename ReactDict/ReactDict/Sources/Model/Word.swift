@@ -61,3 +61,11 @@ extension Word: Hashable {
         hasher.combine(word)
     }
 }
+
+
+extension Word {
+    
+    static func makeNullObject() -> Word {        
+        return Word(word: "", partOfSpeech: .adjective, translate: [""], exercises: [.directTranslate], notes: nil, version: 0)
+    }
+}

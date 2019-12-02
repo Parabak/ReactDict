@@ -65,8 +65,8 @@ extension Scene {
         case .translateExercise(let translateModel):
             
             guard let vc = storyboard.instantiateViewController(withIdentifier: "Translate") as? TranslateViewController else {
-                   return UIViewController()
-               }
+                return UIViewController()
+            }
                var viewController = vc
                transition.subscribe(onCompleted: {
                    viewController.bind(viewModel: translateModel)

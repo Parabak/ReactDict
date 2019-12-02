@@ -46,7 +46,7 @@ class LessonViewModel {
             
             viewModel.dictionary.map { (dict) -> TranslateExerciseViewModel in
                 
-                let pos = PartOfSpeech.allCases.randomElement() ?? PartOfSpeech.noun
+                let pos = PartOfSpeech.verb //PartOfSpeech.allCases.randomElement() ?? PartOfSpeech.noun
                 let wordsPerExercise = 7
                 let wrongPairs = 3
                 //TODO: at first train all words, but later only these, which are not learned already

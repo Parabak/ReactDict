@@ -15,6 +15,11 @@
 		BF3F8C98235B7CDD00143448 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C97235B7CDD00143448 /* RxDataSources */; };
 		BF3F8C9B235B7E6400143448 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C9A235B7E6400143448 /* RealmSwift */; };
 		BF3F8C9E235B7F2000143448 /* RxRealm in Frameworks */ = {isa = PBXBuildFile; productRef = BF3F8C9D235B7F2000143448 /* RxRealm */; };
+		BF4266F02395AD27009F07E8 /* TagBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4266E92395AD27009F07E8 /* TagBackgroundView.swift */; };
+		BF4266F12395AD27009F07E8 /* SegmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4266EB2395AD27009F07E8 /* SegmentListView.swift */; };
+		BF4266F22395AD27009F07E8 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4266EC2395AD27009F07E8 /* CloseButton.swift */; };
+		BF4266F32395AD27009F07E8 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4266ED2395AD27009F07E8 /* TagView.swift */; };
+		BF4266F42395AD27009F07E8 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4266EE2395AD27009F07E8 /* TagListView.swift */; };
 		BF670FAA234A2D020083CE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF670FA9234A2D020083CE8B /* AppDelegate.swift */; };
 		BF670FAC234A2D020083CE8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF670FAB234A2D020083CE8B /* SceneDelegate.swift */; };
 		BF670FB3234A2D020083CE8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF670FB1234A2D020083CE8B /* Main.storyboard */; };
@@ -67,6 +72,13 @@
 		09E3E9A9238FD1B500E87254 /* LessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewModel.swift; sourceTree = "<group>"; };
 		09E3E9AB238FD46F00E87254 /* TranslateExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateExerciseViewModel.swift; sourceTree = "<group>"; };
 		09E3E9AD238FD6DE00E87254 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
+		BF4266E92395AD27009F07E8 /* TagBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagBackgroundView.swift; sourceTree = "<group>"; };
+		BF4266EA2395AD27009F07E8 /* TagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListView.h; sourceTree = "<group>"; };
+		BF4266EB2395AD27009F07E8 /* SegmentListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentListView.swift; sourceTree = "<group>"; };
+		BF4266EC2395AD27009F07E8 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		BF4266ED2395AD27009F07E8 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		BF4266EE2395AD27009F07E8 /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		BF4266EF2395AD27009F07E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF670FA6234A2D020083CE8B /* ReactDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF670FA9234A2D020083CE8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF670FAB234A2D020083CE8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +150,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF4266E72395ACD0009F07E8 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				BF4266E82395AD27009F07E8 /* TagListView */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		BF4266E82395AD27009F07E8 /* TagListView */ = {
+			isa = PBXGroup;
+			children = (
+				BF4266E92395AD27009F07E8 /* TagBackgroundView.swift */,
+				BF4266EA2395AD27009F07E8 /* TagListView.h */,
+				BF4266EB2395AD27009F07E8 /* SegmentListView.swift */,
+				BF4266EC2395AD27009F07E8 /* CloseButton.swift */,
+				BF4266ED2395AD27009F07E8 /* TagView.swift */,
+				BF4266EE2395AD27009F07E8 /* TagListView.swift */,
+				BF4266EF2395AD27009F07E8 /* Info.plist */,
+			);
+			path = TagListView;
+			sourceTree = "<group>";
+		};
 		BF670F9D234A2D020083CE8B = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +194,7 @@
 		BF670FA8234A2D020083CE8B /* ReactDict */ = {
 			isa = PBXGroup;
 			children = (
+				BF4266E72395ACD0009F07E8 /* ThirdParty */,
 				BF670FCD234A4C970083CE8B /* Sources */,
 				BF670FB1234A2D020083CE8B /* Main.storyboard */,
 				BF670FB4234A2D030083CE8B /* Assets.xcassets */,
@@ -481,6 +516,7 @@
 			files = (
 				BFA506D62359C644004BC4DB /* WordsViewModel.swift in Sources */,
 				BFEF2180235B1CB4004F59F5 /* Dictionary.swift in Sources */,
+				BF4266F32395AD27009F07E8 /* TagView.swift in Sources */,
 				BFEF2174235B0679004F59F5 /* Scene+ViewController.swift in Sources */,
 				BFD10C0B2350E39D00CAA9C3 /* Word.swift in Sources */,
 				BFEF217C235B0A79004F59F5 /* LanguageViewModel.swift in Sources */,
@@ -489,7 +525,9 @@
 				BFEF217A235B081E004F59F5 /* TranslateViewController.swift in Sources */,
 				BFEF217E235B0BB1004F59F5 /* BindableType.swift in Sources */,
 				BF670FAC234A2D020083CE8B /* SceneDelegate.swift in Sources */,
+				BF4266F42395AD27009F07E8 /* TagListView.swift in Sources */,
 				BFFF590423670D6100D6ADBE /* WordTableViewCell.swift in Sources */,
+				BF4266F02395AD27009F07E8 /* TagBackgroundView.swift in Sources */,
 				BFE10D9A2370B31C002444B8 /* WordItem.swift in Sources */,
 				BFD10C102350E88400CAA9C3 /* Exercise.swift in Sources */,
 				BFD10C082350E27100CAA9C3 /* DictionaryNetworkServiceType.swift in Sources */,
@@ -500,6 +538,7 @@
 				BFEF2178235B07FE004F59F5 /* LanguageViewController.swift in Sources */,
 				BFB3D544235A146E009BBB35 /* SceneCoordinatorType.swift in Sources */,
 				BFA506D22359C509004BC4DB /* Scene.swift in Sources */,
+				BF4266F12395AD27009F07E8 /* SegmentListView.swift in Sources */,
 				BFEF2176235B07EE004F59F5 /* WordsViewController.swift in Sources */,
 				BFE10D9C2370BE09002444B8 /* DictionaryItem.swift in Sources */,
 				BFFF59002367069500D6ADBE /* PartOfSpeech.swift in Sources */,
@@ -507,6 +546,7 @@
 				BFB3D546235A14C4009BBB35 /* SceneTransitionType.swift in Sources */,
 				BFEF2172235B04FD004F59F5 /* SceneCoordinator.swift in Sources */,
 				09E3E9AC238FD46F00E87254 /* TranslateExerciseViewModel.swift in Sources */,
+				BF4266F22395AD27009F07E8 /* CloseButton.swift in Sources */,
 				BFD48CB623898B9B001701A3 /* DictionaryProviderType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

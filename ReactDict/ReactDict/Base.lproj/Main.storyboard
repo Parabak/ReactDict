@@ -128,17 +128,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IA1-bX-0ws" customClass="TagListView" customModule="ReactDict" customModuleProvider="target">
+                                <rect key="frame" x="87" y="313" width="240" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="aoc-Y2-rFt"/>
                     </view>
                     <connections>
-                        <outlet property="lblWord" destination="g7E-q5-Z4n" id="xxm-7q-C5p"/>
+                        <outlet property="answersList" destination="IA1-bX-0ws" id="gSD-Th-Hgu"/>
+                        <outlet property="learningWord" destination="g7E-q5-Z4n" id="CQC-IO-AbJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w5H-9u-XHj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1528" y="365"/>
+            <point key="canvasLocation" x="1527.536231884058" y="364.95535714285711"/>
         </scene>
     </scenes>
 </document>
