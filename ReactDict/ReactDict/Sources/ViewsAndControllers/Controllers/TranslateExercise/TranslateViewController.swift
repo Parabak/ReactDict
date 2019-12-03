@@ -31,7 +31,7 @@ class TranslateViewController: UIViewController, BindableType {
             })
             .disposed(by: rx_disposeBag)
         
-        viewModel.answers
+        viewModel.options
             .subscribe(onNext: { [weak self] answers in
                 self?.answersList.addTags(answers)
             }).disposed(by: rx_disposeBag)

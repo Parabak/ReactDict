@@ -18,13 +18,13 @@ class TranslateExerciseViewModel {
     private let wrongAnswers: [String]
     
     let rx_disposeBag = DisposeBag()
-    
-//    private let progress = PublishSubject<Word>()
-    
+        
     private let index = BehaviorSubject<Int>(value: 0)
+    private let answers =  ReplaySubject<String>.create(bufferSize:1)
     
     var learning = ReplaySubject<String>.create(bufferSize:1)
-    var answers =  ReplaySubject<[String]>.create(bufferSize:1)
+    var options =  ReplaySubject<[String]>.create(bufferSize:1)
+    
         
     init(trainingSet: [Word],
          answersDiversity: [String],
@@ -69,17 +69,35 @@ class TranslateExerciseViewModel {
             answerOptions.append(isDirectTranslate ? word.translate.randomElement() ?? "" : word.word)
             return answerOptions
         }
-        .subscribe(answers)
+        .subscribe(options)
         .disposed(by: rx_disposeBag)
+        
+        
+        Observable.zip(Observable.from(words),
+                       answers.asObservable())
+            .subscribe(onNext: { (word, answer) in
+                
+                var succeed = false
+                if isDirectTranslate {
+                    
+                    succeed = word.translate.contains(answer)
+                } else {
+                    
+                    succeed = word.word == answer
+                }
+                
+                // ProgressManager: increment or decrement attempts.
+            })
+            .disposed(by: rx_disposeBag)
     }
 
     
     //TODO: action handler
-    var rxNextWord: AnyObserver<Void> {
+    var rxNextWord: AnyObserver<String> {
         
-        return Binder(self) { (viewModel, idx) in
-
-            //How to validate result?!
+        return Binder(self) { (viewModel, answer) in
+            
+            viewModel.answers.onNext(answer)
             
             let idx = (try? viewModel.index.value()) ?? 0
             viewModel.index.onNext(idx + 1)
