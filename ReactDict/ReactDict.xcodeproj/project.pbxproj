@@ -10,6 +10,8 @@
 		090BF3262396C25A0022E9E6 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BF3222396C25A0022E9E6 /* TagListView.swift */; };
 		090BF3272396C25A0022E9E6 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BF3232396C25A0022E9E6 /* CloseButton.swift */; };
 		090BF3282396C25A0022E9E6 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BF3252396C25A0022E9E6 /* TagView.swift */; };
+		090BF32D23996E9B0022E9E6 /* ProgressServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BF32C23996E9B0022E9E6 /* ProgressServiceType.swift */; };
+		090BF32F239970B20022E9E6 /* ProgressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BF32E239970B20022E9E6 /* ProgressService.swift */; };
 		092B5B68238EC6C900DCBBFC /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 092B5B67238EC6C900DCBBFC /* RxSwiftExt */; };
 		09E3E9AA238FD1B500E87254 /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3E9A9238FD1B500E87254 /* LessonViewModel.swift */; };
 		09E3E9AC238FD46F00E87254 /* TranslateExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E3E9AB238FD46F00E87254 /* TranslateExerciseViewModel.swift */; };
@@ -71,6 +73,8 @@
 		090BF3232396C25A0022E9E6 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		090BF3242396C25A0022E9E6 /* TagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListView.h; sourceTree = "<group>"; };
 		090BF3252396C25A0022E9E6 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		090BF32C23996E9B0022E9E6 /* ProgressServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressServiceType.swift; sourceTree = "<group>"; };
+		090BF32E239970B20022E9E6 /* ProgressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressService.swift; sourceTree = "<group>"; };
 		09E3E9A9238FD1B500E87254 /* LessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewModel.swift; sourceTree = "<group>"; };
 		09E3E9AB238FD46F00E87254 /* TranslateExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateExerciseViewModel.swift; sourceTree = "<group>"; };
 		09E3E9AD238FD6DE00E87254 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
@@ -319,6 +323,8 @@
 				BFE10D9D2370BFAB002444B8 /* StorageService.swift */,
 				BFD48CB523898B9B001701A3 /* DictionaryProviderType.swift */,
 				BFD48CB723898BFC001701A3 /* DictionaryProvider.swift */,
+				090BF32C23996E9B0022E9E6 /* ProgressServiceType.swift */,
+				090BF32E239970B20022E9E6 /* ProgressService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -532,9 +538,11 @@
 				BFEF2176235B07EE004F59F5 /* WordsViewController.swift in Sources */,
 				BFE10D9C2370BE09002444B8 /* DictionaryItem.swift in Sources */,
 				BFFF59002367069500D6ADBE /* PartOfSpeech.swift in Sources */,
+				090BF32F239970B20022E9E6 /* ProgressService.swift in Sources */,
 				09E3E9AA238FD1B500E87254 /* LessonViewModel.swift in Sources */,
 				090BF3272396C25A0022E9E6 /* CloseButton.swift in Sources */,
 				BFB3D546235A14C4009BBB35 /* SceneTransitionType.swift in Sources */,
+				090BF32D23996E9B0022E9E6 /* ProgressServiceType.swift in Sources */,
 				BFEF2172235B04FD004F59F5 /* SceneCoordinator.swift in Sources */,
 				09E3E9AC238FD46F00E87254 /* TranslateExerciseViewModel.swift in Sources */,
 				BFD48CB623898B9B001701A3 /* DictionaryProviderType.swift in Sources */,
