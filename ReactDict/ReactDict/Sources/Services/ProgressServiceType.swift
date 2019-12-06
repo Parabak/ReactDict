@@ -10,8 +10,10 @@ import Foundation
 import RxSwift
 
 
+//TODO: Docs
 protocol ProgressServiceType {
     
-    @discardableResult
-    func logAttempt(result: Bool, word: Word, exercise: Exercise) -> Observable<Bool>
+    func completedWordsFor(exercise: Exercise) -> Observable<Set<Int>>
+
+    func logAttempt(result: Bool, word: Word, exercise: Exercise) -> Observable<Int>
 }

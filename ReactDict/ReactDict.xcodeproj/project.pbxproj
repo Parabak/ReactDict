@@ -29,6 +29,8 @@
 		BFA506CF2359ABB1004BC4DB /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BFA506CE2359ABB1004BC4DB /* RxAlamofire */; };
 		BFA506D22359C509004BC4DB /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D12359C509004BC4DB /* Scene.swift */; };
 		BFA506D62359C644004BC4DB /* WordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA506D52359C644004BC4DB /* WordsViewModel.swift */; };
+		BFA55639239AB19F0085EFC6 /* ExerciseHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA55638239AB19F0085EFC6 /* ExerciseHistoryItem.swift */; };
+		BFA5563B239AB1B30085EFC6 /* WordProgressStateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5563A239AB1B30085EFC6 /* WordProgressStateItem.swift */; };
 		BFAD5D68235081B90067FA4B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D67235081B90067FA4B /* RxSwift */; };
 		BFAD5D6C235081B90067FA4B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D6B235081B90067FA4B /* RxCocoa */; };
 		BFAD5D6E235081B90067FA4B /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = BFAD5D6D235081B90067FA4B /* RxBlocking */; };
@@ -91,6 +93,8 @@
 		BFA506D12359C509004BC4DB /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		BFA506D52359C644004BC4DB /* WordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewModel.swift; sourceTree = "<group>"; };
 		BFA506D72359DA3A004BC4DB /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		BFA55638239AB19F0085EFC6 /* ExerciseHistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseHistoryItem.swift; sourceTree = "<group>"; };
+		BFA5563A239AB1B30085EFC6 /* WordProgressStateItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordProgressStateItem.swift; sourceTree = "<group>"; };
 		BFAD5D7023508F050067FA4B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		BFAD5D7123508F050067FA4B /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		BFAD5D79235096920067FA4B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
@@ -338,6 +342,8 @@
 				BFFF58FF2367069500D6ADBE /* PartOfSpeech.swift */,
 				BFE10D992370B31C002444B8 /* WordItem.swift */,
 				BFE10D9B2370BE09002444B8 /* DictionaryItem.swift */,
+				BFA55638239AB19F0085EFC6 /* ExerciseHistoryItem.swift */,
+				BFA5563A239AB1B30085EFC6 /* WordProgressStateItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -514,6 +520,7 @@
 			files = (
 				BFA506D62359C644004BC4DB /* WordsViewModel.swift in Sources */,
 				BFEF2180235B1CB4004F59F5 /* Dictionary.swift in Sources */,
+				BFA55639239AB19F0085EFC6 /* ExerciseHistoryItem.swift in Sources */,
 				BFEF2174235B0679004F59F5 /* Scene+ViewController.swift in Sources */,
 				BFD10C0B2350E39D00CAA9C3 /* Word.swift in Sources */,
 				BFEF217C235B0A79004F59F5 /* LanguageViewModel.swift in Sources */,
@@ -538,6 +545,7 @@
 				BFEF2176235B07EE004F59F5 /* WordsViewController.swift in Sources */,
 				BFE10D9C2370BE09002444B8 /* DictionaryItem.swift in Sources */,
 				BFFF59002367069500D6ADBE /* PartOfSpeech.swift in Sources */,
+				BFA5563B239AB1B30085EFC6 /* WordProgressStateItem.swift in Sources */,
 				090BF32F239970B20022E9E6 /* ProgressService.swift in Sources */,
 				09E3E9AA238FD1B500E87254 /* LessonViewModel.swift in Sources */,
 				090BF3272396C25A0022E9E6 /* CloseButton.swift in Sources */,

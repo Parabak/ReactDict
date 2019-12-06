@@ -13,6 +13,8 @@ import RealmSwift
 
 struct ProgressService: ProgressServiceType {
     
+    let dictionary: String
+    
     fileprivate func withRealm<T>(_ operation: String, action: (Realm) throws -> T) -> T? {
 
         do {
@@ -26,35 +28,38 @@ struct ProgressService: ProgressServiceType {
         }
     }
     
+    
+    func completedWordsFor(exercise: Exercise) -> Observable<Set<Int>> {
         
-    func logAttempt(result: Bool, word: Word, exercise: Exercise) -> Observable<Bool> {
-        
-        if let result = withRealm("SaveExerciseResult", action: { realm -> Observable<Bool> in
+        let dictionaryKey = dictionary
+        let result = withRealm("ReadingExerciseHistory") { (realm) -> Observable<Set<Int>> in
             
-//            realm
+            let items = realm.objects(ExerciseHistoryItem.self).filter { $0.exerciseRaw == exercise.rawValue && $0.dictKey == dictionaryKey}
+            guard let history = items.first else { return Observable.just([]) }
+            
+            let learnedWordsHashes = history.wordProgresses.filter { $0.counter == exercise.learningRequirement }.map { $0.hashId }
+
+            return Observable.just(Set(learnedWordsHashes))
+        }
+        
+        return result ?? Observable.just([])
+    }
+    
+
+    func logAttempt(result: Bool, word: Word, exercise: Exercise) -> Observable<Int> {
+        
+        let dictionaryKey = dictionary
+        
+        let result = withRealm("SaveExerciseResult", action: { realm -> Observable<Int> in
+         
+            let items = realm.objects(ExerciseHistoryItem.self).filter { $0.exerciseRaw == exercise.rawValue && $0.dictKey == dictionaryKey}
+            let history = items.first ?? ExerciseHistoryItem(exercise: exercise, dictionaryKey: dictionaryKey)
+            
+            let wordCounter = history.updateAndReturnCounterFor(wordHash: word.identity,
+                                                                by: result ? 1 : -1)
+            return .just(wordCounter)
         })
         
-        return result ?? .just(false)
-    }
-}
-
-class WordLearningStateItem: Object {
-    
-    let hashId: Int
-    let counter: Int
-    
-    override class func primaryKey() -> String? {
-        return "hashId"
-    }
-}
-
-class ExerciseHistoryItem: Object {
-    
-    let exercise: Exercise
-    private exerciseRaw: Int
-    let words: List<WordLearningStateItem>
-    
-    override class func primaryKey() -> String? {
-        return "exerciseRaw"
+        return result ?? .just(0)
     }
 }

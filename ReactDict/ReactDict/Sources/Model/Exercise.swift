@@ -9,7 +9,7 @@
 import Foundation
 
 
-enum Exercise : Int, CaseIterable {
+enum Exercise : Int, CaseIterable, Codable {
     case directTranslate = 1
     case reversedTranslate = 2
 }
@@ -27,8 +27,15 @@ extension Exercise {
     }
 }
 
-
-extension Exercise : Codable {
+extension Exercise {
     
+    var learningRequirement: Int {
+        switch self {
+        case .directTranslate:
+            return 7
+        case .reversedTranslate:
+            return 7
+        }
+    }
 }
 

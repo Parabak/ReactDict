@@ -44,13 +44,25 @@ class LessonViewModel {
 
         return Binder(self) { (viewModel, exercise) in
             
-            viewModel.dictionary.map { (dict) -> TranslateExerciseViewModel in
+            viewModel.dictionary
+            .flatMap { (dict) -> Observable<(Dictionary, Set<Int>)> in
+                    
+                let progress = ProgressService(dictionary: dict.from)
                 
+                return Observable.combineLatest(Observable.just(dict),
+                                                progress.completedWordsFor(exercise: exercise))
+            }
+            .map({ (dict, learnedSet) -> TranslateExerciseViewModel in
+                    
+                //TODO: Either allow Random PartOfSpeech OR implement picker!
+                //TODO: These constants should be defined somewhere else
                 let pos = PartOfSpeech.verb //PartOfSpeech.allCases.randomElement() ?? PartOfSpeech.noun
                 let wordsPerExercise = 7
                 let wrongPairs = 3
-                //TODO: at first train all words, but later only these, which are not learned already
-                let words = dict.words.filter { $0.partOfSpeech == pos }.shuffled()
+                
+                let words = dict.words
+                    .filter { word in word.partOfSpeech == pos && learnedSet.contains(word.identity)}
+                    .shuffled()
                 let trainingSet = words.prefix(wordsPerExercise)
                 let wrongAnswers = words
                     .dropFirst(wordsPerExercise)
@@ -61,11 +73,13 @@ class LessonViewModel {
                 return TranslateExerciseViewModel(trainingSet: Array(trainingSet),
                                                   answersDiversity: wrongAnswers,
                                                   isDirectTranslate: exercise == .directTranslate)
-            }.subscribe(onNext: { (translateExercise) in
+            })
+            .subscribe(onNext: { (translateExercise) in
                 
                 viewModel.coordinator.transition(to: .translateExercise(translateExercise),
                                                  type: .push)
-            }).disposed(by: viewModel.rx_disposeBag)
+            })
+            .disposed(by: viewModel.rx_disposeBag)
             
         }.asObserver()
     }
