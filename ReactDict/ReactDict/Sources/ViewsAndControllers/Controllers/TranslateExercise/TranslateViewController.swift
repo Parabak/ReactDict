@@ -40,6 +40,7 @@ class TranslateViewController: UIViewController, BindableType {
         
         viewModel.options
             .subscribe(onNext: { [weak self] answers in
+                self?.answersList.removeAllTags()
                 self?.answersList.addTags(answers)
             }).disposed(by: rx_disposeBag)
     }

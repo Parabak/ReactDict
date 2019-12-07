@@ -48,8 +48,12 @@ class TranslateExerciseViewModel {
             
             viewModel.answers.onNext(answer)
             
-            let idx = (try? viewModel.index.value()) ?? 0
-            viewModel.index.onNext(idx + 1)
+            let idx = ((try? viewModel.index.value()) ?? 0) + 1
+            if idx < viewModel.words.count {
+                viewModel.index.onNext(idx)
+            } else {
+                viewModel.index.onCompleted()
+            }
         }
         .asObserver()
     }
@@ -60,8 +64,7 @@ class TranslateExerciseViewModel {
         let answersDiversity = self.wrongAnswers
         let isDirectTranslate = self.isDirectTranslate
         
-        let source = Observable.zip(Observable.from(words),
-                                    index.asObservable())
+        let source = Observable.zip(Observable.from(words), index.asObservable()).share()
         source.map { (word, index) -> String in
             isDirectTranslate ? word.word : word.translate.randomElement() ?? ""
         }
@@ -76,11 +79,9 @@ class TranslateExerciseViewModel {
         .subscribe(options)
         .disposed(by: rx_disposeBag)
         
-        
-        
-        
         source.subscribe(onCompleted: {
-            print("All words in lesson are completed!")
+            // Make source observable merged with one with Answers (word, result and count). This new one, will be used by LessonViewModel
+            print("Show scoring by model! This")
         }).disposed(by: rx_disposeBag)
     }
     
