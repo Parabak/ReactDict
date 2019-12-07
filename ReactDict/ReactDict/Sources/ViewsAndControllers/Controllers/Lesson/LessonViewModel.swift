@@ -61,7 +61,7 @@ class LessonViewModel {
                 let wrongPairs = 3
                 
                 let words = dict.words
-                    .filter { word in word.partOfSpeech == pos && learnedSet.contains(word.identity)}
+                    .filter { word in word.partOfSpeech == pos && !learnedSet.contains(word.identity)}
                     .shuffled()
                 let trainingSet = words.prefix(wordsPerExercise)
                 let wrongAnswers = words
@@ -72,7 +72,8 @@ class LessonViewModel {
                 
                 return TranslateExerciseViewModel(trainingSet: Array(trainingSet),
                                                   answersDiversity: wrongAnswers,
-                                                  isDirectTranslate: exercise == .directTranslate)
+                                                  exercise: exercise,
+                                                  progressService:  ProgressService(dictionary: dict.from))
             })
             .subscribe(onNext: { (translateExercise) in
                 

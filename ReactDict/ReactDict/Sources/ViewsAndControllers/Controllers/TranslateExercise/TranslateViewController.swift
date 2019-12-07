@@ -23,6 +23,13 @@ class TranslateViewController: UIViewController, BindableType {
     @IBOutlet weak var actionBtn: UIButton! // next / done
     
     
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        
+        answersList.delegate = self
+    }
+    
     func bindViewModel() {
 
         viewModel.learning
@@ -35,9 +42,6 @@ class TranslateViewController: UIViewController, BindableType {
             .subscribe(onNext: { [weak self] answers in
                 self?.answersList.addTags(answers)
             }).disposed(by: rx_disposeBag)
-        
-//        events.asObservable().bind(to: viewModel.rxNextWord)
-        
     }
 }
 
@@ -47,6 +51,6 @@ extension TranslateViewController: TagListViewDelegate {
     
     func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
         
-//        viewModel.
+        viewModel.rxNextWord.onNext(title)
     }
 }
