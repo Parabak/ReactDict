@@ -67,11 +67,24 @@ extension Scene {
             guard let vc = storyboard.instantiateViewController(withIdentifier: "Translate") as? TranslateViewController else {
                 return UIViewController()
             }
-               var viewController = vc
-               transition.subscribe(onCompleted: {
-                   viewController.bind(viewModel: translateModel)
-               }).disposed(by: (translateModel).rx_disposeBag)
+            var viewController = vc
+            transition.subscribe(onCompleted: {
+                viewController.bind(viewModel: translateModel)
+            }).disposed(by: translateModel.rx_disposeBag)
             
+            return viewController
+            
+        case .lessonResult(let resultModel):
+            
+            guard let vc = storyboard.instantiateViewController(withIdentifier: "LessonResult") as? LessonResultViewController else {
+                return UIViewController()
+            }
+            
+            var viewController = vc
+            transition.subscribe(onCompleted: {
+                viewController.bind(viewModel: resultModel)
+            }).disposed(by: resultModel.rx_disposeBag)
+         
             return viewController
         }
     }

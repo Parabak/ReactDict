@@ -58,6 +58,7 @@ extension Word: IdentifiableType {
 extension Word: Hashable {
     
     func hash(into hasher: inout Hasher) {
+        //TODO: Hash should return the same result between session. I have to generate GUID
         hasher.combine(word)
     }
 }

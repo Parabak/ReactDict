@@ -17,31 +17,28 @@ class TranslateExerciseViewModel {
     private let exercice: Exercise
     private let wrongAnswers: [String]
     private let index = BehaviorSubject<Int>(value: 0)
-    private let answers =  ReplaySubject<String>.create(bufferSize:1)
     private var isDirectTranslate: Bool {
         return exercice == .directTranslate
     }
+    
+    let answers = ReplaySubject<String>.create(bufferSize:1)
     var learning = ReplaySubject<String>.create(bufferSize:1)
-    var options =  ReplaySubject<[String]>.create(bufferSize:1)
+    var options = ReplaySubject<[String]>.create(bufferSize:1)
     let rx_disposeBag = DisposeBag()
     
     
     init(trainingSet: [Word],
          answersDiversity: [String],
-         exercise: Exercise,
-         progressService: ProgressServiceType) {
+         exercise: Exercise) {
         
         self.words = trainingSet
         self.wrongAnswers = answersDiversity
         self.exercice = exercise
     
         subscribeObservers()
-        startAnswerValidation(with: progressService)
     }
     
-    
-    
-    //TODO: action handler
+
     var rxNextWord: AnyObserver<String> {
         
         return Binder(self) { (viewModel, answer) in
@@ -52,6 +49,7 @@ class TranslateExerciseViewModel {
             if idx < viewModel.words.count {
                 viewModel.index.onNext(idx)
             } else {
+                viewModel.answers.onCompleted()
                 viewModel.index.onCompleted()
             }
         }
@@ -72,42 +70,12 @@ class TranslateExerciseViewModel {
         .disposed(by: rx_disposeBag)
         
         source.map { (word, index) -> [String] in
-            var answerOptions = Array(answersDiversity.shuffled().prefix(3))
+            //TODO: .prefix(4)) — remove constant. Should be configuration object
+            var answerOptions = Array(answersDiversity.shuffled().prefix(4))
             answerOptions.append(isDirectTranslate ? word.translate.randomElement() ?? "" : word.word)
             return answerOptions
         }
         .subscribe(options)
         .disposed(by: rx_disposeBag)
-        
-        source.subscribe(onCompleted: {
-            // Make source observable merged with one with Answers (word, result and count). This new one, will be used by LessonViewModel
-            print("Show scoring by model! This")
-        }).disposed(by: rx_disposeBag)
-    }
-    
-    
-    private func startAnswerValidation(with service: ProgressServiceType) {
-        
-        let exercise = self.exercice
-        
-        Observable.zip(Observable.from(words),
-                       answers.asObservable())
-            .subscribe(onNext: { (word, answer) in
-                
-                let result: Bool
-                switch exercise {
-                case .directTranslate:
-                    result = word.translate.contains(answer)
-                case .reversedTranslate:
-                    result = word.word == answer
-                }
-                //TODO: maybe better just subscribe ProgressServiceType to the sequence?
-                service.logAttempt(result: result,
-                                   word: word,
-                                   exercise: exercise)
-                
-                // Publish: word, result and count.
-            })
-            .disposed(by: rx_disposeBag)
     }
 }

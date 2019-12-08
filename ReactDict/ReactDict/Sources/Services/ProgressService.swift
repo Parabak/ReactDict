@@ -55,10 +55,16 @@ struct ProgressService: ProgressServiceType {
         let result = withRealm("SaveExerciseResult", action: { realm -> Observable<Int> in
          
             let items = realm.objects(ExerciseHistoryItem.self).filter { $0.exerciseRaw == exercise.rawValue && $0.dictKey == dictionaryKey}
-            let history = items.first ?? ExerciseHistoryItem(exercise: exercise, dictionaryKey: dictionaryKey)
+            let history = items.first ?? ExerciseHistoryItem(exercise: exercise, dictionaryKey: dictionaryKey)                
+            var wordCounter = 0
             
-            let wordCounter = history.updateAndReturnCounterFor(wordHash: word.identity,
-                                                                by: result ? 1 : -1)
+            try realm.write {
+                
+                wordCounter = history.updateAndReturnCounterFor(wordHash: word.identity,
+                                                                    by: result ? 1 : -1)
+                realm.add(history)
+            }
+            
             return .just(wordCounter)
         })
         

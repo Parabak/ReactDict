@@ -15,4 +15,5 @@ enum Scene {
     case list(WordsViewModel)
     case lesson(LessonViewModel)
     case translateExercise(TranslateExerciseViewModel)
+    case lessonResult(LessonResultViewModel)
 }

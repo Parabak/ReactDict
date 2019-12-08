@@ -20,6 +20,7 @@ class ExerciseHistoryItem: Object {
     convenience init(exercise: Exercise, dictionaryKey: String) {
         self.init()
         self.exerciseRaw = exercise.rawValue
+        self.dictKey = dictionaryKey
     }
     
     

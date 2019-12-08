@@ -23,18 +23,30 @@ class TranslateViewController: UIViewController, BindableType {
     @IBOutlet weak var actionBtn: UIButton! // next / done
     
     
+    fileprivate func styleAnswersList() {
+        
+        answersList.marginY = 10
+        answersList.marginX = 15
+        answersList.textFont = .systemFont(ofSize: 25)
+        answersList.paddingX = 5
+        answersList.paddingY = 5
+    }
+    
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
         answersList.delegate = self
+        styleAnswersList()
     }
     
     func bindViewModel() {
 
         viewModel.learning
             .subscribe(onNext: { [weak self] word in
-                self?.learningWord.text = word
+                self?.learningWord.text = word.lowercased().capitalized
+                self?.learningWord.sizeToFit()
             })
             .disposed(by: rx_disposeBag)
         
@@ -44,6 +56,7 @@ class TranslateViewController: UIViewController, BindableType {
                 self?.answersList.addTags(answers)
             }).disposed(by: rx_disposeBag)
     }
+    
 }
 
 
