@@ -19,9 +19,10 @@ class WordItem: Object {
     dynamic var exercises = List<Int>()
     @objc dynamic var notes: String? = nil
     @objc dynamic var version: Int = 0
-
+    @objc dynamic var uuid: String = UUID().uuidString
+    
     override class func primaryKey() -> String? {
-        return "hashId"
+        return "uuid"
     }
 
     convenience init(with word: Word) {
@@ -36,6 +37,7 @@ class WordItem: Object {
         self.exercises.append(objectsIn: word.exercises.map {$0.rawValue})        
         self.notes = word.notes
         self.version = word.version
+        self.uuid = word.uuid
     }
 }
 

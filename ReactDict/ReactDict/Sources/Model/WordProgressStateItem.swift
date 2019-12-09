@@ -12,18 +12,19 @@ import RealmSwift
 
 class WordProgressStateItem: Object {
     
-    @objc dynamic var hashId: Int = 0
+    @objc dynamic private var uuid: String = UUID().uuidString
+    @objc dynamic var wordId: String = UUID().uuidString
     @objc dynamic var counter: Int = 0
     
-    convenience init(wordHashId: Int, count: Int) {
+    convenience init(wordId: String, count: Int) {
         
         self.init()
-        hashId = wordHashId
-        counter = count
+        self.wordId = wordId
+        self.counter = count
     }
     
     
     override class func primaryKey() -> String? {
-        return "hashId"
+        return "uuid"
     }
 }

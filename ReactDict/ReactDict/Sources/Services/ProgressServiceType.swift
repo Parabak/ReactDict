@@ -13,7 +13,7 @@ import RxSwift
 //TODO: Docs
 protocol ProgressServiceType {
     
-    func completedWordsFor(exercise: Exercise) -> Observable<Set<Int>>
+    func completedWordsFor(exercise: Exercise) -> Observable<Set<String>>
 
     func logAttempt(result: Bool, word: Word, exercise: Exercise) -> Observable<Int>
 }

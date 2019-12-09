@@ -29,15 +29,15 @@ class ExerciseHistoryItem: Object {
     }
     
     
-    func updateAndReturnCounterFor(wordHash: Int, by: Int) -> Int {
+    func updateAndReturnCounterFor(wordId: String, by: Int) -> Int {
         
         var counter = 0
-        let copies = wordProgresses.filter{$0.hashId == wordHash}
+        let copies = wordProgresses.filter{$0.wordId == wordId}
         if let word = copies.first {
             word.counter = max(0, word.counter + by)
             counter = word.counter
         } else {
-            let word = WordProgressStateItem(wordHashId: wordHash, count: max(0, by))
+            let word = WordProgressStateItem(wordId: wordId, count: max(0, by))
             wordProgresses.append(word)
             counter = word.counter
         }

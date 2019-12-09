@@ -19,6 +19,7 @@ struct Word : Codable {
     let exercises : [Exercise]
     let notes: String?
     let version: Int
+    let uuid: String
 }
 
 
@@ -31,7 +32,8 @@ extension Word {
                   translate: Array(item.translate),
                   exercises: item.exercises.compactMap { Exercise(rawValue: $0)},
                   notes: item.notes,
-                  version: item.version)
+                  version: item.version,
+                  uuid: item.uuid)
     }
 }
 
@@ -50,7 +52,7 @@ extension Word: Equatable {
 extension Word: IdentifiableType {
     
     var identity: Int {
-        return word.hashValue
+        return uuid.hashValue
     }
 }
 
@@ -67,6 +69,12 @@ extension Word: Hashable {
 extension Word {
     
     static func makeNullObject() -> Word {        
-        return Word(word: "", partOfSpeech: .adjective, translate: [""], exercises: [.directTranslate], notes: nil, version: 0)
+        return Word(word: "",
+                    partOfSpeech: .adjective,
+                    translate: [""],
+                    exercises: [.directTranslate],
+                    notes: nil,
+                    version: 0,
+                    uuid: UUID().uuidString)
     }
 }

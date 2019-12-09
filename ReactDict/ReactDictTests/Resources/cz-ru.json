@@ -8,70 +8,80 @@
 			"translate":["хочу"],
 			"exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "4D047ECE-B55D-4999-862B-2354B538EE53"
 		},
 		{
 			"word":"nest",
 			"translate":["нести"],
 			"exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "52577A0C-90B2-4A78-9D1C-F15060DE4149"
 		},
 		{
 			"word":"Řict",
 			"translate":["говорить"],
 			"exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "74AEA036-048B-45E0-BB96-A64CD9A373A1"
 		},
 		{
 			"word":"Žádá",
 			"translate":["просить", "требовать"],
 			"exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "8F422549-F86F-4629-BC1A-6FC38ABB564E"
 		},
 		{
 			"word":"Půjčit",
 			"translate":["одолжить"],
 			"exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "94A51AB5-0130-4E1C-A584-47A14894DE20"
 		},
 		{
 			"word":"Rozumět",
 			"translate":["понимать"],
 			"exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "D407C961-003E-4407-BEEC-C6925B2B6A8B"
 		},
 		{
 			"word":"Měřit",
 			"translate":["мерять"],
 			"exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "0B093167-C5E4-4A58-8B97-536A6991FE76"
 		},
 		{
 			"word":"Chybět",
 			"translate":["не хватать"],
 			"exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "91C4C9C8-07B5-43D1-A985-2B2157DC4238"
 		},
 		{
 			"word":"Mluvit",
 			"translate":["говорить"],
 			"exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "94A5C783-D6B3-47FF-B3F1-F894B07B846E"
 		},
 		{
 			"word":"Řikat",
 			"translate":["сказать"],
             "exercises":[1,2],
             "partOfSpeech":"verb",
-            "version":1
+            "version":1,
+            "uuid": "1CB5E03B-E1AC-437A-87BD-6649CCC6DD42"
 		}
 	],
     "version": "1.0.0"

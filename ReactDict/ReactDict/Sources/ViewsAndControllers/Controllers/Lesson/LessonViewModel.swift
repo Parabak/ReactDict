@@ -44,7 +44,7 @@ class LessonViewModel {
         return Binder(self) { (viewModel, exercise) in
             
             viewModel.dictionary
-            .flatMap { (dict) -> Observable<(Dictionary, Set<Int>)> in
+            .flatMap { (dict) -> Observable<(Dictionary, Set<String>)> in
                     
                 let progress = ProgressService(dictionary: dict.from)
                 
@@ -61,7 +61,7 @@ class LessonViewModel {
                 let wrongPairs = 4
                 
                 let words = dict.words
-                    .filter { word in word.partOfSpeech == pos && !learnedSet.contains(word.identity)}
+                    .filter { word in word.partOfSpeech == pos && !learnedSet.contains(word.uuid)}
                     .shuffled()
                 let trainingSet = Array(words.prefix(wordsPerExercise))
                 

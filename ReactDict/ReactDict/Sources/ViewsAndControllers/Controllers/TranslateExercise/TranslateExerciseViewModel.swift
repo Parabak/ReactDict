@@ -73,7 +73,7 @@ class TranslateExerciseViewModel {
             //TODO: .prefix(4)) — remove constant. Should be configuration object
             var answerOptions = Array(answersDiversity.shuffled().prefix(4))
             answerOptions.append(isDirectTranslate ? word.translate.randomElement() ?? "" : word.word)
-            return answerOptions
+            return answerOptions.shuffled()
         }
         .subscribe(options)
         .disposed(by: rx_disposeBag)

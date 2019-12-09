@@ -29,17 +29,19 @@ struct ProgressService: ProgressServiceType {
     }
     
     
-    func completedWordsFor(exercise: Exercise) -> Observable<Set<Int>> {
+    func completedWordsFor(exercise: Exercise) -> Observable<Set<String>> {
         
         let dictionaryKey = dictionary
-        let result = withRealm("ReadingExerciseHistory") { (realm) -> Observable<Set<Int>> in
+        let result = withRealm("ReadingExerciseHistory") { (realm) -> Observable<Set<String>> in
             
             let items = realm.objects(ExerciseHistoryItem.self).filter { $0.exerciseRaw == exercise.rawValue && $0.dictKey == dictionaryKey}
             guard let history = items.first else { return Observable.just([]) }
             
-            let learnedWordsHashes = history.wordProgresses.filter { $0.counter == exercise.learningRequirement }.map { $0.hashId }
+            let learnedWordsIds = history.wordProgresses
+                .filter { $0.counter == exercise.learningRequirement }
+                .map { $0.wordId }
 
-            return Observable.just(Set(learnedWordsHashes))
+            return Observable.just(Set(learnedWordsIds))
         }
         
         return result ?? Observable.just([])
@@ -60,7 +62,7 @@ struct ProgressService: ProgressServiceType {
             
             try realm.write {
                 
-                wordCounter = history.updateAndReturnCounterFor(wordHash: word.identity,
+                wordCounter = history.updateAndReturnCounterFor(wordId: word.uuid,
                                                                     by: result ? 1 : -1)
                 realm.add(history)
             }
