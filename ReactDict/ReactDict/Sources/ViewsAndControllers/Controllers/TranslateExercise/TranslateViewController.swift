@@ -21,7 +21,7 @@ class TranslateViewController: UIViewController, BindableType {
     @IBOutlet weak var learningWord: UILabel!
     @IBOutlet weak var answersList: TagListView!
     @IBOutlet weak var actionBtn: UIButton! // next / done
-    
+
     
     fileprivate func styleAnswersList() {
         
@@ -31,6 +31,13 @@ class TranslateViewController: UIViewController, BindableType {
         answersList.paddingX = 5
         answersList.paddingY = 5
     }
+
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        self.hidesBottomBarWhenPushed = true
+    }
     
     
     override func viewDidLoad() {
@@ -38,6 +45,7 @@ class TranslateViewController: UIViewController, BindableType {
         super.viewDidLoad()
         
         answersList.delegate = self
+        
         styleAnswersList()
     }
     

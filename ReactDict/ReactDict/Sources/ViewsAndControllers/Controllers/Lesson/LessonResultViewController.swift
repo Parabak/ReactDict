@@ -23,12 +23,22 @@ class LessonResultViewController: UIViewController, BindableType {
     private lazy var dataSource = RxTableViewSectionedAnimatedDataSource<ResultSection>(configureCell: configureCell)
     
     
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        self.hidesBottomBarWhenPushed = true
+    }
+    
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
-        self.navigationController?.navigationBar.isHidden = true
-        //TODO: right nav bar: Done
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done,
+                                                            target: self,
+                                                            action: #selector(exit))
     }
     
     func bindViewModel() {
@@ -51,5 +61,12 @@ class LessonResultViewController: UIViewController, BindableType {
             
             return cell
         }
+    }
+    
+    @objc private func exit() {
+        
+        guard let navController = navigationController else { return }
+        
+        navController.popToRootViewController(animated: true)
     }
 }

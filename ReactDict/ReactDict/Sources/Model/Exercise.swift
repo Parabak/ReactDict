@@ -20,9 +20,9 @@ extension Exercise {
     func nameSuitableFor(dictionary: Dictionary) -> String {
         switch self {
         case .directTranslate:
-            return dictionary.from + "->" + dictionary.to
+            return dictionary.from + " ➤ " + dictionary.to
         case .reversedTranslate:
-            return dictionary.to + "->" + dictionary.from
+            return dictionary.to + " ➤ " + dictionary.from
         }
     }
 }

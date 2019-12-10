@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -101,8 +101,18 @@
                                 <rect key="frame" x="152" y="348" width="110" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41N-Kn-ar1">
+                                <rect key="frame" x="138" y="144" width="138" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="41N-Kn-ar1" firstAttribute="top" secondItem="L0i-vT-hlt" secondAttribute="top" constant="100" id="7lU-Eu-Vpq"/>
+                            <constraint firstItem="41N-Kn-ar1" firstAttribute="centerX" secondItem="2fy-SK-XuO" secondAttribute="centerX" id="cHc-35-B0M"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="L0i-vT-hlt"/>
                     </view>
                     <connections>
@@ -121,23 +131,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7E-q5-Z4n">
-                                <rect key="frame" x="186" y="204" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7E-q5-Z4n">
+                                <rect key="frame" x="207" y="144" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IA1-bX-0ws" customClass="TagListView" customModule="ReactDict" customModuleProvider="target">
-                                <rect key="frame" x="87" y="696" width="240" height="16"/>
+                                <rect key="frame" x="50" y="696" width="314" height="16"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="249" constant="100" id="oEd-kd-w79"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="aoc-Y2-rFt" firstAttribute="bottom" secondItem="IA1-bX-0ws" secondAttribute="bottom" constant="150" id="MG5-8r-fWk"/>
-                            <constraint firstItem="g7E-q5-Z4n" firstAttribute="top" secondItem="aoc-Y2-rFt" secondAttribute="top" constant="160" id="SCT-hT-lzJ"/>
+                            <constraint firstItem="g7E-q5-Z4n" firstAttribute="top" secondItem="aoc-Y2-rFt" secondAttribute="top" constant="100" id="SCT-hT-lzJ"/>
                             <constraint firstItem="IA1-bX-0ws" firstAttribute="centerX" secondItem="c4a-Yb-g3M" secondAttribute="centerX" id="T3r-Hd-CGq"/>
                             <constraint firstItem="g7E-q5-Z4n" firstAttribute="centerX" secondItem="c4a-Yb-g3M" secondAttribute="centerX" id="WlV-NH-h59"/>
+                            <constraint firstItem="aoc-Y2-rFt" firstAttribute="trailing" secondItem="IA1-bX-0ws" secondAttribute="trailing" constant="50" id="Yq5-Yh-Dt0"/>
+                            <constraint firstItem="IA1-bX-0ws" firstAttribute="leading" secondItem="aoc-Y2-rFt" secondAttribute="leading" constant="50" id="mdh-nb-VTy"/>
+                            <constraint firstItem="IA1-bX-0ws" firstAttribute="top" relation="greaterThanOrEqual" secondItem="g7E-q5-Z4n" secondAttribute="bottom" constant="50" id="wzw-sM-fZF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aoc-Y2-rFt"/>
                     </view>
@@ -158,14 +174,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpU-pm-4Kv">
-                                <rect key="frame" x="171.5" y="144" width="71" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpU-pm-4Kv">
+                                <rect key="frame" x="153.5" y="144" width="107.5" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8M4-Ok-l4J">
-                                <rect key="frame" x="30" y="230" width="354" height="666"/>
+                                <rect key="frame" x="30" y="235" width="354" height="661"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LessonResultCell" id="47y-pf-TLV" customClass="WordProgressStatusCell" customModule="ReactDict" customModuleProvider="target">

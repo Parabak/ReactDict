@@ -49,10 +49,10 @@ class LessonViewController : UIViewController, BindableType {
         startExerciseBtnsStack.translatesAutoresizingMaskIntoConstraints = false
         startExerciseBtnsStack.axis = .vertical
         startExerciseBtnsStack.alignment = .center
-        startExerciseBtnsStack.spacing = 5
+        startExerciseBtnsStack.spacing = 20
         
         return [startExerciseBtnsStack.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20),
-                startExerciseBtnsStack.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 20),
+                startExerciseBtnsStack.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20),
                 startExerciseBtnsStack.centerYAnchor.constraint(equalTo: view.centerYAnchor),
                 startExerciseBtnsStack.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ]
@@ -66,6 +66,7 @@ fileprivate extension UIButton {
         
         let btn = UIButton(type: .custom)
         btn.setTitle(exercise, for: .normal)
+        btn.titleLabel?.font = UIFont.preferredFont(forTextStyle: .title2)
         btn.setTitleColor(.black, for: .normal)
         
         return btn

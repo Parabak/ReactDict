@@ -50,8 +50,6 @@ struct ProgressService: ProgressServiceType {
 
     func logAttempt(result: Bool, word: Word, exercise: Exercise) -> Observable<Int> {
         
-        print("Logging \(result.description) for word: \(word.word)")
-        
         let dictionaryKey = dictionary
         
         let result = withRealm("SaveExerciseResult", action: { realm -> Observable<Int> in
