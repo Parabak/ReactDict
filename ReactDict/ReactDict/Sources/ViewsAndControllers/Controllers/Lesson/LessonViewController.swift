@@ -17,6 +17,7 @@ class LessonViewController : UIViewController, BindableType {
     private let rx_disposeBag = DisposeBag()
     
     @IBOutlet weak var startExerciseBtnsStack: UIStackView!
+    @IBOutlet weak var posPicker: UIPickerView!
     
     
     func bindViewModel() {
@@ -39,6 +40,13 @@ class LessonViewController : UIViewController, BindableType {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let data = ["All"] + PartOfSpeech.allCases.map {$0.rawValue.uppercased()}
+        Observable.of(data)
+            .bind(to: posPicker.rx.itemTitles)  { (row, title) -> String? in
+                return title
+            }
+            .disposed(by: rx_disposeBag)
         
         NSLayoutConstraint.activate(addExerciseStartBtns())
     }

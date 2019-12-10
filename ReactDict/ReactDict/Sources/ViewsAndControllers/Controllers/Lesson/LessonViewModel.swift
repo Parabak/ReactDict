@@ -37,7 +37,7 @@ class LessonViewModel {
             return Observable.from(options)
         }
     }
-    
+
     
     var rxStartExercise: AnyObserver<Exercise> {
 

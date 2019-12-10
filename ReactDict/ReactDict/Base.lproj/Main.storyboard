@@ -97,9 +97,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bkT-tz-4MQ">
-                                <rect key="frame" x="152" y="348" width="110" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bkT-tz-4MQ">
+                                <rect key="frame" x="40" y="345" width="334" height="201"/>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41N-Kn-ar1">
                                 <rect key="frame" x="138" y="144" width="138" height="41"/>
@@ -107,15 +106,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7nH-LL-P19">
+                                <rect key="frame" x="0.0" y="606" width="414" height="216"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="41N-Kn-ar1" firstAttribute="top" secondItem="L0i-vT-hlt" secondAttribute="top" constant="100" id="7lU-Eu-Vpq"/>
+                            <constraint firstItem="7nH-LL-P19" firstAttribute="trailing" secondItem="L0i-vT-hlt" secondAttribute="trailing" id="HhD-w9-PIm"/>
+                            <constraint firstItem="7nH-LL-P19" firstAttribute="leading" secondItem="L0i-vT-hlt" secondAttribute="leading" id="M7m-pr-8VN"/>
+                            <constraint firstItem="L0i-vT-hlt" firstAttribute="bottom" secondItem="7nH-LL-P19" secondAttribute="bottom" constant="40" id="MIg-Qt-lZo"/>
+                            <constraint firstItem="bkT-tz-4MQ" firstAttribute="top" secondItem="41N-Kn-ar1" secondAttribute="bottom" constant="160" id="Mbd-H0-MrN"/>
+                            <constraint firstItem="bkT-tz-4MQ" firstAttribute="leading" secondItem="L0i-vT-hlt" secondAttribute="leading" constant="40" id="WES-jX-tUe"/>
+                            <constraint firstItem="7nH-LL-P19" firstAttribute="top" secondItem="bkT-tz-4MQ" secondAttribute="bottom" constant="60" id="Zn2-4g-bEL"/>
                             <constraint firstItem="41N-Kn-ar1" firstAttribute="centerX" secondItem="2fy-SK-XuO" secondAttribute="centerX" id="cHc-35-B0M"/>
+                            <constraint firstItem="L0i-vT-hlt" firstAttribute="trailing" secondItem="bkT-tz-4MQ" secondAttribute="trailing" constant="40" id="uQY-3w-Er7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="L0i-vT-hlt"/>
                     </view>
                     <connections>
+                        <outlet property="posPicker" destination="7nH-LL-P19" id="isf-9n-f2U"/>
                         <outlet property="startExerciseBtnsStack" destination="bkT-tz-4MQ" id="bbP-Rt-IQT"/>
                     </connections>
                 </viewController>
