@@ -2,87 +2,1655 @@
     "from":"Czech",
     "to":"Russian",
     "words":
-	[
-		{
-			"word":"chci",
-			"translate":["хочу"],
-			"exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "4D047ECE-B55D-4999-862B-2354B538EE53"
-		},
-		{
-			"word":"nest",
-			"translate":["нести"],
-			"exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "52577A0C-90B2-4A78-9D1C-F15060DE4149"
-		},
-		{
-			"word":"Řict",
-			"translate":["говорить"],
-			"exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "74AEA036-048B-45E0-BB96-A64CD9A373A1"
-		},
-		{
-			"word":"Žádá",
-			"translate":["просить", "требовать"],
-			"exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "8F422549-F86F-4629-BC1A-6FC38ABB564E"
-		},
-		{
-			"word":"Půjčit",
-			"translate":["одолжить"],
-			"exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "94A51AB5-0130-4E1C-A584-47A14894DE20"
-		},
-		{
-			"word":"Rozumět",
-			"translate":["понимать"],
-			"exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "D407C961-003E-4407-BEEC-C6925B2B6A8B"
-		},
-		{
-			"word":"Měřit",
-			"translate":["мерять"],
-			"exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "0B093167-C5E4-4A58-8B97-536A6991FE76"
-		},
-		{
-			"word":"Chybět",
-			"translate":["не хватать"],
-			"exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "91C4C9C8-07B5-43D1-A985-2B2157DC4238"
-		},
-		{
-			"word":"Mluvit",
-			"translate":["говорить"],
-			"exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "94A5C783-D6B3-47FF-B3F1-F894B07B846E"
-		},
-		{
-			"word":"Řikat",
-			"translate":["сказать"],
+    [
+        {
+            "word":"chtit",
+            "translate":["хотеть"],
             "exercises":[1,2],
             "partOfSpeech":"verb",
             "version":1,
-            "uuid": "1CB5E03B-E1AC-437A-87BD-6649CCC6DD42"
-		}
-	],
+            "uuid": "4D047ECE-B55D-4999-862B-2354B538EE53"
+        },
+        {
+            "word":"nest",
+            "translate":["нести"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "52577A0C-90B2-4A78-9D1C-F15060DE4149"
+        },
+        {
+            "word":"Řict",
+            "translate":["сказать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "74AEA036-048B-45E0-BB96-A64CD9A373A1"
+        },
+        {
+            "word":"říkat",
+            "translate":["сказать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "4AD2A5AD-2A0F-4033-B9A4-A9BDF0090BD3"
+        },
+        {
+            "word":"Žádat",
+            "translate":["просить", "требовать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "8F422549-F86F-4629-BC1A-6FC38ABB564E"
+        },
+        {
+            "word":"Půjčit",
+            "translate":["одолжить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "94A51AB5-0130-4E1C-A584-47A14894DE20"
+        },
+        {
+            "word":"Rozumět",
+            "translate":["понимать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "D407C961-003E-4407-BEEC-C6925B2B6A8B"
+        },
+        {
+            "word":"Měřit",
+            "translate":["мерять"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "0B093167-C5E4-4A58-8B97-536A6991FE76"
+        },
+        {
+            "word":"Chybět",
+            "translate":["не хватать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "91C4C9C8-07B5-43D1-A985-2B2157DC4238"
+        },
+        {
+            "word":"Mluvit",
+            "translate":["говорить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "94A5C783-D6B3-47FF-B3F1-F894B07B846E"
+        },
+        {
+            "word":"Psát",
+            "translate":["писать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "E919CC47-D2E0-44EB-9A91-1A3C8A615594"
+        },
+        {
+            "word":"Ptát (se)",
+            "translate":["спросить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "59F7CC29-562F-4C18-9F68-7A28028FB27E"
+        },
+        {
+            "word":"Prominout",
+            "translate":["простить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "C9502EA3-D16D-4885-A4A6-6D0E4410A0B4"
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": "D8EA1C45-DDD0-49B4-86DB-F2A2EAABE63C"
+        },
+        {
+            "word":"Cvičit",
+            "translate":["тренироваться"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "F325D0B4-FCD1-4824-9DAE-A1F89813EBC2"
+        },
+        {
+            "word":"Radit",
+            "translate":["советовать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "07F9C002-726D-4574-95F3-534C8AF03CC3"
+        },
+        {
+            "word":"Pokračovat",
+            "translate":["продолжать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "4BED5025-60C3-4C66-8C11-07C2FED533FF"
+        },
+        {
+            "word":"Jít",
+            "translate":["идти"],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": "703443DD-83FF-4899-B665-2C85EFE076BA"
+        },
+        {
+            "word":"Jet",
+            "translate":["ехать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "E6F7335E-2FF0-4014-8409-742A8B1D2346"
+        },
+        {
+            "word":"Jel",
+            "translate":["ехал"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "C1EE54F7-AD3A-47D3-B160-7AC0F6255934"
+        },
+        {
+            "word":"Šel",
+            "translate":["шёл"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "B8C49C8C-48F7-490E-8F52-CA71DAFAC11E"
+        },
+        {
+            "word":"Jist",
+            "translate":["есть", "кушать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "6EB05F62-D4B3-4716-A833-87D025D07306"
+        },
+        {
+            "word":"Cestovat",
+            "translate":["путешестовать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "0E568450-220D-4147-9D08-A05CDB2F52BA"
+        },
+        {
+            "word":"Foukat",
+            "translate":["дуть", "сквозить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "8C433E9E-8067-4638-9822-51AAE9D78F18"
+        },
+        {
+            "word":"Čist",
+            "translate":["читать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "85A3C1F9-1707-434D-8246-156C79E0790C"
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": "37A34366-4882-49DE-94FA-A203F512DB15"
+        },
+        {
+            "word":"Dostat",
+            "translate":["получить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "CBE86D77-131F-4767-A918-4B978BE1B663"
+        },
+        {
+            "word":"dostat se",
+            "translate":["дойти", "добраться"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "D6CBCAB2-2E0A-4628-942F-E20756683DE1"
+        },
+        {
+            "word":"snažit se",
+            "translate":["стараться", "стремиться к чему-либо"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "63D0F766-5667-4A71-8715-DF7D656E80C9"
+        },
+        {
+            "word":"Povídat",
+            "translate":["рассказывать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "51730DDD-E980-45CF-A810-BD8128052C32"
+        },
+        {
+            "word":"umět",
+            "translate":["уметь"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "B8EE6D4F-FBE1-4863-82D1-947A9B850B6D"
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "770E766B-9008-4B29-9C80-528CE9019515"
+        },
+        {
+            "word":"smět",
+            "translate":["сметь"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "B5864813-D524-40D8-9AC1-5CAE357DA3F9"
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "1C692A00-A15A-4E79-8511-49D129D445CC"
+        },
+        {
+            "word":"chtít",
+            "translate":["хотеть"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "6D93CC6C-682F-4C8A-A432-1FD2C8901098"
+        },
+        {
+            "word":"muset",
+            "translate":["должен"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "820984A7-2DCC-4D41-9D56-832AF16903B4"
+        },
+        {
+            "word":"moct",
+            "translate":["мочь"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "3225F2E5-6FD7-46F0-89ED-582762A67CAF"
+        },
+        {
+            "word":"mít",
+            "translate":["иметь"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "819D6A47-48C6-4FF1-A25F-0C1DAFBE978B"
+        },
+        {
+            "word":"malovat",
+            "translate":["рисовать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "73C8CD30-959E-4072-B59C-062B9CCBB2FF"
+        },
+        {
+            "word":"tancovat",
+            "translate":["танцевать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "81A76037-343E-44EB-AC1B-EA86D925D5A0"
+        },
+        {
+            "word":"sportovat",
+            "translate":["заниматься спортом"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "030836D6-9FA8-4C71-ADDB-48E4B1B8F015"
+        },
+        {
+            "word":"fotografovat",
+            "translate":["фотографировать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "C0538A27-92A7-4119-9633-AAD7D7B0A9E7"
+        },
+        {
+            "word":"opravovat",
+            "translate":["исправлять"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "0A861905-9B1A-4631-88DD-7CA71CD94D61"
+        },
+        {
+            "word":"cestovat",
+            "translate":["путешствовать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "E4F050D2-B302-4C14-A22D-0A768865CFFA"
+        },
+        {
+            "word":"opakovat",
+            "translate":["повторять", "репетировать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "C6058450-6B2E-4799-8EF5-A9AC6735DB5D"
+        },
+        {
+            "word":"pít",
+            "translate":["пить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "74617041-3157-4058-AE13-CE16C6124CDD"
+        },
+        {
+            "word":"žít",
+            "translate":["жить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "06E4EDB6-9A76-4ECF-B412-01475CCD3BC2"
+        },
+        {
+            "word":"mýt",
+            "translate":["мыть"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "979A93B8-DCF0-426A-BFA6-656E462D5AFF"
+        },
+        {
+            "word":"hrát",
+            "translate":["играть"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "47B20E25-B917-40DE-9D90-3F50B5F66492"
+        },
+        {
+            "word":"spěchat",
+            "translate":["спешить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "1A7E7C7D-40E3-47FE-A305-B03951B3674F"
+        },
+        {
+            "word":"snídat (co)",
+            "translate":["завтракать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "E7909DB7-0DEB-492F-9FBD-C1B63068C3B7"
+        },
+        {
+            "word":"obědvat",
+            "translate":["обедать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "E2B4642E-B4FA-4796-9722-1AB721278E47"
+        },
+        {
+            "word":"vstávat",
+            "translate":["вставать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "E789B2B0-8EB0-4243-8553-38323D5D8AF6"
+        },
+        {
+            "word":"usmívat se",
+            "translate":["улыбаться"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "13B69828-DA5D-47B7-98B7-B94927F1E021"
+        },
+        {
+            "word":"odpočívat",
+            "translate":["отдыхаю"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "96D9308A-C3DB-4BF2-8C29-C9C8AA730CA0"
+        },
+        {
+            "word":"oblékat se",
+            "translate":["одевать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "E83283FA-1F74-42D1-AC3C-63CB7F3AED9E"
+        },
+        {
+            "word":"oblékat si",
+            "translate":["одеваться"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "45A69BD4-8A58-4A5B-962F-9A8DB307E94C"
+        },
+        {
+            "word":"znát",
+            "translate":["знать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "DF55A3A2-D28A-4156-BDFE-242AC11B6315"
+        },
+        {
+            "word":"posílat",
+            "translate":["посылать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "2C11DB8C-27F2-4608-BCFC-E0E5185F1493"
+        },
+        {
+            "word":"rozumět (komu, čemu)",
+            "translate":["понимать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "B81A694A-CA68-400C-98D3-67BA8352EF16"
+        },
+        {
+            "word":"sedět",
+            "translate":["сидеть"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "D4212460-3DE2-4447-BC3D-6901FF19274F"
+        },
+        {
+            "word":"ležet",
+            "translate":["лежать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "AE1714FE-222D-4245-B47E-C5F0F0425F82"
+        },
+        {
+            "word":"vařit (co)",
+            "translate":["варить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "5A30CC9D-C3DB-4A67-AEDF-B2DBC77FE12C"
+        },
+        {
+            "word":"uklízet (co)",
+            "translate":["убирать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "DC96374D-108B-486A-8520-32F59A9DBE2B"
+        },
+        {
+            "word":"večeřet (co)",
+            "translate":["ужинать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "9D4CA5A3-DBEA-45C3-B1F8-A1B2DF0D0CCE"
+        },
+        {
+            "word":"čistit",
+            "translate":["чистить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "9E947F6E-71B4-4E43-9283-4AA2133E8523"
+        },
+        {
+            "word":"myslet (na koho/co)",
+            "translate":["мыслить", "думать о"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "710C8978-1EF3-402D-9538-6BBEEC66D256"
+        },
+        {
+            "word":"učit (koho/co)",
+            "translate":["учить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "C92F722D-553A-4A59-87F0-0D5FEB188B2A"
+        },
+        {
+            "word":"učit se (co)",
+            "translate":["учиться"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "6FD1947C-752C-44A4-B08A-79087410BCB1"
+        },
+        {
+            "word":"bydlet",
+            "translate":["жить", "проживать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "9D9390CE-B345-4829-B27C-10B7FB6686EB"
+        },
+        {
+            "word":"řídit (co)",
+            "translate":["водить", "рулить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"prohlížet si (koho/co)",
+            "translate":["осматривать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "BC4921AA-71BF-4040-8284-0EF502BD13DE"
+        },
+        {
+            "word":"nenávidět (co)",
+            "translate":["ненавидеть"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "D189C66B-AF37-460A-9194-6FE8E6E40A87"
+        },
+        {
+            "word":"nesnášet (co)",
+            "translate":["непереносить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "973932D8-CB72-4F81-8496-81E17AA8A492"
+        },
+        {
+            "word":"líbit se (komu)",
+            "translate":["нравиться"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "38938EAC-EAA5-4C08-B61C-A09A236CBDD3"
+        },
+        {
+            "word":"chodit",
+            "translate":["ходить"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "A2705B99-316E-4D21-B3C0-C75E99E605D2"
+        },
+        {
+            "word":"spát",
+            "translate":["спать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "98A84AF5-CD0B-4403-BA9F-1D5CEA6A0319"
+        },
+        {
+            "word":"vědět",
+            "translate":["знать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "DF352563-2039-4EE9-8024-8230E6A16FF1"
+        },
+        {
+            "word":"umět",
+            "translate":["уметь"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "0EC9309A-04B4-41A4-8F30-8FBD28DDD12C"
+        },
+        {
+            "word":"mlčet",
+            "translate":["молчать"],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "669D8762-3B0D-46FC-891E-BDB762A924A9"
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "B4DB12C9-F67E-4E8D-84EB-51C13446B3D6"
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": "326DECAA-5088-4549-9154-A82666FF71D9"
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"verb",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+        {
+            "word":"",
+            "translate":[""],
+            "exercises":[1,2],
+            "partOfSpeech":"",
+            "version":1,
+            "uuid": ""
+        },
+    ],
     "version": "1.0.0"
-}	
+}
