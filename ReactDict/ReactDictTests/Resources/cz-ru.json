@@ -1,1656 +1,5869 @@
 {
-    "from":"Czech",
-    "to":"Russian",
-    "words":
-    [
-        {
-            "word":"chtit",
-            "translate":["хотеть"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "4D047ECE-B55D-4999-862B-2354B538EE53"
-        },
-        {
-            "word":"nest",
-            "translate":["нести"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "52577A0C-90B2-4A78-9D1C-F15060DE4149"
-        },
-        {
-            "word":"Řict",
-            "translate":["сказать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "74AEA036-048B-45E0-BB96-A64CD9A373A1"
-        },
-        {
-            "word":"říkat",
-            "translate":["сказать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "4AD2A5AD-2A0F-4033-B9A4-A9BDF0090BD3"
-        },
-        {
-            "word":"Žádat",
-            "translate":["просить", "требовать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "8F422549-F86F-4629-BC1A-6FC38ABB564E"
-        },
-        {
-            "word":"Půjčit",
-            "translate":["одолжить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "94A51AB5-0130-4E1C-A584-47A14894DE20"
-        },
-        {
-            "word":"Rozumět",
-            "translate":["понимать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "D407C961-003E-4407-BEEC-C6925B2B6A8B"
-        },
-        {
-            "word":"Měřit",
-            "translate":["мерять"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "0B093167-C5E4-4A58-8B97-536A6991FE76"
-        },
-        {
-            "word":"Chybět",
-            "translate":["не хватать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "91C4C9C8-07B5-43D1-A985-2B2157DC4238"
-        },
-        {
-            "word":"Mluvit",
-            "translate":["говорить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "94A5C783-D6B3-47FF-B3F1-F894B07B846E"
-        },
-        {
-            "word":"Psát",
-            "translate":["писать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "E919CC47-D2E0-44EB-9A91-1A3C8A615594"
-        },
-        {
-            "word":"Ptát (se)",
-            "translate":["спросить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "59F7CC29-562F-4C18-9F68-7A28028FB27E"
-        },
-        {
-            "word":"Prominout",
-            "translate":["простить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "C9502EA3-D16D-4885-A4A6-6D0E4410A0B4"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "D8EA1C45-DDD0-49B4-86DB-F2A2EAABE63C"
-        },
-        {
-            "word":"Cvičit",
-            "translate":["тренироваться"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "F325D0B4-FCD1-4824-9DAE-A1F89813EBC2"
-        },
-        {
-            "word":"Radit",
-            "translate":["советовать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "07F9C002-726D-4574-95F3-534C8AF03CC3"
-        },
-        {
-            "word":"Pokračovat",
-            "translate":["продолжать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "4BED5025-60C3-4C66-8C11-07C2FED533FF"
-        },
-        {
-            "word":"Jít",
-            "translate":["идти"],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "703443DD-83FF-4899-B665-2C85EFE076BA"
-        },
-        {
-            "word":"Jet",
-            "translate":["ехать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "E6F7335E-2FF0-4014-8409-742A8B1D2346"
-        },
-        {
-            "word":"Jel",
-            "translate":["ехал"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "C1EE54F7-AD3A-47D3-B160-7AC0F6255934"
-        },
-        {
-            "word":"Šel",
-            "translate":["шёл"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "B8C49C8C-48F7-490E-8F52-CA71DAFAC11E"
-        },
-        {
-            "word":"Jist",
-            "translate":["есть", "кушать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "6EB05F62-D4B3-4716-A833-87D025D07306"
-        },
-        {
-            "word":"Cestovat",
-            "translate":["путешестовать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "0E568450-220D-4147-9D08-A05CDB2F52BA"
-        },
-        {
-            "word":"Foukat",
-            "translate":["дуть", "сквозить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "8C433E9E-8067-4638-9822-51AAE9D78F18"
-        },
-        {
-            "word":"Čist",
-            "translate":["читать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "85A3C1F9-1707-434D-8246-156C79E0790C"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "37A34366-4882-49DE-94FA-A203F512DB15"
-        },
-        {
-            "word":"Dostat",
-            "translate":["получить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "CBE86D77-131F-4767-A918-4B978BE1B663"
-        },
-        {
-            "word":"dostat se",
-            "translate":["дойти", "добраться"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "D6CBCAB2-2E0A-4628-942F-E20756683DE1"
-        },
-        {
-            "word":"snažit se",
-            "translate":["стараться", "стремиться к чему-либо"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "63D0F766-5667-4A71-8715-DF7D656E80C9"
-        },
-        {
-            "word":"Povídat",
-            "translate":["рассказывать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "51730DDD-E980-45CF-A810-BD8128052C32"
-        },
-        {
-            "word":"umět",
-            "translate":["уметь"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "B8EE6D4F-FBE1-4863-82D1-947A9B850B6D"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "770E766B-9008-4B29-9C80-528CE9019515"
-        },
-        {
-            "word":"smět",
-            "translate":["сметь"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "B5864813-D524-40D8-9AC1-5CAE357DA3F9"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "1C692A00-A15A-4E79-8511-49D129D445CC"
-        },
-        {
-            "word":"chtít",
-            "translate":["хотеть"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "6D93CC6C-682F-4C8A-A432-1FD2C8901098"
-        },
-        {
-            "word":"muset",
-            "translate":["должен"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "820984A7-2DCC-4D41-9D56-832AF16903B4"
-        },
-        {
-            "word":"moct",
-            "translate":["мочь"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "3225F2E5-6FD7-46F0-89ED-582762A67CAF"
-        },
-        {
-            "word":"mít",
-            "translate":["иметь"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "819D6A47-48C6-4FF1-A25F-0C1DAFBE978B"
-        },
-        {
-            "word":"malovat",
-            "translate":["рисовать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "73C8CD30-959E-4072-B59C-062B9CCBB2FF"
-        },
-        {
-            "word":"tancovat",
-            "translate":["танцевать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "81A76037-343E-44EB-AC1B-EA86D925D5A0"
-        },
-        {
-            "word":"sportovat",
-            "translate":["заниматься спортом"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "030836D6-9FA8-4C71-ADDB-48E4B1B8F015"
-        },
-        {
-            "word":"fotografovat",
-            "translate":["фотографировать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "C0538A27-92A7-4119-9633-AAD7D7B0A9E7"
-        },
-        {
-            "word":"opravovat",
-            "translate":["исправлять"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "0A861905-9B1A-4631-88DD-7CA71CD94D61"
-        },
-        {
-            "word":"cestovat",
-            "translate":["путешствовать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "E4F050D2-B302-4C14-A22D-0A768865CFFA"
-        },
-        {
-            "word":"opakovat",
-            "translate":["повторять", "репетировать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "C6058450-6B2E-4799-8EF5-A9AC6735DB5D"
-        },
-        {
-            "word":"pít",
-            "translate":["пить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "74617041-3157-4058-AE13-CE16C6124CDD"
-        },
-        {
-            "word":"žít",
-            "translate":["жить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "06E4EDB6-9A76-4ECF-B412-01475CCD3BC2"
-        },
-        {
-            "word":"mýt",
-            "translate":["мыть"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "979A93B8-DCF0-426A-BFA6-656E462D5AFF"
-        },
-        {
-            "word":"hrát",
-            "translate":["играть"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "47B20E25-B917-40DE-9D90-3F50B5F66492"
-        },
-        {
-            "word":"spěchat",
-            "translate":["спешить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "1A7E7C7D-40E3-47FE-A305-B03951B3674F"
-        },
-        {
-            "word":"snídat (co)",
-            "translate":["завтракать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "E7909DB7-0DEB-492F-9FBD-C1B63068C3B7"
-        },
-        {
-            "word":"obědvat",
-            "translate":["обедать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "E2B4642E-B4FA-4796-9722-1AB721278E47"
-        },
-        {
-            "word":"vstávat",
-            "translate":["вставать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "E789B2B0-8EB0-4243-8553-38323D5D8AF6"
-        },
-        {
-            "word":"usmívat se",
-            "translate":["улыбаться"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "13B69828-DA5D-47B7-98B7-B94927F1E021"
-        },
-        {
-            "word":"odpočívat",
-            "translate":["отдыхаю"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "96D9308A-C3DB-4BF2-8C29-C9C8AA730CA0"
-        },
-        {
-            "word":"oblékat se",
-            "translate":["одевать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "E83283FA-1F74-42D1-AC3C-63CB7F3AED9E"
-        },
-        {
-            "word":"oblékat si",
-            "translate":["одеваться"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "45A69BD4-8A58-4A5B-962F-9A8DB307E94C"
-        },
-        {
-            "word":"znát",
-            "translate":["знать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "DF55A3A2-D28A-4156-BDFE-242AC11B6315"
-        },
-        {
-            "word":"posílat",
-            "translate":["посылать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "2C11DB8C-27F2-4608-BCFC-E0E5185F1493"
-        },
-        {
-            "word":"rozumět (komu, čemu)",
-            "translate":["понимать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "B81A694A-CA68-400C-98D3-67BA8352EF16"
-        },
-        {
-            "word":"sedět",
-            "translate":["сидеть"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "D4212460-3DE2-4447-BC3D-6901FF19274F"
-        },
-        {
-            "word":"ležet",
-            "translate":["лежать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "AE1714FE-222D-4245-B47E-C5F0F0425F82"
-        },
-        {
-            "word":"vařit (co)",
-            "translate":["варить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "5A30CC9D-C3DB-4A67-AEDF-B2DBC77FE12C"
-        },
-        {
-            "word":"uklízet (co)",
-            "translate":["убирать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "DC96374D-108B-486A-8520-32F59A9DBE2B"
-        },
-        {
-            "word":"večeřet (co)",
-            "translate":["ужинать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "9D4CA5A3-DBEA-45C3-B1F8-A1B2DF0D0CCE"
-        },
-        {
-            "word":"čistit",
-            "translate":["чистить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "9E947F6E-71B4-4E43-9283-4AA2133E8523"
-        },
-        {
-            "word":"myslet (na koho/co)",
-            "translate":["мыслить", "думать о"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "710C8978-1EF3-402D-9538-6BBEEC66D256"
-        },
-        {
-            "word":"učit (koho/co)",
-            "translate":["учить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "C92F722D-553A-4A59-87F0-0D5FEB188B2A"
-        },
-        {
-            "word":"učit se (co)",
-            "translate":["учиться"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "6FD1947C-752C-44A4-B08A-79087410BCB1"
-        },
-        {
-            "word":"bydlet",
-            "translate":["жить", "проживать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "9D9390CE-B345-4829-B27C-10B7FB6686EB"
-        },
-        {
-            "word":"řídit (co)",
-            "translate":["водить", "рулить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"prohlížet si (koho/co)",
-            "translate":["осматривать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "BC4921AA-71BF-4040-8284-0EF502BD13DE"
-        },
-        {
-            "word":"nenávidět (co)",
-            "translate":["ненавидеть"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "D189C66B-AF37-460A-9194-6FE8E6E40A87"
-        },
-        {
-            "word":"nesnášet (co)",
-            "translate":["непереносить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "973932D8-CB72-4F81-8496-81E17AA8A492"
-        },
-        {
-            "word":"líbit se (komu)",
-            "translate":["нравиться"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "38938EAC-EAA5-4C08-B61C-A09A236CBDD3"
-        },
-        {
-            "word":"chodit",
-            "translate":["ходить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "A2705B99-316E-4D21-B3C0-C75E99E605D2"
-        },
-        {
-            "word":"spát",
-            "translate":["спать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "98A84AF5-CD0B-4403-BA9F-1D5CEA6A0319"
-        },
-        {
-            "word":"vědět",
-            "translate":["знать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "DF352563-2039-4EE9-8024-8230E6A16FF1"
-        },
-        {
-            "word":"umět",
-            "translate":["уметь"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "0EC9309A-04B4-41A4-8F30-8FBD28DDD12C"
-        },
-        {
-            "word":"mlčet",
-            "translate":["молчать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "669D8762-3B0D-46FC-891E-BDB762A924A9"
-        },
-        {
-            "word":"psát (co)",
-            "translate":["писать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "B4DB12C9-F67E-4E8D-84EB-51C13446B3D6"
-        },
-        {
-            "word":"číst",
-            "translate":["читать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "326DECAA-5088-4549-9154-A82666FF71D9"
-        },
-        {
-            "word":"plakat",
-            "translate":["плакать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "B425E751-06D4-413A-9B2D-480E2D7FAEDB"
-        },
-        {
-            "word":"vědět",
-            "translate":["знать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "991D65BA-8F7D-4293-B6F4-5F3EEF1F62DA"
-        },
-        {
-            "word":"zvát",
-            "translate":["звать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "F188CA35-5AA2-4346-8462-C184ED066992"
-        },
-        {
-            "word":"moct",
-            "translate":["мочь"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "65FBE526-1107-4D66-B901-450BAE86226A"
-        },
-        {
-            "word":"brát(co)",
-            "translate":["брать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "DF2BB6EA-7203-4A24-91A6-2AF70DCB0AD7"
-        },
-        {
-            "word":"nést (co)",
-            "translate":["нести"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "8E5CFA8E-F0B2-4F0B-A0DE-69F8A0D122F6"
-        },
-        {
-            "word":"pomoct",
-            "translate":["помогать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "49723F51-8584-4B33-B2A8-0E50A162C01C"
-        },
-        {
-            "word":"tisknout",
-            "translate":["печатать", "прижимать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "9A78CB93-F26D-4F0E-B64B-952F19851E30"
-        },
-        {
-            "word":"stát",
-            "translate":["стоять"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "AF232FEC-6A4A-4385-ADFE-B82C36E21330"
-        },
-        {
-            "word":"zajímat",
-            "translate":["интересоваться"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "1FF6AFED-D915-4370-A59C-698C5664BF72"
-        },
-        {
-            "word":"odcházet",
-            "translate":["отходить", "уходить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "EBD398AE-4C9B-423D-A3EB-D7ADD2C62C8D"
-        },
-        {
-            "word":"odpovídat",
-            "translate":["отвечать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "19096F03-2BDC-47FA-AC7A-4806BDDC0A87"
-        },
-        {
-            "word":"probrat",
-            "translate":["обсудить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "A6E7F9E3-4C61-4B7B-968D-E6A0B0CBF6FB"
-        },
-        {
-            "word":"rozjet",
-            "translate":["завести", "тронуться"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "2546B4C6-C277-4027-85B7-AD8A47F3FFB4"
-        },
-        {
-            "word":"zeptat",
-            "translate":["спрашивать"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "B023A49E-34FE-4411-8C6E-D341E1DB788F"
-        },
-        {
-            "word":"vyslovovat",
-            "translate":["произносить"],
-            "exercises":[1,2],
-            "partOfSpeech":"verb",
-            "version":1,
-            "uuid": "812BAB92-1E5A-439F-B3C2-9DAF96B2520C"
-        },
-        {
-            "word":"Nutný",
-            "translate":["нужный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "5297C93B-39CC-401E-A5AD-7E7B42B98E93"
-        },
-        {
-            "word":"Těžký",
-            "translate":["тежялый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "E2280682-39D4-4086-9483-1DA9C40FF12F"
-        },
-        {
-            "word":"Hnědy",
-            "translate":["коричнеый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "C3BC05A1-0406-4AA4-9512-A924B4BC4F4C"
-        },
-        {
-            "word":"Horký",
-            "translate":["горячий"],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "AFDF92F3-4883-41E0-94E6-2DB55F93ACBD"
-        },
-        {
-            "word":"Trvaly",
-            "translate":["непрерывный"],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "ABF82E7B-7B21-414C-8BBF-C36C6F8D4C97"
-        },
-        {
-            "word":"Hnusný",
-            "translate":["отвратительный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "AF3D30D0-76C6-4C20-B272-1E1CD352FA2A"
-        },
-        {
-            "word":"Pěkny",
-            "translate":["красивый", "хороший"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "F4E445D2-C010-4D81-97A1-4C7182F13340"
-        },
-        {
-            "word":"Líny",
-            "translate":["ленивый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "8313F329-3788-4CAE-A3FC-64A4AC1A18CF"
-        },
-        {
-            "word":"Zajímava",
-            "translate":["интересный", "занимательный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "E815DE09-908A-4619-A5BD-9750DAAF2AED"
-        },
-        {
-            "word":"Divný",
-            "translate":["стра́нный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "6E7F6E42-622F-4F3F-8710-EC619604F9CF"
-        },
-        {
-            "word":"Nízký",
-            "translate":["низкий"],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "23E102B2-AB8B-40F2-85BB-DB92030E8A50"
-        },
-        {
-            "word":"Špinavý",
-            "translate":["грязный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "39E6E48D-4DD1-4D20-A3C4-4484BB109FF7"
-        },
-        {
-            "word":"Hlasitý",
-            "translate":["громкий"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "90D3A412-B8D9-4004-955D-5111D260E174"
-        },
-        {
-            "word":"Hubený",
-            "translate":["худой"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "49D85359-6609-4D80-A047-165357E645DB"
-        },
-        {
-            "word":"Ošklivý",
-            "translate":["безобразный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "06D746E9-E1A1-4BF9-8ED5-05DBBA6185F9"
-        },
-        {
-            "word":"Známý",
-            "translate":["известный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "67B573F3-38CC-41D5-988F-D368927A0965"
-        },
-        {
-            "word":"Chytrý",
-            "translate":["умный", "остроумный", "хитрый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "63EA3947-785C-4A6F-933B-039ED3FBFEF4"
-        },
-        {
-            "word":"stupidní",
-            "translate":["тупой"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "F5D2BEC7-B8AE-4214-8F09-54D00F78826C"
-        },
-        {
-            "word":"nepříjemný",
-            "translate":["неприятный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "237F9A17-B1DF-4A0A-9876-45DB2C4F815E"
-        },
-        {
-            "word":"důležitý",
-            "translate":["важный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "780A678E-E240-4722-8D84-1BB0609047EA"
-        },
-        {
-            "word":"hodný",
-            "translate":["хороший", "добрый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "BEE7B596-0E44-4B34-9DEA-6FDB3B4C04D5"
-        },
-        {
-            "word":"hodně",
-            "translate":["много"],
-            "exercises":[1,2],
-            "partOfSpeech":"adverb",
-            "version":1,
-            "uuid": "CA60C0DA-9783-4EB3-B11D-E966FE0AC936"
-        },
-        {
-            "word":"kapesní",
-            "translate":["карманный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "EFEA021C-EEEB-44DD-9654-D6C279E3305F"
-        },
-        {
-            "word":"mladší",
-            "translate":["младший"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "EEA5B60D-33FC-4B9F-A39B-DF9FE361AD7A"
-        },
-        {
-            "word":"nadřízený, nadřízená",
-            "translate":["вышестоящий", "начальник"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "883B042A-75AE-4DAF-BB01-8E206ED4D229"
-        },
-        {
-            "word":"populární",
-            "translate":["популярный", "известный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "4335A256-6EDC-4A62-854C-9632FFDC84D0"
-        },
-        {
-            "word":"postel",
-            "translate":["кровать"],
-            "exercises":[1,2],
-            "partOfSpeech":"noun",
-            "version":1,
-            "uuid": "C72ACCBA-B96D-44D8-A345-611F3138B8C7"
-        },
-        {
-            "word":"potraviny",
-            "translate":["продукты питания"],
-            "exercises":[1,2],
-            "partOfSpeech":"noun",
-            "version":1,
-            "uuid": "3429E174-8C24-4EFB-A680-FACAF30C136D"
-        },
-        {
-            "word":"práce",
-            "translate":["работа", "труд"],
-            "exercises":[1,2],
-            "partOfSpeech":"noun",
-            "version":1,
-            "uuid": "97A3C614-2107-4DEF-A69B-935385149AA1"
-        },
-        {
-            "word":"příbuzný",
-            "translate":["родственный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "C5ECD228-6F9A-4048-A47B-88434E723822"
-        },
-        {
-            "word":"příjemný",
-            "translate":["милый", "приятный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "24C64FD6-1B77-44CA-9F34-13B07D42ADA2"
-        },
-        {
-            "word":"růžový",
-            "translate":["розовый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "16904938-448D-4563-826D-24CFF81BE520"
-        },
-        {
-            "word":"starší",
-            "translate":["старший", "пожилой"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "902B3286-A90E-47F0-90C3-49B2FB6943A8"
-        },
-        {
-            "word":"strašný",
-            "translate":["страшный", "ужасный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "8279567F-085B-4A65-A7CB-097194BBD104"
-        },
-        {
-            "word":"šikovný",
-            "translate":["ловкий", "умелый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "148BC4DB-9757-4B30-8BE3-1971CDAE1049"
-        },
-        {
-            "word":"šťastný",
-            "translate":["счастливый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "4CB534D3-E4ED-4D8B-9C92-227074DFF3BA"
-        },
-        {
-            "word":"veselý",
-            "translate":["веселый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "F30FC030-1D48-4B13-8C64-4F97085722C7"
-        },
-        {
-            "word":"unavený",
-            "translate":["усталый", "утомленный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "AE754034-AE48-42FF-8AB0-956F46EBBA29"
-        },
-        {
-            "word":"úředník",
-            "translate":["служащий", "чиновник"],
-            "exercises":[1,2],
-            "partOfSpeech":"noun",
-            "version":1,
-            "uuid": "E944ABEF-5852-44CD-954A-C958A7C5706C"
-        },
-        {
-            "word":"vdaná",
-            "translate":["замужняя"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "7E01B3F5-5444-4E3B-A411-A75DAA17AE14"
-        },
-        {
-            "word":"vlastní",
-            "translate":["собственный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "F57D0539-7561-4861-A16C-E8CF7777DC23"
-        },
-        {
-            "word":"volný",
-            "translate":["свободный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "997EA19F-3058-49EE-8E02-54C84ECAEDD2"
-        },
-        {
-            "word":"ženatý",
-            "translate":["женатый"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "A8E709E2-0121-47DE-97A8-B99FA4F341FB"
-        },
-        {
-            "word":"spolehlivý",
-            "translate":["надежный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "247F7031-A3AD-4E1B-963D-A9A4328D0F89"
-        },
-        {
-            "word":"neodkladný",
-            "translate":["неотло́жный"],
-            "exercises":[1,2],
-            "partOfSpeech":"adjective",
-            "version":1,
-            "uuid": "5DC61B34-386A-46E1-BCF5-1729B460686D"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "5D6B12DD-F0EF-4F95-86C6-3F1236AF6AD9"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "A5AEA747-BBA2-45A7-8AC4-238E732727C5"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "F8427E38-5B63-4278-8887-5B3831C33668"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "49DC113A-5DC7-443D-B002-34DB25B81DFE"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "AE900667-99F0-48F4-B469-46A2706ED826"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "3A4CD84F-968D-447C-94CB-BAFD69395F4C"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "99EB4153-085F-4E29-B8D4-CEE27749F7D9"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "C412F370-1E30-4FEE-8E35-356B3EEFFCCE"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "348408E0-1392-4D60-A5D7-22883F8752A4"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "3566F9A2-DBE0-44F5-95A9-AA7A0F7D68E5"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "5F3C5B9E-591C-4643-B6B3-797C52E8A0FD"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "6E4B0915-4AEB-4051-878E-6F84AB35B215"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "5535F7B3-EABF-4C5E-9E39-9B3DDC5EC186"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "3612503C-DD6A-4603-A3CE-AC3036A05FD6"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "F2651D4A-B08A-4BA7-9448-B92F328EB84E"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "DDB1D8FB-C7AE-4B63-BC6D-94C52C2211FF"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "769EF17D-D6ED-4012-86F2-CBA17F9C0722"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "AEA8C457-13B4-4F0A-95E7-ACAD5795CBFD"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "6704B60F-4480-4CB5-8AA8-25E94F09B06C"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "730DCF17-C557-480A-80D2-CBF35EE17D5D"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "9C354153-4FE5-4024-9008-E39E82017AFB"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "5FD2F36A-CF04-47F1-A31C-B90E2DE13DC3"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "9B906C3D-32D4-45FD-A781-3A19E3DD7296"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": "F199EE07-1C49-47F4-B475-BC6965EF7BFA"
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-        {
-            "word":"",
-            "translate":[""],
-            "exercises":[1,2],
-            "partOfSpeech":"",
-            "version":1,
-            "uuid": ""
-        },
-    ],
-    "version": "1.0.0"
+  "from": "Czech",
+  "to": "Russian",
+  "words": [
+    {
+      "word": "chtit",
+      "translate": [
+        "хотеть"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "4D047ECE-B55D-4999-862B-2354B538EE53"
+    },
+    {
+      "word": "nest",
+      "translate": [
+        "нести"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "52577A0C-90B2-4A78-9D1C-F15060DE4149"
+    },
+    {
+      "word": "Řict",
+      "translate": [
+        "сказать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "74AEA036-048B-45E0-BB96-A64CD9A373A1"
+    },
+    {
+      "word": "říkat",
+      "translate": [
+        "сказать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "4AD2A5AD-2A0F-4033-B9A4-A9BDF0090BD3"
+    },
+    {
+      "word": "Žádat",
+      "translate": [
+        "просить",
+        "требовать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "8F422549-F86F-4629-BC1A-6FC38ABB564E"
+    },
+    {
+      "word": "Půjčit",
+      "translate": [
+        "одолжить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "94A51AB5-0130-4E1C-A584-47A14894DE20"
+    },
+    {
+      "word": "Rozumět",
+      "translate": [
+        "понимать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "D407C961-003E-4407-BEEC-C6925B2B6A8B"
+    },
+    {
+      "word": "Měřit",
+      "translate": [
+        "мерять"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "0B093167-C5E4-4A58-8B97-536A6991FE76"
+    },
+    {
+      "word": "Chybět",
+      "translate": [
+        "не хватать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "91C4C9C8-07B5-43D1-A985-2B2157DC4238"
+    },
+    {
+      "word": "Mluvit",
+      "translate": [
+        "говорить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "94A5C783-D6B3-47FF-B3F1-F894B07B846E"
+    },
+    {
+      "word": "Psát",
+      "translate": [
+        "писать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "E919CC47-D2E0-44EB-9A91-1A3C8A615594"
+    },
+    {
+      "word": "Ptát (se)",
+      "translate": [
+        "спросить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "59F7CC29-562F-4C18-9F68-7A28028FB27E"
+    },
+    {
+      "word": "Prominout",
+      "translate": [
+        "простить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "C9502EA3-D16D-4885-A4A6-6D0E4410A0B4"
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": "D8EA1C45-DDD0-49B4-86DB-F2A2EAABE63C"
+    },
+    {
+      "word": "Cvičit",
+      "translate": [
+        "тренироваться"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "F325D0B4-FCD1-4824-9DAE-A1F89813EBC2"
+    },
+    {
+      "word": "Radit",
+      "translate": [
+        "советовать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "07F9C002-726D-4574-95F3-534C8AF03CC3"
+    },
+    {
+      "word": "Pokračovat",
+      "translate": [
+        "продолжать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "4BED5025-60C3-4C66-8C11-07C2FED533FF"
+    },
+    {
+      "word": "Jít",
+      "translate": [
+        "идти"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": "703443DD-83FF-4899-B665-2C85EFE076BA"
+    },
+    {
+      "word": "Jet",
+      "translate": [
+        "ехать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "E6F7335E-2FF0-4014-8409-742A8B1D2346"
+    },
+    {
+      "word": "Jel",
+      "translate": [
+        "ехал"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "C1EE54F7-AD3A-47D3-B160-7AC0F6255934"
+    },
+    {
+      "word": "Šel",
+      "translate": [
+        "шёл"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "B8C49C8C-48F7-490E-8F52-CA71DAFAC11E"
+    },
+    {
+      "word": "Jist",
+      "translate": [
+        "есть",
+        "кушать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "6EB05F62-D4B3-4716-A833-87D025D07306"
+    },
+    {
+      "word": "Cestovat",
+      "translate": [
+        "путешестовать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "0E568450-220D-4147-9D08-A05CDB2F52BA"
+    },
+    {
+      "word": "Foukat",
+      "translate": [
+        "дуть",
+        "сквозить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "8C433E9E-8067-4638-9822-51AAE9D78F18"
+    },
+    {
+      "word": "Čist",
+      "translate": [
+        "читать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "85A3C1F9-1707-434D-8246-156C79E0790C"
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": "37A34366-4882-49DE-94FA-A203F512DB15"
+    },
+    {
+      "word": "Dostat",
+      "translate": [
+        "получить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "CBE86D77-131F-4767-A918-4B978BE1B663"
+    },
+    {
+      "word": "dostat se",
+      "translate": [
+        "дойти",
+        "добраться"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "D6CBCAB2-2E0A-4628-942F-E20756683DE1"
+    },
+    {
+      "word": "snažit se",
+      "translate": [
+        "стараться",
+        "стремиться к чему-либо"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "63D0F766-5667-4A71-8715-DF7D656E80C9"
+    },
+    {
+      "word": "Povídat",
+      "translate": [
+        "рассказывать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "51730DDD-E980-45CF-A810-BD8128052C32"
+    },
+    {
+      "word": "umět",
+      "translate": [
+        "уметь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "B8EE6D4F-FBE1-4863-82D1-947A9B850B6D"
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "770E766B-9008-4B29-9C80-528CE9019515"
+    },
+    {
+      "word": "smět",
+      "translate": [
+        "сметь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "B5864813-D524-40D8-9AC1-5CAE357DA3F9"
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "1C692A00-A15A-4E79-8511-49D129D445CC"
+    },
+    {
+      "word": "chtít",
+      "translate": [
+        "хотеть"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "6D93CC6C-682F-4C8A-A432-1FD2C8901098"
+    },
+    {
+      "word": "muset",
+      "translate": [
+        "должен"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "820984A7-2DCC-4D41-9D56-832AF16903B4"
+    },
+    {
+      "word": "moct",
+      "translate": [
+        "мочь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "3225F2E5-6FD7-46F0-89ED-582762A67CAF"
+    },
+    {
+      "word": "mít",
+      "translate": [
+        "иметь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "819D6A47-48C6-4FF1-A25F-0C1DAFBE978B"
+    },
+    {
+      "word": "malovat",
+      "translate": [
+        "рисовать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "73C8CD30-959E-4072-B59C-062B9CCBB2FF"
+    },
+    {
+      "word": "tancovat",
+      "translate": [
+        "танцевать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "81A76037-343E-44EB-AC1B-EA86D925D5A0"
+    },
+    {
+      "word": "sportovat",
+      "translate": [
+        "заниматься спортом"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "030836D6-9FA8-4C71-ADDB-48E4B1B8F015"
+    },
+    {
+      "word": "fotografovat",
+      "translate": [
+        "фотографировать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "C0538A27-92A7-4119-9633-AAD7D7B0A9E7"
+    },
+    {
+      "word": "opravovat",
+      "translate": [
+        "исправлять"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "0A861905-9B1A-4631-88DD-7CA71CD94D61"
+    },
+    {
+      "word": "cestovat",
+      "translate": [
+        "путешствовать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "E4F050D2-B302-4C14-A22D-0A768865CFFA"
+    },
+    {
+      "word": "opakovat",
+      "translate": [
+        "повторять",
+        "репетировать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "C6058450-6B2E-4799-8EF5-A9AC6735DB5D"
+    },
+    {
+      "word": "pít",
+      "translate": [
+        "пить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "74617041-3157-4058-AE13-CE16C6124CDD"
+    },
+    {
+      "word": "žít",
+      "translate": [
+        "жить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "06E4EDB6-9A76-4ECF-B412-01475CCD3BC2"
+    },
+    {
+      "word": "mýt",
+      "translate": [
+        "мыть"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "979A93B8-DCF0-426A-BFA6-656E462D5AFF"
+    },
+    {
+      "word": "hrát",
+      "translate": [
+        "играть"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "47B20E25-B917-40DE-9D90-3F50B5F66492"
+    },
+    {
+      "word": "spěchat",
+      "translate": [
+        "спешить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "1A7E7C7D-40E3-47FE-A305-B03951B3674F"
+    },
+    {
+      "word": "snídat (co)",
+      "translate": [
+        "завтракать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "E7909DB7-0DEB-492F-9FBD-C1B63068C3B7"
+    },
+    {
+      "word": "obědvat",
+      "translate": [
+        "обедать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "E2B4642E-B4FA-4796-9722-1AB721278E47"
+    },
+    {
+      "word": "vstávat",
+      "translate": [
+        "вставать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "E789B2B0-8EB0-4243-8553-38323D5D8AF6"
+    },
+    {
+      "word": "usmívat se",
+      "translate": [
+        "улыбаться"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "13B69828-DA5D-47B7-98B7-B94927F1E021"
+    },
+    {
+      "word": "odpočívat",
+      "translate": [
+        "отдыхаю"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "96D9308A-C3DB-4BF2-8C29-C9C8AA730CA0"
+    },
+    {
+      "word": "oblékat se",
+      "translate": [
+        "одевать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "E83283FA-1F74-42D1-AC3C-63CB7F3AED9E"
+    },
+    {
+      "word": "oblékat si",
+      "translate": [
+        "одеваться"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "45A69BD4-8A58-4A5B-962F-9A8DB307E94C"
+    },
+    {
+      "word": "znát",
+      "translate": [
+        "знать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "DF55A3A2-D28A-4156-BDFE-242AC11B6315"
+    },
+    {
+      "word": "posílat",
+      "translate": [
+        "посылать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "2C11DB8C-27F2-4608-BCFC-E0E5185F1493"
+    },
+    {
+      "word": "rozumět (komu, čemu)",
+      "translate": [
+        "понимать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "B81A694A-CA68-400C-98D3-67BA8352EF16"
+    },
+    {
+      "word": "sedět",
+      "translate": [
+        "сидеть"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "D4212460-3DE2-4447-BC3D-6901FF19274F"
+    },
+    {
+      "word": "ležet",
+      "translate": [
+        "лежать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "AE1714FE-222D-4245-B47E-C5F0F0425F82"
+    },
+    {
+      "word": "vařit (co)",
+      "translate": [
+        "варить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "5A30CC9D-C3DB-4A67-AEDF-B2DBC77FE12C"
+    },
+    {
+      "word": "uklízet (co)",
+      "translate": [
+        "убирать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "DC96374D-108B-486A-8520-32F59A9DBE2B"
+    },
+    {
+      "word": "večeřet (co)",
+      "translate": [
+        "ужинать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "9D4CA5A3-DBEA-45C3-B1F8-A1B2DF0D0CCE"
+    },
+    {
+      "word": "čistit",
+      "translate": [
+        "чистить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "9E947F6E-71B4-4E43-9283-4AA2133E8523"
+    },
+    {
+      "word": "myslet (na koho/co)",
+      "translate": [
+        "мыслить",
+        "думать о"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "710C8978-1EF3-402D-9538-6BBEEC66D256"
+    },
+    {
+      "word": "učit (koho/co)",
+      "translate": [
+        "учить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "C92F722D-553A-4A59-87F0-0D5FEB188B2A"
+    },
+    {
+      "word": "učit se (co)",
+      "translate": [
+        "учиться"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "6FD1947C-752C-44A4-B08A-79087410BCB1"
+    },
+    {
+      "word": "bydlet",
+      "translate": [
+        "жить",
+        "проживать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "9D9390CE-B345-4829-B27C-10B7FB6686EB"
+    },
+    {
+      "word": "řídit (co)",
+      "translate": [
+        "водить",
+        "рулить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "9ABCC636-E101-4AC7-89D1-ACB597B64BB8"
+    },
+    {
+      "word": "prohlížet si (koho/co)",
+      "translate": [
+        "осматривать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "BC4921AA-71BF-4040-8284-0EF502BD13DE"
+    },
+    {
+      "word": "nenávidět (co)",
+      "translate": [
+        "ненавидеть"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "D189C66B-AF37-460A-9194-6FE8E6E40A87"
+    },
+    {
+      "word": "nesnášet (co)",
+      "translate": [
+        "непереносить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "973932D8-CB72-4F81-8496-81E17AA8A492"
+    },
+    {
+      "word": "líbit se (komu)",
+      "translate": [
+        "нравиться"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "38938EAC-EAA5-4C08-B61C-A09A236CBDD3"
+    },
+    {
+      "word": "chodit",
+      "translate": [
+        "ходить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "A2705B99-316E-4D21-B3C0-C75E99E605D2"
+    },
+    {
+      "word": "spát",
+      "translate": [
+        "спать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "98A84AF5-CD0B-4403-BA9F-1D5CEA6A0319"
+    },
+    {
+      "word": "vědět",
+      "translate": [
+        "знать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "DF352563-2039-4EE9-8024-8230E6A16FF1"
+    },
+    {
+      "word": "umět",
+      "translate": [
+        "уметь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "0EC9309A-04B4-41A4-8F30-8FBD28DDD12C"
+    },
+    {
+      "word": "mlčet",
+      "translate": [
+        "молчать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "669D8762-3B0D-46FC-891E-BDB762A924A9"
+    },
+    {
+      "word": "psát (co)",
+      "translate": [
+        "писать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "B4DB12C9-F67E-4E8D-84EB-51C13446B3D6"
+    },
+    {
+      "word": "číst",
+      "translate": [
+        "читать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "326DECAA-5088-4549-9154-A82666FF71D9"
+    },
+    {
+      "word": "plakat",
+      "translate": [
+        "плакать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "B425E751-06D4-413A-9B2D-480E2D7FAEDB"
+    },
+    {
+      "word": "vědět",
+      "translate": [
+        "знать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "991D65BA-8F7D-4293-B6F4-5F3EEF1F62DA"
+    },
+    {
+      "word": "zvát",
+      "translate": [
+        "звать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "F188CA35-5AA2-4346-8462-C184ED066992"
+    },
+    {
+      "word": "moct",
+      "translate": [
+        "мочь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "65FBE526-1107-4D66-B901-450BAE86226A"
+    },
+    {
+      "word": "brát(co)",
+      "translate": [
+        "брать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "DF2BB6EA-7203-4A24-91A6-2AF70DCB0AD7"
+    },
+    {
+      "word": "nést (co)",
+      "translate": [
+        "нести"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "8E5CFA8E-F0B2-4F0B-A0DE-69F8A0D122F6"
+    },
+    {
+      "word": "pomoct",
+      "translate": [
+        "помогать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "49723F51-8584-4B33-B2A8-0E50A162C01C"
+    },
+    {
+      "word": "tisknout",
+      "translate": [
+        "печатать",
+        "прижимать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "9A78CB93-F26D-4F0E-B64B-952F19851E30"
+    },
+    {
+      "word": "stát",
+      "translate": [
+        "стоять"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "AF232FEC-6A4A-4385-ADFE-B82C36E21330"
+    },
+    {
+      "word": "zajímat",
+      "translate": [
+        "интересоваться"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "1FF6AFED-D915-4370-A59C-698C5664BF72"
+    },
+    {
+      "word": "odcházet",
+      "translate": [
+        "отходить",
+        "уходить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "EBD398AE-4C9B-423D-A3EB-D7ADD2C62C8D"
+    },
+    {
+      "word": "odpovídat",
+      "translate": [
+        "отвечать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "19096F03-2BDC-47FA-AC7A-4806BDDC0A87"
+    },
+    {
+      "word": "probrat",
+      "translate": [
+        "обсудить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "A6E7F9E3-4C61-4B7B-968D-E6A0B0CBF6FB"
+    },
+    {
+      "word": "rozjet",
+      "translate": [
+        "завести",
+        "тронуться"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "2546B4C6-C277-4027-85B7-AD8A47F3FFB4"
+    },
+    {
+      "word": "zeptat",
+      "translate": [
+        "спрашивать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "B023A49E-34FE-4411-8C6E-D341E1DB788F"
+    },
+    {
+      "word": "vyslovovat",
+      "translate": [
+        "произносить"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "812BAB92-1E5A-439F-B3C2-9DAF96B2520C"
+    },
+    {
+      "word": "Nutný",
+      "translate": [
+        "нужный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "5297C93B-39CC-401E-A5AD-7E7B42B98E93"
+    },
+    {
+      "word": "Těžký",
+      "translate": [
+        "тежялый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "E2280682-39D4-4086-9483-1DA9C40FF12F"
+    },
+    {
+      "word": "Hnědy",
+      "translate": [
+        "коричнеый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "C3BC05A1-0406-4AA4-9512-A924B4BC4F4C"
+    },
+    {
+      "word": "Horký",
+      "translate": [
+        "горячий"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": "AFDF92F3-4883-41E0-94E6-2DB55F93ACBD"
+    },
+    {
+      "word": "Trvaly",
+      "translate": [
+        "непрерывный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": "ABF82E7B-7B21-414C-8BBF-C36C6F8D4C97"
+    },
+    {
+      "word": "Hnusný",
+      "translate": [
+        "отвратительный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "AF3D30D0-76C6-4C20-B272-1E1CD352FA2A"
+    },
+    {
+      "word": "Pěkny",
+      "translate": [
+        "красивый",
+        "хороший"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "F4E445D2-C010-4D81-97A1-4C7182F13340"
+    },
+    {
+      "word": "Líny",
+      "translate": [
+        "ленивый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "8313F329-3788-4CAE-A3FC-64A4AC1A18CF"
+    },
+    {
+      "word": "Zajímava",
+      "translate": [
+        "интересный",
+        "занимательный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "E815DE09-908A-4619-A5BD-9750DAAF2AED"
+    },
+    {
+      "word": "Divný",
+      "translate": [
+        "стра́нный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "6E7F6E42-622F-4F3F-8710-EC619604F9CF"
+    },
+    {
+      "word": "Nízký",
+      "translate": [
+        "низкий"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": "23E102B2-AB8B-40F2-85BB-DB92030E8A50"
+    },
+    {
+      "word": "Špinavý",
+      "translate": [
+        "грязный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "39E6E48D-4DD1-4D20-A3C4-4484BB109FF7"
+    },
+    {
+      "word": "Hlasitý",
+      "translate": [
+        "громкий"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "90D3A412-B8D9-4004-955D-5111D260E174"
+    },
+    {
+      "word": "Hubený",
+      "translate": [
+        "худой"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "49D85359-6609-4D80-A047-165357E645DB"
+    },
+    {
+      "word": "Ošklivý",
+      "translate": [
+        "безобразный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "06D746E9-E1A1-4BF9-8ED5-05DBBA6185F9"
+    },
+    {
+      "word": "Známý",
+      "translate": [
+        "известный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "67B573F3-38CC-41D5-988F-D368927A0965"
+    },
+    {
+      "word": "Chytrý",
+      "translate": [
+        "умный",
+        "остроумный",
+        "хитрый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "63EA3947-785C-4A6F-933B-039ED3FBFEF4"
+    },
+    {
+      "word": "stupidní",
+      "translate": [
+        "тупой"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "F5D2BEC7-B8AE-4214-8F09-54D00F78826C"
+    },
+    {
+      "word": "nepříjemný",
+      "translate": [
+        "неприятный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "237F9A17-B1DF-4A0A-9876-45DB2C4F815E"
+    },
+    {
+      "word": "důležitý",
+      "translate": [
+        "важный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "780A678E-E240-4722-8D84-1BB0609047EA"
+    },
+    {
+      "word": "hodný",
+      "translate": [
+        "хороший",
+        "добрый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "BEE7B596-0E44-4B34-9DEA-6FDB3B4C04D5"
+    },
+    {
+      "word": "hodně",
+      "translate": [
+        "много"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "CA60C0DA-9783-4EB3-B11D-E966FE0AC936"
+    },
+    {
+      "word": "kapesní",
+      "translate": [
+        "карманный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "EFEA021C-EEEB-44DD-9654-D6C279E3305F"
+    },
+    {
+      "word": "mladší",
+      "translate": [
+        "младший"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "EEA5B60D-33FC-4B9F-A39B-DF9FE361AD7A"
+    },
+    {
+      "word": "nadřízený, nadřízená",
+      "translate": [
+        "вышестоящий",
+        "начальник"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "883B042A-75AE-4DAF-BB01-8E206ED4D229"
+    },
+    {
+      "word": "populární",
+      "translate": [
+        "популярный",
+        "известный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "4335A256-6EDC-4A62-854C-9632FFDC84D0"
+    },
+    {
+      "word": "postel",
+      "translate": [
+        "кровать"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "C72ACCBA-B96D-44D8-A345-611F3138B8C7"
+    },
+    {
+      "word": "potraviny",
+      "translate": [
+        "продукты питания"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3429E174-8C24-4EFB-A680-FACAF30C136D"
+    },
+    {
+      "word": "práce",
+      "translate": [
+        "работа",
+        "труд"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "97A3C614-2107-4DEF-A69B-935385149AA1"
+    },
+    {
+      "word": "příbuzný",
+      "translate": [
+        "родственный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "C5ECD228-6F9A-4048-A47B-88434E723822"
+    },
+    {
+      "word": "příjemný",
+      "translate": [
+        "милый",
+        "приятный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "24C64FD6-1B77-44CA-9F34-13B07D42ADA2"
+    },
+    {
+      "word": "růžový",
+      "translate": [
+        "розовый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "16904938-448D-4563-826D-24CFF81BE520"
+    },
+    {
+      "word": "starší",
+      "translate": [
+        "старший",
+        "пожилой"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "902B3286-A90E-47F0-90C3-49B2FB6943A8"
+    },
+    {
+      "word": "strašný",
+      "translate": [
+        "страшный",
+        "ужасный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "8279567F-085B-4A65-A7CB-097194BBD104"
+    },
+    {
+      "word": "šikovný",
+      "translate": [
+        "ловкий",
+        "умелый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "148BC4DB-9757-4B30-8BE3-1971CDAE1049"
+    },
+    {
+      "word": "šťastný",
+      "translate": [
+        "счастливый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "4CB534D3-E4ED-4D8B-9C92-227074DFF3BA"
+    },
+    {
+      "word": "veselý",
+      "translate": [
+        "веселый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "F30FC030-1D48-4B13-8C64-4F97085722C7"
+    },
+    {
+      "word": "unavený",
+      "translate": [
+        "усталый",
+        "утомленный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "AE754034-AE48-42FF-8AB0-956F46EBBA29"
+    },
+    {
+      "word": "úředník",
+      "translate": [
+        "служащий",
+        "чиновник"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "E944ABEF-5852-44CD-954A-C958A7C5706C"
+    },
+    {
+      "word": "vdaná",
+      "translate": [
+        "замужняя"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "7E01B3F5-5444-4E3B-A411-A75DAA17AE14"
+    },
+    {
+      "word": "vlastní",
+      "translate": [
+        "собственный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "F57D0539-7561-4861-A16C-E8CF7777DC23"
+    },
+    {
+      "word": "volný",
+      "translate": [
+        "свободный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "997EA19F-3058-49EE-8E02-54C84ECAEDD2"
+    },
+    {
+      "word": "ženatý",
+      "translate": [
+        "женатый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "A8E709E2-0121-47DE-97A8-B99FA4F341FB"
+    },
+    {
+      "word": "spolehlivý",
+      "translate": [
+        "надежный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "247F7031-A3AD-4E1B-963D-A9A4328D0F89"
+    },
+    {
+      "word": "neodkladný",
+      "translate": [
+        "неотло́жный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "5DC61B34-386A-46E1-BCF5-1729B460686D"
+    },
+    {
+      "word": "naléhavý",
+      "translate": [
+        "срочно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": "5D6B12DD-F0EF-4F95-86C6-3F1236AF6AD9"
+    },
+    {
+      "word": "jednotlivý",
+      "translate": [
+        "одино́чный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": "A5AEA747-BBA2-45A7-8AC4-238E732727C5"
+    },
+    {
+      "word": "jednoduchý",
+      "translate": [
+        "простой"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": "F8427E38-5B63-4278-8887-5B3831C33668"
+    },
+    {
+      "word": "jednoduše",
+      "translate": [
+        "просто"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "49DC113A-5DC7-443D-B002-34DB25B81DFE"
+    },
+    {
+      "word": "Laska",
+      "translate": [
+        "любовь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9ABCC636-E101-4AC7-89D1-ACB597B64BB8"
+    },
+    {
+      "word": "Rodina",
+      "translate": [
+        "семья"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "566C0E11-4BA5-4242-ABC6-6B85130305CA"
+    },
+    {
+      "word": "Přani",
+      "translate": [
+        "желание"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "0BAC632E-27E5-4741-8DE1-18399C344B07"
+    },
+    {
+      "word": "Slunce",
+      "translate": [
+        "солнце"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "EE9391FC-51B8-4EB2-B0B2-71A482FECA41"
+    },
+    {
+      "word": "Úkol",
+      "translate": [
+        "задание"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "4FD2C24E-2C47-49A3-B645-CA13D4A01706"
+    },
+    {
+      "word": "Rada",
+      "translate": [
+        "совет"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "50FFCEFC-2BAB-459F-80DD-32E394AE6050"
+    },
+    {
+      "word": "Zpráva",
+      "translate": [
+        "новость"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "D1A3F930-6349-45C9-B6D3-5B6ECC437F29"
+    },
+    {
+      "word": "Lhuta",
+      "translate": [
+        "срок"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "6E2F99C6-1AF2-4225-8310-18F667CA4489"
+    },
+    {
+      "word": "Půčovna",
+      "translate": [
+        "прока́тный пункт"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "DF68B65C-65BE-44BB-B71D-BD920C661017"
+    },
+    {
+      "word": "Účel",
+      "translate": [
+        "цель",
+        "намерение",
+        "purpose"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "78D7E06D-0E0B-4BB0-82A4-2D420649C8AB"
+    },
+    {
+      "word": "Cíl",
+      "translate": [
+        "цель",
+        "target",
+        "goal"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "66D5988F-72B5-4A7C-A407-04C1CD2C635A"
+    },
+    {
+      "word": "Smlouva",
+      "translate": [
+        "договор"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "ECF6C729-5851-4424-B386-61C3908C1A60"
+    },
+    {
+      "word": "Město",
+      "translate": [
+        "город"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "423ECE9E-A2C8-4181-840C-C4CF25E933B3"
+    },
+    {
+      "word": "Místo",
+      "translate": [
+        "место"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3852ED99-CC6F-4EAE-9DFD-B97DBA99AB3A"
+    },
+    {
+      "word": "Hrnek",
+      "translate": [
+        "чашка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "C14762B6-85C8-48DB-9A17-E9A11D9E7320"
+    },
+    {
+      "word": "Kočka",
+      "translate": [
+        "кошка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "B9DE2887-A1C7-41A9-BB4F-9BCB7295BB09"
+    },
+    {
+      "word": "Guma",
+      "translate": [
+        "резина"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9B9E5710-2FDA-465E-924D-43D729484C67"
+    },
+    {
+      "word": "Židle",
+      "translate": [
+        "стул"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "93265D01-B4C0-46F1-B832-9E63D379403E"
+    },
+    {
+      "word": "Stůl",
+      "translate": [
+        "стол"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "EE3F5736-F0AB-4F2B-90C0-5A44CE202CDB"
+    },
+    {
+      "word": "Lavice",
+      "translate": [
+        "лавка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "F42E6082-38A0-41E8-AD1B-1E964DC08656"
+    },
+    {
+      "word": "Lampa",
+      "translate": [
+        "лампа"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3C4BDB4B-C273-4964-ABDE-0F2B9D24FDEB"
+    },
+    {
+      "word": "Tužka",
+      "translate": [
+        "карандаш"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "5B749704-A697-4149-A81D-B531C98184D3"
+    },
+    {
+      "word": "Počitač",
+      "translate": [
+        "компьютер"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "5A5B6A22-1DF6-40E5-830C-C32D1EA3485C"
+    },
+    {
+      "word": "Aktovka",
+      "translate": [
+        "портфель"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A2E79F97-5027-43ED-90AB-AC46B467CA60"
+    },
+    {
+      "word": "Pes",
+      "translate": [
+        "пёс"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "875132AB-FA7D-413D-9C20-6B2FD33D4929"
+    },
+    {
+      "word": "Pero",
+      "translate": [
+        "ручка пишущая"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9652C402-6338-4778-9B72-0212D392A4DB"
+    },
+    {
+      "word": "Propiska",
+      "translate": [
+        "ручка пищущая"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A34A4B1F-BF24-41AF-A733-2A42B73B5073"
+    },
+    {
+      "word": "Houska",
+      "translate": [
+        "булка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "34744174-5451-4D70-B488-3E567BB504B1"
+    },
+    {
+      "word": "Počasí",
+      "translate": [
+        "погода"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "28033A78-C141-41C8-9E58-97EDCB3FE423"
+    },
+    {
+      "word": "Žadný",
+      "translate": [
+        "никакой"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "745CB420-F018-4C66-8CB2-AE4193A10B73"
+    },
+    {
+      "word": "Kluk",
+      "translate": [
+        "парень"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "CF305436-453B-4D7A-A0BC-17D73181A88E"
+    },
+    {
+      "word": "Venku",
+      "translate": [
+        "знадворку (где)"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "0FB814CD-EDA2-410B-AA01-7C02513355CA"
+    },
+    {
+      "word": "Ven",
+      "translate": [
+        "out (куда)"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "10D6AC71-C85D-4B56-B192-A0B73409197B"
+    },
+    {
+      "word": "Batoh",
+      "translate": [
+        "рюкзак"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "48EC9122-E964-4ECA-AEE7-408677D8B186"
+    },
+    {
+      "word": "Hudba",
+      "translate": [
+        "музыка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A0BBFFDE-516E-4D7B-9033-6AB56CB8E938"
+    },
+    {
+      "word": "Hlaska",
+      "translate": [
+        "гласная буква"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "E789617C-B8D9-4301-A71F-A70635FADE96"
+    },
+    {
+      "word": "Souhlaska",
+      "translate": [
+        "согласная буква"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "6AE2F64D-6A00-46B9-AD9A-BFC4B435922E"
+    },
+    {
+      "word": "Linka",
+      "translate": [
+        "линия"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A2C85638-ABF6-42F8-9461-4EAF67C8F4BE"
+    },
+    {
+      "word": "Ditě",
+      "translate": [
+        "ребенок"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "483C6DE3-D495-4E19-AF01-E5D77CC4A00D"
+    },
+    {
+      "word": "Týden",
+      "translate": [
+        "неделя"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "49B8E19D-676D-4FF2-83A9-FA0B7CE8EA8A"
+    },
+    {
+      "word": "Písen",
+      "translate": [
+        "песня"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "339E653B-E57B-4039-B2E5-B790553AA9A2"
+    },
+    {
+      "word": "Nahoda",
+      "translate": [
+        "случай"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "766D3E65-5C52-405A-BA44-B89E626ED501"
+    },
+    {
+      "word": "Fronta",
+      "translate": [
+        "очередь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "327E8F8D-DD5B-441D-BBEE-F36AF2C2B7A8"
+    },
+    {
+      "word": "Dálnice",
+      "translate": [
+        "автомагистраль"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "795D21A3-104D-435E-A737-86D212615D27"
+    },
+    {
+      "word": "Stromeček",
+      "translate": [
+        "дерево (иногда как ёлка)"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "00338F4E-03DA-4C5E-A596-9C8D2C97CD7E"
+    },
+    {
+      "word": "Keře",
+      "translate": [
+        "кусты"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "12D518F7-F56E-49F4-AEEF-8E5E374BB060"
+    },
+    {
+      "word": "Rodiče",
+      "translate": [
+        "родители"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "1A00C344-B318-42D6-8D50-59E0BA6987D8"
+    },
+    {
+      "word": "Prarodiče",
+      "translate": [
+        "бабушки и дедушки"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "07E3C8D7-18D6-4BA9-AD70-CD1A1F8DE465"
+    },
+    {
+      "word": "Příbuzni",
+      "translate": [
+        "родственники"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "CE3C712D-05EB-4046-B488-F97C3D49415E"
+    },
+    {
+      "word": "Sourozenci",
+      "translate": [
+        "брат или сестра"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A4871AB0-6ED8-4E9C-8D00-4C3FAE9383D2"
+    },
+    {
+      "word": "Oblečeni",
+      "translate": [
+        "одежда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "6A29740D-A8DC-4030-B296-195C34A45B1D"
+    },
+    {
+      "word": "Síť",
+      "translate": [
+        "сеть"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3DF8F8D2-A67C-4043-B5C3-48D57E5FA170"
+    },
+    {
+      "word": "Tovarna",
+      "translate": [
+        "завод",
+        "фабрика"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "DA8F2E75-3455-4962-8CF8-56031AB75A47"
+    },
+    {
+      "word": "Trh",
+      "translate": [
+        "рынок"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "30736538-8C8C-4C60-B02B-84AF6794CBC0"
+    },
+    {
+      "word": "Vyhled",
+      "translate": [
+        "панорама"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "C6CB0B70-266A-4AA2-B032-25DDE449C758"
+    },
+    {
+      "word": "Dovolena",
+      "translate": [
+        "отпуск"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "DEA87E7B-0387-48B5-8104-6FE3E269B22F"
+    },
+    {
+      "word": "Přestup",
+      "translate": [
+        "пересадка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "BC1DF8C0-C4DE-4EA7-AACD-82F4B2F36DCE"
+    },
+    {
+      "word": "Křižovatka",
+      "translate": [
+        "перекресток"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "030C1E45-09FD-4463-9125-0C2396AD1981"
+    },
+    {
+      "word": "Sjezdovky",
+      "translate": [
+        "горные лыжи"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "502BB3E7-47FA-421B-8C1D-3DA3DBC11676"
+    },
+    {
+      "word": "Lyže",
+      "translate": [
+        "лыжи"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "67BDFB35-9C31-4C3F-B706-A2456EDBB7BD"
+    },
+    {
+      "word": "Béžky",
+      "translate": [
+        "беговые лыжи"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "F2AF6A88-1A63-4B5A-9DC6-9FE5C884FDE3"
+    },
+    {
+      "word": "Prkno",
+      "translate": [
+        "доска"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "CADD1B74-62A4-45A4-9F3C-B136CA1D9AEE"
+    },
+    {
+      "word": "Plavky",
+      "translate": [
+        "плавки"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "0F988E08-925F-4B81-AA1C-AB7BDD62A161"
+    },
+    {
+      "word": "Helma",
+      "translate": [
+        "шлем"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "C2060748-A89B-4B4F-8309-A3A812081100"
+    },
+    {
+      "word": "Bryle plavecke",
+      "translate": [
+        "плавательный очки"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9481D7C0-EA68-4736-8286-EA8CCF3EC81F"
+    },
+    {
+      "word": "Puk",
+      "translate": [
+        "шайба"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "C304377F-8838-497E-B85B-B6D2543A0C62"
+    },
+    {
+      "word": "Míč",
+      "translate": [
+        "мяч"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "E8CFB1C3-36D4-4ACD-AB35-766BC396579E"
+    },
+    {
+      "word": "Činka",
+      "translate": [
+        "гантеля"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "25CEA495-8B10-4584-BE15-6CD147C2F88C"
+    },
+    {
+      "word": "Ovladač",
+      "translate": [
+        "пульт"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "CCB9208C-6087-4ABF-BF4F-B60077D9F92B"
+    },
+    {
+      "word": "Obrazovka",
+      "translate": [
+        "дисплей",
+        "монитор"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "953F729E-49BF-4357-9405-3202CF1E2457"
+    },
+    {
+      "word": "Shůzka",
+      "translate": [
+        "встреча"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "0798FCCD-0FA3-40BD-9EA6-197363E4B63D"
+    },
+    {
+      "word": "Klávesnice",
+      "translate": [
+        "клавиатура"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "D0076A40-3E91-4856-AF8B-AFFCCE30C1E5"
+    },
+    {
+      "word": "Myš",
+      "translate": [
+        "мышь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "AF2567C4-766C-4BF5-AFE6-1BE9F6829F1A"
+    },
+    {
+      "word": "Skřin",
+      "translate": [
+        "шкаф"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "1BAA5451-9834-4BBA-87A7-80E7D7AF8D32"
+    },
+    {
+      "word": "Dřez",
+      "translate": [
+        "мойка кухонная"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "135B66F5-AA55-4FB2-989A-F72A1BB4C76B"
+    },
+    {
+      "word": "Spořak",
+      "translate": [
+        "плита"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "952A82EE-9E8B-4C17-967D-C72129187302"
+    },
+    {
+      "word": "Lednička",
+      "translate": [
+        "Холодильник"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "B79B9AB8-6227-4FB3-BD09-ED8057F2373D"
+    },
+    {
+      "word": "Závesy",
+      "translate": [
+        "шторы"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "0574CBCF-E3E4-4FA9-8EBD-1ED934B9DA20"
+    },
+    {
+      "word": "Žaluzie",
+      "translate": [
+        "жалюзи"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "1E94D4CB-7B37-4C39-BDD9-99F50FC62566"
+    },
+    {
+      "word": "Konvice",
+      "translate": [
+        "чайник"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "8B43E76F-B972-4EF7-8674-1677597BA8D7"
+    },
+    {
+      "word": "Kotě",
+      "translate": [
+        "котёнок"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "8319A6B8-4FE0-47D6-BC04-7290A58533B6"
+    },
+    {
+      "word": "Štěně",
+      "translate": [
+        "щенок"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "6F107CEE-C163-4608-905A-4F56A3B337C3"
+    },
+    {
+      "word": "Hříbě",
+      "translate": [
+        "жеребёнок"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "88AA39C0-5369-4D92-A4CE-F15FD253BE0D"
+    },
+    {
+      "word": "Počasí",
+      "translate": [
+        "погода"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "8F5B621A-BEA9-4A60-9183-D3682A201302"
+    },
+    {
+      "word": "Stupeň",
+      "translate": [
+        "градус"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "12F6F5EF-76EE-44A2-99AD-E3FF37C0BE67"
+    },
+    {
+      "word": "Proud",
+      "translate": [
+        "поток",
+        "струя"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "C2B41533-ABED-4A61-9664-4ED0A3AD7A50"
+    },
+    {
+      "word": "Vesnice",
+      "translate": [
+        "деревня"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "EE3497E3-3F8B-4A3A-9EEF-EE55874B0045"
+    },
+    {
+      "word": "žák",
+      "translate": [
+        "ученик"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3AE3C172-70A5-418A-AD18-F6EC8C16F479"
+    },
+    {
+      "word": "Žákyně",
+      "translate": [
+        "ученица"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3273680B-F02B-4374-8BE1-4C2B5E75312C"
+    },
+    {
+      "word": "Rada",
+      "translate": [
+        "совет"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A3A8A75C-BA9E-4892-A55C-483164E8AD30"
+    },
+    {
+      "word": "Zpráva",
+      "translate": [
+        "сообщение"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "EAC215E8-571C-499D-A3EA-111178383AD3"
+    },
+    {
+      "word": "zprávy",
+      "translate": [
+        "но́вости"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "D6ADC356-AC01-4E3B-9E37-DCF79E0E64F0"
+    },
+    {
+      "word": "Průjezd",
+      "translate": [
+        "проезд"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "77783066-8236-425C-80F5-6675AEA3E066"
+    },
+    {
+      "word": "Otázka",
+      "translate": [
+        "вопрос"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "84ECE714-C243-4BCC-9EDF-DA423042512D"
+    },
+    {
+      "word": "Kadeřník",
+      "translate": [
+        "парикмахер"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "D40DF7E8-737D-432D-A301-FDB5DFC732D0"
+    },
+    {
+      "word": "Nadřízený",
+      "translate": [
+        "начальник"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "7D44100F-E6DE-42AB-9544-D19E16736A56"
+    },
+    {
+      "word": "Dělnice",
+      "translate": [
+        "рабочая"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "BD44096E-FF2C-443A-BD26-6C79FFF530E0"
+    },
+    {
+      "word": "dělník",
+      "translate": [
+        "Рабочий"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "20E89F77-7F98-48C5-95CD-F5EAB6303E49"
+    },
+    {
+      "word": "Strýc",
+      "translate": [
+        "дядя"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "8642E397-4893-4602-ACBC-C43224581589"
+    },
+    {
+      "word": "Druh",
+      "translate": [
+        "тип"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "772AC23B-EC83-4408-A7C0-D8EE5CF3488B"
+    },
+    {
+      "word": "teta",
+      "translate": [
+        "тетя"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "772AC23B-EC83-4408-A7C0-D8EE5CF3488B"
+    },
+    {
+      "word": "Neteř",
+      "translate": [
+        "племянница"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9BE19639-0B42-4570-879C-54CEF945057B"
+    },
+    {
+      "word": "Synovec",
+      "translate": [
+        "племянник"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "0CD1E053-C5DC-40D0-B5D3-48708699C7CB"
+    },
+    {
+      "word": "Dědeček",
+      "translate": [
+        "дедушка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "52B33433-30E0-4FA2-AAC1-BB6BC6C09E4E"
+    },
+    {
+      "word": "sestra",
+      "translate": [
+        "сестра"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "481DF036-260C-4F5F-869B-5C2DF10815F4"
+    },
+    {
+      "word": "Sestřenice",
+      "translate": [
+        "двоюродная сестра"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "24778678-D652-4F2F-8FFC-9905908C262B"
+    },
+    {
+      "word": "bratr",
+      "translate": [
+        "братр"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "6DBA310A-E3B5-4363-B1C0-74BFBF32C6F7"
+    },
+    {
+      "word": "bratranec",
+      "translate": [
+        "двоюродный брат"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "35AF80B6-C880-47E3-8A14-AA3B78FBDB2D"
+    },
+    {
+      "word": "manžel",
+      "translate": [
+        "муж"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "54D5344C-25C0-475D-83F2-BC335EB29F4A"
+    },
+    {
+      "word": "švagr",
+      "translate": [
+        "шурин"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "6383AEF6-8F10-4801-BD31-D5631390A415"
+    },
+    {
+      "word": "tchán",
+      "translate": [
+        "тесть",
+        "свёкор"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "93242815-DFC2-4FD0-93A6-74FDAE9F5B03"
+    },
+    {
+      "word": "tchyně",
+      "translate": [
+        "теща",
+        "свекровь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "D04F7E41-8E46-41AC-ACC6-E821C79F439C"
+    },
+    {
+      "word": "zeť",
+      "translate": [
+        "зять"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "6446ACF6-3D6F-445E-977D-2042CAC27C3C"
+    },
+    {
+      "word": "Ředitel(ka)",
+      "translate": [
+        "директор"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3E6EECCD-E271-4536-BF6F-961F302426E3"
+    },
+    {
+      "word": "Známá",
+      "translate": [
+        "знакомая"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "83EE812B-8982-4FDB-AEC6-D55E07BEAEC3"
+    },
+    {
+      "word": "žízeň",
+      "translate": [
+        "жажда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "7DF96420-F059-4547-8FD8-5773B0AD5F10"
+    },
+    {
+      "word": "rýma",
+      "translate": [
+        "насморк"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "97352534-F7D3-426D-9F68-94E129A8E503"
+    },
+    {
+      "word": "štěstí",
+      "translate": [
+        "счастье"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "1B9B49C2-CD3D-4F09-A692-58CB3AFFFD71"
+    },
+    {
+      "word": "džob",
+      "translate": [
+        "работа"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "FD4986A2-E046-43CC-9C00-2882615CB24A"
+    },
+    {
+      "word": "nálada",
+      "translate": [
+        "настроение",
+        "самочувствие"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A2EF0CB9-F54D-427A-ADE9-A5A35237508D"
+    },
+    {
+      "word": "vtip",
+      "translate": [
+        "анекдот"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "5918C402-BC94-4A98-AA97-381C68328CA6"
+    },
+    {
+      "word": "smůla",
+      "translate": [
+        "невезение"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "4F7E148C-FFC5-4C68-97AF-69A21D94C329"
+    },
+    {
+      "word": "rande",
+      "translate": [
+        "свидание"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9CD06D09-C978-4D18-B8C9-EAD7908DB334"
+    },
+    {
+      "word": "časopis",
+      "translate": [
+        "журнал"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "778E5667-E9D2-4616-85A3-260FADF4B761"
+    },
+    {
+      "word": "pohlednice",
+      "translate": [
+        "открыткa"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "972CCCCF-3158-4F32-8C45-D7CC8F5DB107"
+    },
+    {
+      "word": "diář",
+      "translate": [
+        "ежедневник"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "B8939943-CD52-4E03-B2C5-24B9A9180C4E"
+    },
+    {
+      "word": "život",
+      "translate": [
+        "жизнь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "89DC5A59-F65E-4726-BF27-A5D628F55807"
+    },
+    {
+      "word": "kašel",
+      "translate": [
+        "кашель"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "DD89A69C-5198-49B8-B8A5-AEBD6ED65B48"
+    },
+    {
+      "word": "pocit",
+      "translate": [
+        "чувство"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "8D8672A3-08B1-4C6A-B06A-E7EE7326D5B3"
+    },
+    {
+      "word": "učebnice",
+      "translate": [
+        "учебник"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "1681B8A8-88CE-48F1-BBD2-5A97CAB790E0"
+    },
+    {
+      "word": "bonbon",
+      "translate": [
+        "конфета"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A08E57C1-132D-44F8-8E1D-B778C7BB0347"
+    },
+    {
+      "word": "budova",
+      "translate": [
+        "здание"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "387AED5B-4FD5-4DBB-A554-D6EFF06C4D1D"
+    },
+    {
+      "word": "byt",
+      "translate": [
+        "кварти́ра"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "C78C3469-742C-4A62-B1CE-37FD8B2E3475"
+    },
+    {
+      "word": "citron",
+      "translate": [
+        "лимон"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "37FC3AB2-24EB-4C25-B4E1-68F7A16376C7"
+    },
+    {
+      "word": "dělník",
+      "translate": [
+        "рабочий"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3FFFD15B-B5EF-4F84-BC6B-9AC400FDED91"
+    },
+    {
+      "word": "dívka",
+      "translate": [
+        "девушка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "FD27E1A1-3FF8-496A-9E24-E0818B4DCF82"
+    },
+    {
+      "word": "dopis",
+      "translate": [
+        "письмо"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "C2F15327-9BC6-4CC3-8A52-110A13DC83BA"
+    },
+    {
+      "word": "drogerie",
+      "translate": [
+        "хоз. магазин"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "F40D441E-B755-41B2-9947-E59E2495BCD5"
+    },
+    {
+      "word": "ekonom",
+      "translate": [
+        "экономист"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "506D04F7-6F19-4033-9BFA-39E77CAD535F"
+    },
+    {
+      "word": "herec",
+      "translate": [
+        "актёр"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "E0069562-2CD4-4694-83A6-D6100ED62C26"
+    },
+    {
+      "word": "herečka",
+      "translate": [
+        "актриса"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "4CDD476B-182E-4D25-BE02-C81148387DBE"
+    },
+    {
+      "word": "hlad",
+      "translate": [
+        "голод"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "CAE5DC77-ECAF-4AEA-99BF-CEECA90A0658"
+    },
+    {
+      "word": "hračka",
+      "translate": [
+        "игрушка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A074A20F-28A3-41C3-AAC5-EE8CA189E4FA"
+    },
+    {
+      "word": "hřeben",
+      "translate": [
+        "расчёска"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "B9BF96CD-F5E4-4541-ADEB-C306E9AECA79"
+    },
+    {
+      "word": "chřipka",
+      "translate": [
+        "грипп"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "DB437635-18B7-4204-93AD-68575AF5CF13"
+    },
+    {
+      "word": "kalendář",
+      "translate": [
+        "календарь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "625D1F09-BAE1-4C87-8A3A-34879FD778E0"
+    },
+    {
+      "word": "kancelář",
+      "translate": [
+        "офис",
+        "администрация"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9022335C-76F7-4FE1-8D84-B4A6BB1FE160"
+    },
+    {
+      "word": "kapesník",
+      "translate": [
+        "носовой платок"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3EC0D5F1-BBC3-4600-80CB-943D06AC2C18"
+    },
+    {
+      "word": "knihkupectví",
+      "translate": [
+        "книжный магазин"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "52D11F8C-9804-460F-9C32-37A81114F91F"
+    },
+    {
+      "word": "kolej",
+      "translate": [
+        "колея",
+        "путь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "AE900667-99F0-48F4-B469-46A2706ED826"
+    },
+    {
+      "word": "křeslo",
+      "translate": [
+        "кресло"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3A4CD84F-968D-447C-94CB-BAFD69395F4C"
+    },
+    {
+      "word": "mýdlo",
+      "translate": [
+        "мыло"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "99EB4153-085F-4E29-B8D4-CEE27749F7D9"
+    },
+    {
+      "word": "nápad",
+      "translate": [
+        "мысль", "идея"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "C412F370-1E30-4FEE-8E35-356B3EEFFCCE"
+    },
+    {
+      "word": "narozeniny",
+      "translate": [
+        "день рождения"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "348408E0-1392-4D60-A5D7-22883F8752A4"
+    },
+    {
+      "word": "návštěva",
+      "translate": [
+        "гости", "визит", "посещение"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3566F9A2-DBE0-44F5-95A9-AA7A0F7D68E5"
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "5F3C5B9E-591C-4643-B6B3-797C52E8A0FD"
+    },
+    {
+      "word": "obraz",
+      "translate": [
+        "картина", "образ", "иллюстрация"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "6E4B0915-4AEB-4051-878E-6F84AB35B215"
+    },
+    {
+      "word": "obrázek",
+      "translate": [
+        "рисунок", "картинка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "5535F7B3-EABF-4C5E-9E39-9B3DDC5EC186"
+    },
+    {
+      "word": "papírnictví",
+      "translate": [
+        "канц. товары"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "3612503C-DD6A-4603-A3CE-AC3036A05FD6"
+    },
+    {
+      "word": "party",
+      "translate": [
+        "вечеринка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "F2651D4A-B08A-4BA7-9448-B92F328EB84E"
+    },
+    {
+      "word": "procházka",
+      "translate": [
+        "прогулка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "DDB1D8FB-C7AE-4B63-BC6D-94C52C2211FF"
+    },
+    {
+      "word": "rok",
+      "translate": [
+        "год"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "769EF17D-D6ED-4012-86F2-CBA17F9C0722"
+    },
+    {
+      "word": "sklenice",
+      "translate": [
+        "стакан"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "AEA8C457-13B4-4F0A-95E7-ACAD5795CBFD"
+    },
+    {
+      "word": "skříň",
+      "translate": [
+        "шкаф", "коробка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "6704B60F-4480-4CB5-8AA8-25E94F09B06C"
+    },
+    {
+      "word": "sourozenec",
+      "translate": [
+        "родной брат/сестра"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "730DCF17-C557-480A-80D2-CBF35EE17D5D"
+    },
+    {
+      "word": "spolužák",
+      "translate": [
+        "одногрупник", "одноклассник"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9C354153-4FE5-4024-9008-E39E82017AFB"
+    },
+    {
+      "word": "sportovec",
+      "translate": [
+        "спортсмен"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "5FD2F36A-CF04-47F1-A31C-B90E2DE13DC3"
+    },
+    {
+      "word": "sportovkyně",
+      "translate": [
+        "спортсменка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9B906C3D-32D4-45FD-A781-3A19E3DD7296"
+    },
+    {
+      "word": "sukně",
+      "translate": [
+        "юбка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "F199EE07-1C49-47F4-B475-BC6965EF7BFA"
+    },
+    {
+      "word": "strach",
+      "translate": [
+        "страх", "боязнь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "CAD9AD20-20A8-43AE-A3BA-B93B46EB39CC"
+    },
+    {
+      "word": "štěstí",
+      "translate": [
+        "счастье", "благополучие"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "43196DBE-11C2-4D99-A7D7-7A0C237BB2DA"
+    },
+    {
+      "word": "třída",
+      "translate": [
+        "класс", "категория"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "638E0BB3-AC8F-4804-8E4E-DA957B18CA1F"
+    },
+    {
+      "word": "učebnice",
+      "translate": [
+        "учебник", "пособие"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "B9738308-2605-405C-9E7B-10B0A375A58C"
+    },
+    {
+      "word": "věc",
+      "translate": [
+        "вещь", "предмет"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "BBB54F66-A989-4B0D-BF81-EB111425E99F"
+    },
+    {
+      "word": "večeře",
+      "translate": [
+        "ужин"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "295D3A26-1444-4BAF-968E-C854494FA1F3"
+    },
+    {
+      "word": "večer",
+      "translate": [
+        "вечер"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "7ABA076F-BE4E-4757-940E-F7E99878FB5C"
+    },
+    {
+      "word": "vědec",
+      "translate": [
+        "учёный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "90A02942-4015-495B-AA6F-DF1C1F4095E2"
+    },
+    {
+      "word": "vejce",
+      "translate": [
+        "яйцо"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "471E716A-9049-49E1-B9D9-B331468F0E22"
+    },
+    {
+      "word": "volno",
+      "translate": [
+        "нерабочее время", "выходной"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "11471B5C-4B44-4692-A2FA-0EDB6C8180F3"
+    },
+    {
+      "word": "vyučování",
+      "translate": [
+        "обучение"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "BC2EC11A-A0D6-427F-9171-EE021F7E7E32"
+    },
+    {
+      "word": "známka",
+      "translate": [
+        "марка", "знак"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "D3CF4CC8-D21C-453A-9F9A-1A370C0C4F2D"
+    },
+    {
+      "word": "zpěvák",
+      "translate": [
+        "певец"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "D1B2B0F8-D883-48E1-BC0B-670FDCBCC351"
+    },
+    {
+      "word": "život",
+      "translate": [
+        "жизнь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "831B5199-4E1E-4AD4-A9F2-6C0B671961A2"
+    },
+    {
+      "word": "žízeň",
+      "translate": [
+        "жажда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "2A2F9F72-01CD-4AA2-8E7F-2390672A19A5"
+    },
+    {
+      "word": "úrok",
+      "translate": [
+        "процентная ставка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "30C0EB55-C208-46D9-96FE-609E9F2F6F3F"
+    },
+    {
+      "word": "noticka",
+      "translate": [
+        "записка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "BE10681E-77C1-4320-B634-436B08E893B1"
+    },
+    {
+      "word": "šaty",
+      "translate": [
+        "одежда", "костюм", "платье"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "BEB9A517-5177-42DA-B256-D9590C52B0E5"
+    },
+    {
+      "word": "číšník",
+      "translate": [
+        "официант"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "CA0D4720-2627-47FF-8B54-62D3C6FE1313"
+    },
+    {
+      "word": "slovo",
+      "translate": [
+        "слово"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "A30DF374-25B3-4F02-9C03-6C7778F68E74"
+    },
+    {
+      "word": "stín",
+      "translate": [
+        "тень"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "EB963093-3857-42C3-821B-5E7D6DDB5584"
+    },
+    {
+      "word": "sejít",
+      "translate": [
+        "сойти", "спуститься"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "sejít se",
+      "translate": [
+        "собраться", "встретиться"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "E1C262BE-0816-4BC6-8096-275CB92EDB14"
+    },
+    {
+      "word": "vítězka",
+      "translate": [
+        "победительница"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "0AFDB29A-21CE-4108-9F31-F25F70126708"
+    },
+    {
+      "word": "závada",
+      "translate": [
+        "повреждение", "дефект"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "5F0E9EBE-BD0A-4523-81EF-2ABDE6B98942"
+    },
+    {
+      "word": "výsledek",
+      "translate": [
+        "релузьтат"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "E59C1DC0-23E6-4B32-B486-7165B4D237DD"
+    },
+    {
+      "word": "výtah",
+      "translate": [
+        "лифт"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "0CF4BFF7-3683-458E-B1F2-E5E692A34D74"
+    },
+    {
+      "word": "minulý",
+      "translate": [
+        "прошлый"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adjective",
+      "version": 1,
+      "uuid": "8C0D9F13-D801-4C52-9B1A-10135CE9B5C5"
+    },
+    {
+      "word": "vyhovovat",
+      "translate": [
+        "подходить", "удовлетворять"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "74842272-160A-48F4-8531-A73BE93F5402"
+    },
+    {
+      "word": "Zprava",
+      "translate": [
+        "справо"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "5A8E3B2F-1D66-4196-959B-BDA5A7F10EAF"
+    },
+    {
+      "word": "Lepe",
+      "translate": [
+        "лучше"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "21808174-41D9-4D49-91B4-67BB42B20268"
+    },
+    {
+      "word": "Déle",
+      "translate": [
+        "дольше"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "50FCFDBC-A889-4A82-A374-703036E3A377"
+    },
+    {
+      "word": "Měsíčně",
+      "translate": [
+        "месячно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "5B3B08D8-4E26-4F3C-966E-F59B839B0F8C"
+    },
+    {
+      "word": "Ročne",
+      "translate": [
+        "годовой"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "3380F757-0AE2-4474-81E8-C3F484D7BFD3"
+    },
+    {
+      "word": "Denně",
+      "translate": [
+        "дневной"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "3F3F48D3-2D0F-428A-9213-E9FFC6B2EEC2"
+    },
+    {
+      "word": "Tydenně",
+      "translate": [
+        "недельный"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "BF4623CA-3401-4A69-AE4B-E7978817CC21"
+    },
+    {
+      "word": "Taky",
+      "translate": [
+        "также"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "67C1F0EE-10B4-450F-AF3E-27166E6FEE02"
+    },
+    {
+      "word": "Docela",
+      "translate": [
+        "достаточно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "8365454F-8612-409E-B0AD-721A16A8FB1F"
+    },
+    {
+      "word": "Stačít",
+      "translate": [
+        "хватать (количество)"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": "2680B0D5-B368-4E49-82CE-B961E5F6C8F1"
+    },
+    {
+      "word": "Zase",
+      "translate": [
+        "снова"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "DCCC7133-86F2-42A5-865B-5F9E0548A50A"
+    },
+    {
+      "word": "Ještě",
+      "translate": [
+        "ещё"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "38E4741B-71D1-4090-8CE0-A6E062C73269"
+    },
+    {
+      "word": "Ted`",
+      "translate": [
+        "сейчас"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "71CDD6FA-98EE-49FD-A605-DEC7A872AFF6"
+    },
+    {
+      "word": "hned",
+      "translate": [
+        "немедленно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "B78A7A1A-96CD-4E08-915F-4F932BFE957F"
+    },
+    {
+      "word": "Ted` hned",
+      "translate": [
+        "прямо сейчас"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "07AE192A-9875-4202-864C-1D118A7CCC24"
+    },
+    {
+      "word": "Ticho",
+      "translate": [
+        "тихо"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "80A59ADB-6A57-4E1E-9212-D11FCBE92AFE"
+    },
+    {
+      "word": "Tam",
+      "translate": [
+        "туда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "59C7DE56-87A2-4F2F-9DF7-414DCD19E3AB"
+    },
+    {
+      "word": "Nahodou",
+      "translate": [
+        "случайно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "CEAF7EFA-F8EA-4382-B622-264FA4F6CBBA"
+    },
+    {
+      "word": "Hodně",
+      "translate": [
+        "много"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "68A919D4-2200-44F5-B63C-5FA182B1B332"
+    },
+    {
+      "word": "Pěšky",
+      "translate": [
+        "пешком"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "A8DE5F09-B9CC-4D02-B111-D0C94686AC7F"
+    },
+    {
+      "word": "Jenom",
+      "translate": [
+        "только"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "2795AE86-A55B-4F62-879F-8AFCACB39B82"
+    },
+    {
+      "word": "Více",
+      "translate": [
+        "больше"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "6A207CCD-1A6B-407B-A682-2CB5644AA1AC"
+    },
+    {
+      "word": "Nalevo",
+      "translate": [
+        "налево", "влево"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "B77D27AD-CF5A-4848-A8C6-F3154CF27694"
+    },
+    {
+      "word": "Naproti",
+      "translate": [
+        "напротив", "навстречу"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "2F393B65-8523-457F-890C-D3BA268A5C1A"
+    },
+    {
+      "word": "Vzadu",
+      "translate": [
+        "позади", "сзади"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "A4A3A255-7D92-489E-B0D2-F6235912C8A3"
+    },
+    {
+      "word": "Vpředu",
+      "translate": [
+        "впереди"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "1E33DABC-A830-4341-9FD8-F72089FF4449"
+    },
+    {
+      "word": "Za rohem",
+      "translate": [
+        "за уголом"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "8A6F0C97-3A71-4B9E-AA62-9973FF71645A"
+    },
+    {
+      "word": "Tam",
+      "translate": [
+        "туда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "F98A9E95-8DE0-4A41-B256-21F6572D742B"
+    },
+    {
+      "word": "Sem",
+      "translate": [
+        "к себе"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "E6AB975D-FC25-4A4E-9757-66A998C2F73D"
+    },
+    {
+      "word": "zpátky",
+      "translate": [
+        "обра́тно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "3144951E-9CBA-4ED1-AA98-A43EE5EB127D"
+    },
+    {
+      "word": "Vpřed",
+      "translate": [
+        "вперед"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "EAECD69B-61D5-4F3B-9FE1-7CF72DA90C66"
+    },
+    {
+      "word": "Pořád",
+      "translate": [
+        "всё время", "всегда", "постоянно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "6D09976C-F041-4760-9166-C3DD25B74586"
+    },
+    {
+      "word": "Asi",
+      "translate": [
+        "наверное"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "C2FDD9EA-47B9-4DBB-8F41-B59704818A96"
+    },
+    {
+      "word": "aspoň",
+      "translate": [
+        "по крайней мере", "хотя бы"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "571FBD36-4610-4997-A29D-9F20EC53ACDF"
+    },
+    {
+      "word": "Nudně",
+      "translate": [
+        "скучно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "7AC6C7D2-96E9-49AA-A7B7-B2405CAE8889"
+    },
+    {
+      "word": "Proto",
+      "translate": [
+        "Поэтому"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "5927934E-FBF6-41FB-A590-6DDCC8370029"
+    },
+    {
+      "word": "docela",
+      "translate": [
+        "довольно", "достаточно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "EAC8091B-629C-43B0-B455-32D2B1D34879"
+    },
+    {
+      "word": "dost",
+      "translate": [
+        "достаточно", "немало"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "6029EA82-08D6-4810-882C-F16F95747463"
+    },
+    {
+      "word": "moc",
+      "translate": [
+        "много", "очень"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "9A51C6F2-6BDC-4197-B14E-9E13B476F451"
+    },
+    {
+      "word": "vždycky",
+      "translate": [
+        "всегда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "3D7A6DC5-5C4B-4BD3-9336-0BE021C8519D"
+    },
+    {
+      "word": "nahlas",
+      "translate": [
+        "громко"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "F75B00BB-E3ED-467D-A4F8-BF35353C10E0"
+    },
+    {
+      "word": "Často",
+      "translate": [
+        "часто"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "FC9AD4C6-99F5-4032-B4E3-0149486F82A7"
+    },
+    {
+      "word": "Obvykle",
+      "translate": [
+        "обычно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "76F2EB00-389D-46DD-A44C-060DE865A746"
+    },
+    {
+      "word": "Někdy",
+      "translate": [
+        "иногда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "32E5F1BE-ECC9-4311-8CE3-CD3E9A02AF31"
+    },
+    {
+      "word": "Málokdy",
+      "translate": [
+        "изредка", "редко"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "5AAA2EDE-1E56-49B2-8E92-2C18C6EB47A6"
+    },
+    {
+      "word": "Nikdy",
+      "translate": [
+        "никогда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "F8FC9939-5964-4AB3-8969-7BAC7B38AAAA"
+    },
+    {
+      "word": "opravdu",
+      "translate": [
+        "действительно"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "EF2D11B7-169E-4E37-9F0C-11B6A16E5F00"
+    },
+    {
+      "word": "brzy",
+      "translate": [
+        "скоро", "вскоре"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "87395AC2-5B5D-48C0-BB15-02435B302253"
+    },
+    {
+      "word": "dosud",
+      "translate": [
+        "пока"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "1C04DF01-713F-489D-957B-53894F24AB0A"
+    },
+    {
+      "word": "Samozřejmě",
+      "translate": [
+        "конечно же"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "2581BE41-DFE6-414F-9D62-322046F546A2"
+    },
+    {
+      "word": "kromě",
+      "translate": [
+        "кроме"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "4BD49F75-2602-49B7-8DFF-2AA9886BAAF2"
+    },
+    {
+      "word": "uprostřed",
+      "translate": [
+        "посредине"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "9EB7A0E0-BC96-44A9-A16B-114BF8DFEF02"
+    },
+    {
+      "word": "Kolem",
+      "translate": [
+        "вокруг", "около"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "9876D708-8384-4E0E-901B-23E24E145E31"
+    },
+    {
+      "word": "furt",
+      "translate": [
+        "вечно", "постоянно", "всё время"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "36116825-A88F-4510-9280-45E538209E9D"
+    },
+    {
+      "word": "zpátky",
+      "translate": [
+        "назад"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "1B49FE5D-603C-44B2-8196-F9A06C89090E"
+    },
+    {
+      "word": "blízko",
+      "translate": [
+        "близко", "рядом"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "536B4A97-514E-4A3E-BD64-68EEEAD24761"
+    },
+    {
+      "word": "nahoru",
+      "translate": [
+        "вверх"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "FA459656-33D6-4A82-A484-0D03A2384261"
+    },
+    {
+      "word": "dolů",
+      "translate": [
+        "вниз"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "E1DAD301-9D1B-4545-8AA6-F216E4E92FCA"
+    },
+    {
+      "word": "vpřed",
+      "translate": [
+        "вперёд"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "88023684-3507-49B1-9876-C1082F4DDDA3"
+    },
+    {
+      "word": "daleko",
+      "translate": [
+        "далеко"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "2419990E-E6CD-400D-AAEB-FC2E91EF4DDC"
+    },
+    {
+      "word": "před",
+      "translate": [
+        "перед"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "38C1B4F1-77EC-4B93-AF26-611039543F9D"
+    },
+    {
+      "word": "zde",
+      "translate": [
+        "здесь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": "5B6F6521-07F5-4695-B1EE-68CD48B96AD7"
+    },
+    {
+      "word": "jaky",
+      "translate": [
+        "какой"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": "882103D7-C7AF-473B-83C7-833EFC60161F"
+    },
+    {
+      "word": "který",
+      "translate": [
+        "который"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": "06518222-86BE-42DE-B1CE-8DBFCB377863"
+    },
+    {
+      "word": "nabytek",
+      "translate": [
+        "мебель"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "123C2F7A-B2B1-4BC1-BA21-B975951B9EC4"
+    },
+    {
+      "word": "sukně",
+      "translate": [
+        "юбка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": "9098AC55-0668-4DCD-AF8D-029EBB4191C2"
+    },
+    {
+      "word": "čepice",
+      "translate": [
+        "шапка"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "spodní pradlo",
+      "translate": [
+        "нижнее бельё"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "pro",
+      "translate": [
+        "для"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "conjunction",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "umýt",
+      "translate": [
+        "помыть", "вымыть"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "dopis",
+      "translate": [
+        "письмо"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "pořad",
+      "translate": [
+        "всегда", "всё время"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "adverb",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "bouřka",
+      "translate": [
+        "гроза"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "stíhat",
+      "translate": [
+        "успева́ть"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "verb",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "zpoždení",
+      "translate": [
+        "опоздание"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "noun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Kam",
+      "translate": [
+        "куда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Kudy",
+      "translate": [
+        "куда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Někam",
+      "translate": [
+        "куда-то"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Nikam",
+      "translate": [
+        "никуда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Kde",
+      "translate": [
+        "где"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Nikde",
+      "translate": [
+        "нигде"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Kdy",
+      "translate": [
+        "когда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Někdy",
+      "translate": [
+        "когда-нибудь"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Nikdy",
+      "translate": [
+        "никогда"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Kdo",
+      "translate": [
+        "кто"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Někdo",
+      "translate": [
+        "кто-то"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Nikdo",
+      "translate": [
+        "никто"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Čí",
+      "translate": [
+        "чей"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "ни оди́н",
+      "translate": [
+        "nikdo", "ani jeden"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "Sám",
+      "translate": [
+        "сам"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "nějaký",
+      "translate": [
+        "како́й-то"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "nic",
+      "translate": [
+        "ничто", "ничего"
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "pronoun",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+    {
+      "word": "",
+      "translate": [
+        ""
+      ],
+      "exercises": [
+        1,
+        2
+      ],
+      "partOfSpeech": "",
+      "version": 1,
+      "uuid": ""
+    },
+  ],
+  "version": "1.0.0"
 }
