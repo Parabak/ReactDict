@@ -21,16 +21,21 @@ class LessonViewController : UIViewController, BindableType {
     
     
     func bindViewModel() {
-        
+                        
         viewModel.excercises
             .subscribe(onNext: { [weak self] option in
                 
                 guard let self = self else { return }
-                
+                               
                 let btn = UIButton.makeBtn(forExercise: option.title)
                 self.startExerciseBtnsStack.addArrangedSubview(btn)
-                btn.rx.tap
-                    .map { option.type }
+                
+                let selectedPOS = self.posPicker.rx.modelSelected(String.self).startWith([PartOfSpeech.defaultValue])
+                btn.rx.tap.withLatestFrom(selectedPOS)
+                    .map {
+                        LessonViewModel.ExerciseParam(option.type,
+                                                      PartOfSpeech(rawValue: $0.first?.lowercased() ?? ""))
+                    }
                     .bind(to: self.viewModel.rxStartExercise)
                     .disposed(by: self.rx_disposeBag)
             })
@@ -40,14 +45,8 @@ class LessonViewController : UIViewController, BindableType {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let data = ["All"] + PartOfSpeech.allCases.map {$0.rawValue.uppercased()}
-        Observable.of(data)
-            .bind(to: posPicker.rx.itemTitles)  { (row, title) -> String? in
-                return title
-            }
-            .disposed(by: rx_disposeBag)
-        
+
+        fillPOSPicker()
         NSLayoutConstraint.activate(addExerciseStartBtns())
     }
     
@@ -64,6 +63,17 @@ class LessonViewController : UIViewController, BindableType {
                 startExerciseBtnsStack.centerYAnchor.constraint(equalTo: view.centerYAnchor),
                 startExerciseBtnsStack.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ]
+    }
+    
+    
+    private func fillPOSPicker() -> Void {
+        
+        let data = ["All"] + PartOfSpeech.allCases.map {$0.rawValue.uppercased()}
+        Observable.of(data)
+            .bind(to: posPicker.rx.itemTitles)  { (row, title) -> String? in
+                return title
+            }
+            .disposed(by: rx_disposeBag)
     }
 }
 

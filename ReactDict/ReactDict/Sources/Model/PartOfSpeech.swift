@@ -19,3 +19,9 @@ enum PartOfSpeech : String, Codable, CaseIterable {
     case conjunction
     case expression
 }
+
+
+extension PartOfSpeech {
+    
+    static var defaultValue : String { return "all" }
+}

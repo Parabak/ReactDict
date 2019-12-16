@@ -38,10 +38,12 @@ class LessonViewModel {
         }
     }
 
-    
-    var rxStartExercise: AnyObserver<Exercise> {
+    typealias ExerciseParam = (exercise: Exercise, pos: PartOfSpeech?)
+    var rxStartExercise: AnyObserver<ExerciseParam> {
 
-        return Binder(self) { (viewModel, exercise) in
+        return Binder(self) { (viewModel, exerciseParam) in
+            
+            let exercise = exerciseParam.exercise
             
             viewModel.dictionary
             .flatMap { (dict) -> Observable<(Dictionary, Set<String>)> in
@@ -52,16 +54,23 @@ class LessonViewModel {
                                                 progress.completedWordsFor(exercise: exercise))
             }
             .map({ (dict, learnedSet) -> TranslateExerciseViewModel in
-                   
+               
                 //TODO: Extract logic into separate method
                 //TODO: Either allow Random PartOfSpeech OR implement picker!
                 //TODO: These constants should be defined somewhere else e.g. Configuration
-                let pos = PartOfSpeech.verb //PartOfSpeech.allCases.randomElement() ?? PartOfSpeech.noun
+//                let pos =  //PartOfSpeech.allCases.randomElement() ?? PartOfSpeech.noun
                 let wordsPerExercise = 7
                 let wrongPairs = 4
                 
                 let words = dict.words
-                    .filter { word in word.partOfSpeech == pos && !learnedSet.contains(word.uuid)}
+                    .filter { word in
+                        
+                        var isMatchPOS = true
+                        if let partOfSpeech = exerciseParam.pos {
+                            isMatchPOS = word.partOfSpeech == partOfSpeech
+                        }
+                        return isMatchPOS && !learnedSet.contains(word.uuid)
+                    }
                     .shuffled()
                 let trainingSet = Array(words.prefix(wordsPerExercise))
                 
