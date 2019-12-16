@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -116,7 +116,7 @@
                             <constraint firstItem="7nH-LL-P19" firstAttribute="trailing" secondItem="L0i-vT-hlt" secondAttribute="trailing" id="HhD-w9-PIm"/>
                             <constraint firstItem="7nH-LL-P19" firstAttribute="leading" secondItem="L0i-vT-hlt" secondAttribute="leading" id="M7m-pr-8VN"/>
                             <constraint firstItem="L0i-vT-hlt" firstAttribute="bottom" secondItem="7nH-LL-P19" secondAttribute="bottom" constant="40" id="MIg-Qt-lZo"/>
-                            <constraint firstItem="bkT-tz-4MQ" firstAttribute="top" secondItem="41N-Kn-ar1" secondAttribute="bottom" constant="160" id="Mbd-H0-MrN"/>
+                            <constraint firstItem="bkT-tz-4MQ" firstAttribute="top" secondItem="41N-Kn-ar1" secondAttribute="bottom" priority="250" constant="160" id="Mbd-H0-MrN"/>
                             <constraint firstItem="bkT-tz-4MQ" firstAttribute="leading" secondItem="L0i-vT-hlt" secondAttribute="leading" constant="40" id="WES-jX-tUe"/>
                             <constraint firstItem="7nH-LL-P19" firstAttribute="top" secondItem="bkT-tz-4MQ" secondAttribute="bottom" constant="60" id="Zn2-4g-bEL"/>
                             <constraint firstItem="41N-Kn-ar1" firstAttribute="centerX" secondItem="2fy-SK-XuO" secondAttribute="centerX" id="cHc-35-B0M"/>
@@ -148,7 +148,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IA1-bX-0ws" customClass="TagListView" customModule="ReactDict" customModuleProvider="target">
-                                <rect key="frame" x="50" y="696" width="314" height="16"/>
+                                <rect key="frame" x="50" y="612" width="314" height="100"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" priority="249" constant="100" id="oEd-kd-w79"/>

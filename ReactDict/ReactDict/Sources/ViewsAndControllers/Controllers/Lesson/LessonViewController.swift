@@ -28,6 +28,7 @@ class LessonViewController : UIViewController, BindableType {
                 guard let self = self else { return }
                                
                 let btn = UIButton.makeBtn(forExercise: option.title)
+                btn.translatesAutoresizingMaskIntoConstraints = false
                 self.startExerciseBtnsStack.addArrangedSubview(btn)
                 
                 let selectedPOS = self.posPicker.rx.modelSelected(String.self).startWith([PartOfSpeech.defaultValue])
@@ -58,9 +59,7 @@ class LessonViewController : UIViewController, BindableType {
         startExerciseBtnsStack.alignment = .center
         startExerciseBtnsStack.spacing = 20
         
-        return [startExerciseBtnsStack.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20),
-                startExerciseBtnsStack.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20),
-                startExerciseBtnsStack.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+        return [startExerciseBtnsStack.centerYAnchor.constraint(equalTo: view.centerYAnchor),
                 startExerciseBtnsStack.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ]
     }
