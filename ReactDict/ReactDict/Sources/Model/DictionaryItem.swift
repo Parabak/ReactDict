@@ -17,7 +17,7 @@ class DictionaryItem: Object {
     @objc dynamic var to: String = ""
     @objc dynamic var version: String = ""
 
-    
+    //TODO: Primary key can't be changed and also primary key from will be not unique if we add CZ -> ENG; CZ -> IT
     override class func primaryKey() -> String? {
         return "from"
     }

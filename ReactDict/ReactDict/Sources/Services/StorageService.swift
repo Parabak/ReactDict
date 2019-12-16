@@ -53,11 +53,10 @@ struct StorageService: StorageServiceType {
         
         let result = withRealm("updatingDictionary") { (realm) -> Observable<DictionaryItem> in
             
-            realm.delete(dictionary.words)
-            
             try realm.write {
-                
-                dictionary.from = remote.from
+            
+                realm.delete(dictionary.words)
+
                 dictionary.to = remote.to
                 dictionary.version = remote.version
                 dictionary.words = List()
