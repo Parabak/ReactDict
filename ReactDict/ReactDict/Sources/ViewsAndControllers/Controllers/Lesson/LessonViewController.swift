@@ -68,7 +68,7 @@ class LessonViewController : UIViewController, BindableType {
     
     private func fillPOSPicker() -> Void {
         
-        let data = ["All"] + PartOfSpeech.allCases.map {$0.rawValue.uppercased()}
+        let data = ["All"] + PartOfSpeech.allCases.filter{ $0 != .expression }.map {$0.rawValue.uppercased()}
         Observable.of(data)
             .bind(to: posPicker.rx.itemTitles)  { (row, title) -> String? in
                 return title
