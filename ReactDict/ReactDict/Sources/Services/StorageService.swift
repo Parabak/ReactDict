@@ -55,11 +55,12 @@ struct StorageService: StorageServiceType {
             
             try realm.write {
             
-                realm.delete(dictionary.words)
-
+                for word in dictionary.words {
+                    realm.delete(word)
+                }
+                
                 dictionary.to = remote.to
                 dictionary.version = remote.version
-                dictionary.words = List()
                 //TODO: measure performance on 1000 and 3000 items. Maybe it's better to enumerate words and comapre there version
                 dictionary.words.append(objectsIn: remote.words.map { WordItem(with: $0)})
             }

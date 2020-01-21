@@ -12,7 +12,7 @@ import RealmSwift
 
 class DictionaryItem: Object {
     
-    dynamic var words = List<WordItem>()
+    var words = List<WordItem>()
     @objc dynamic var from: String = ""
     @objc dynamic var to: String = ""
     @objc dynamic var version: String = ""
